@@ -503,6 +503,18 @@ body {
     line-height: 1.6;
 }
 
+.modal-content h3 {
+    margin-top: 0;
+}
+
+/* Ensure button stays visible at bottom when scrolling */
+.modal-content .primary-btn {
+    position: sticky;
+    bottom: 0;
+    margin-top: 20px;
+    z-index: 10;
+}
+
 .modal-content input {
     width: 100%;
     padding: 15px;
