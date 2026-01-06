@@ -541,14 +541,24 @@ async function handlePhotoUpload(e) {
     if (!file) return;
     
     try {
-        // Convert HEIC/other formats to JPEG for compatibility
+        // Always convert to JPEG for maximum compatibility
+        // This ensures iPhone HEIC photos work
         let processedFile = file;
         const fileType = file.type.toLowerCase();
         
-        // If it's not a standard web format, convert it
-        if (!fileType.match(/^image\/(jpeg|jpg|png|gif|webp)$/)) {
-            console.log('Converting image format from', fileType, 'to JPEG');
+        console.log('Original file type:', fileType, 'name:', file.name);
+        
+        // Convert any format to JPEG (including HEIC from iPhone)
+        // Even if it's already JPEG, we'll reconvert to ensure it's valid
+        try {
             processedFile = await convertImageToJpeg(file);
+            console.log('Converted file type:', processedFile.type, 'name:', processedFile.name);
+        } catch (convertError) {
+            console.warn('Conversion failed, using original file:', convertError);
+            // If conversion fails, try to use original but warn
+            if (!fileType.match(/^image\/(jpeg|jpg|png|gif|webp)$/)) {
+                throw new Error('Unsupported image format. Please use JPEG, PNG, GIF, or WebP.');
+            }
         }
     
     // Check if photo is different from previous ones
