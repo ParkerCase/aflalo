@@ -179,9 +179,10 @@ async function handler(req, res) {
             return res.status(400).json({ error: 'Invalid image format' });
         }
         
-        // Extract the actual image data (remove data:image/xxx;base64, prefix)
-        // OpenAI Vision API accepts: png, jpeg, gif, webp
-        // Client-side conversion ensures we send JPEG
+        // Client-side conversion ensures we send JPEG, but OpenAI accepts multiple formats
+        // Extract format from data URL for logging (but accept any image/*)
+        const imageFormat = imageBase64.match(/data:image\/([^;]+)/);
+        console.log('Received image format:', imageFormat ? imageFormat[1] : 'unknown');
         
         // Process with OpenAI
         const reflection = await callOpenAIWithRetry(imageBase64);
