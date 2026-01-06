@@ -339,6 +339,27 @@ body {
     background: var(--pink-lighter);
     border-radius: 15px;
     border-left: 4px solid var(--pink-dark);
+    min-height: 60px;
+}
+
+.ai-feedback h4 {
+    color: var(--pink-darker);
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ai-feedback h4 svg {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.ai-feedback p {
+    color: var(--text-dark);
+    line-height: 1.8;
+    font-size: 1.1em;
 }
 
 .ai-feedback h4 {

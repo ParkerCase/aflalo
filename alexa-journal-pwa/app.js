@@ -751,6 +751,9 @@ async function processAIFeedback() {
             <p>${reflection}</p>
         `;
         feedbackDiv.style.display = 'block';
+        
+        // Scroll to feedback so user can see it
+        feedbackDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } catch (error) {
         console.error('AI feedback error:', error);
         
@@ -802,11 +805,24 @@ async function completeEntry() {
     completeBtn.disabled = true;
     completeBtn.textContent = 'Processing...';
     
-    // Process AI feedback if enabled
+    // Process AI feedback if enabled - do this FIRST so user can see it
     const aiFeedbackEnabled = document.getElementById('enable-ai-feedback').checked;
+    let aiReflection = null;
+    
     if (aiFeedbackEnabled) {
         try {
-        await processAIFeedback();
+            // Process and wait for feedback to be displayed
+            await processAIFeedback();
+            
+            // Get the reflection text for the success modal
+            const feedbackDiv = document.getElementById('ai-feedback-result');
+            const reflectionText = feedbackDiv.querySelector('p')?.textContent;
+            if (reflectionText) {
+                aiReflection = reflectionText;
+            }
+            
+            // Give user time to read the feedback (3 seconds) before showing success modal
+            await new Promise(resolve => setTimeout(resolve, 3000));
         } catch (error) {
             console.error('Error processing AI feedback:', error);
             // Continue with entry completion even if AI feedback fails
@@ -853,6 +869,12 @@ async function completeEntry() {
     if (achievedMilestones.length > 0) {
         const milestone = achievedMilestones[0];
         successMessage = `${getIcon('celebration')} ${milestone.name} achieved! ${getIcon('celebration')}<br><br>${milestone.reward}<br><br>You're incredible!`;
+        useHTML = true;
+    }
+    
+    // If AI feedback was provided, include it in the success message
+    if (aiReflection && aiFeedbackEnabled) {
+        successMessage = `${getIcon('thought')} <strong>Your Reflection:</strong><br><br>${aiReflection}<br><br>${successMessage}`;
         useHTML = true;
     }
     
