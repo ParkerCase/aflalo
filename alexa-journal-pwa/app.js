@@ -613,27 +613,36 @@ async function processAIFeedback() {
     feedbackDiv.innerHTML = '<p style="color: var(--text-medium);"><em>Processing your entry...</em></p>';
     
     try {
-        // Convert image to base64 - ensure it's JPEG format
-        let imageBase64 = await fileToBase64(state.currentPhoto);
+        // Always convert to JPEG base64 to ensure OpenAI compatibility
+        let imageBase64;
         
-        // If the image isn't already JPEG, convert it
-        if (!imageBase64.startsWith('data:image/jpeg') && !imageBase64.startsWith('data:image/jpg')) {
-            // Convert to JPEG using canvas
-            const img = new Image();
-            await new Promise((resolve, reject) => {
-                img.onload = () => {
-                    const canvas = document.createElement('canvas');
-                    canvas.width = img.width;
-                    canvas.height = img.height;
-                    const ctx = canvas.getContext('2d');
-                    ctx.drawImage(img, 0, 0);
-                    imageBase64 = canvas.toDataURL('image/jpeg', 0.95);
-                    resolve();
-                };
-                img.onerror = reject;
-                img.src = imageBase64;
-            });
-        }
+        // Convert the file to an image and then to JPEG base64
+        const img = new Image();
+        await new Promise((resolve, reject) => {
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+                // Convert to JPEG base64 with explicit format
+                imageBase64 = canvas.toDataURL('image/jpeg', 0.95);
+                console.log('Converted image to JPEG, size:', imageBase64.length, 'format:', imageBase64.substring(0, 30));
+                resolve();
+            };
+            img.onerror = (err) => {
+                console.error('Image load error:', err);
+                reject(new Error('Failed to load image for conversion'));
+            };
+            
+            // Load the file as data URL first
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                img.src = e.target.result;
+            };
+            reader.onerror = () => reject(new Error('Failed to read file'));
+            reader.readAsDataURL(state.currentPhoto);
+        });
         
         // Get API endpoint (works in both dev and production)
         const apiUrl = window.location.origin + '/api/process-journal';
