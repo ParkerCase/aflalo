@@ -505,29 +505,53 @@ async function convertImageToJpeg(file) {
         const reader = new FileReader();
         reader.onload = (e) => {
             const img = new Image();
+            
+            // Set timeout for image loading (HEIC might not load in browser)
+            const loadTimeout = setTimeout(() => {
+                reject(new Error('Image load timeout - HEIC format not supported. Please convert to JPEG first or use camera to take photo.'));
+            }, 5000);
+            
             img.onload = () => {
-                // Create canvas and convert to JPEG
-                const canvas = document.createElement('canvas');
-                canvas.width = img.width;
-                canvas.height = img.height;
-                const ctx = canvas.getContext('2d');
-                ctx.drawImage(img, 0, 0);
-                
-                // Convert to blob as JPEG
-                canvas.toBlob((blob) => {
-                    if (blob) {
-                        // Create a new File object with JPEG extension
-                        const jpegFile = new File([blob], file.name.replace(/\.[^/.]+$/, '.jpg'), {
-                            type: 'image/jpeg',
-                            lastModified: Date.now()
-                        });
-                        resolve(jpegFile);
-                    } else {
-                        reject(new Error('Failed to convert image'));
-                    }
-                }, 'image/jpeg', 0.95); // 95% quality
+                clearTimeout(loadTimeout);
+                try {
+                    // Create canvas and convert to JPEG
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    
+                    // Fill with white background (in case of transparency)
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    
+                    // Draw the image
+                    ctx.drawImage(img, 0, 0);
+                    
+                    // Convert to blob as JPEG
+                    canvas.toBlob((blob) => {
+                        if (blob) {
+                            // Create a new File object with JPEG extension
+                            const jpegFile = new File([blob], 'journal-entry.jpg', {
+                                type: 'image/jpeg',
+                                lastModified: Date.now()
+                            });
+                            console.log('Successfully converted to JPEG:', jpegFile.type, jpegFile.size, 'bytes');
+                            resolve(jpegFile);
+                        } else {
+                            reject(new Error('Failed to convert image to blob'));
+                        }
+                    }, 'image/jpeg', 0.92); // 92% quality for smaller file size
+                } catch (error) {
+                    clearTimeout(loadTimeout);
+                    reject(new Error('Canvas conversion failed: ' + error.message));
+                }
             };
-            img.onerror = () => reject(new Error('Failed to load image'));
+            img.onerror = (err) => {
+                clearTimeout(loadTimeout);
+                console.error('Image load error - likely HEIC format:', err);
+                // HEIC files won't load in browser - provide helpful error
+                reject(new Error('HEIC format not supported. Please use the camera to take a photo (which will be JPEG) or convert HEIC to JPEG first.'));
+            };
             img.src = e.target.result;
         };
         reader.onerror = () => reject(new Error('Failed to read file'));
@@ -548,17 +572,22 @@ async function handlePhotoUpload(e) {
         
         console.log('Original file type:', fileType, 'name:', file.name);
         
-        // Convert any format to JPEG (including HEIC from iPhone)
-        // Even if it's already JPEG, we'll reconvert to ensure it's valid
+        // Always convert to JPEG for maximum compatibility
+        // iPhone camera should give JPEG, but if user selects HEIC from library, convert it
         try {
             processedFile = await convertImageToJpeg(file);
             console.log('Converted file type:', processedFile.type, 'name:', processedFile.name);
         } catch (convertError) {
-            console.warn('Conversion failed, using original file:', convertError);
-            // If conversion fails, try to use original but warn
+            console.warn('Conversion failed:', convertError.message);
+            // If conversion fails (likely HEIC), check if original is supported
             if (!fileType.match(/^image\/(jpeg|jpg|png|gif|webp)$/)) {
-                throw new Error('Unsupported image format. Please use JPEG, PNG, GIF, or WebP.');
+                alert('Unsupported image format. Please use the camera to take a photo (which will be JPEG) or select a JPEG/PNG image from your library.');
+                e.target.value = '';
+                return;
             }
+            // If it's already a supported format, use it as-is
+            console.log('Using original file (already supported format):', fileType);
+            processedFile = file;
         }
     
     // Check if photo is different from previous ones
