@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#ffc0d3">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="My Journal">
+    <title>My Journaling Journey</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="container">
+                <div class="welcome-header">
+                    <h1 class="app-title"><span id="sparkles-left"></span> Your Journey <span id="sparkles-right"></span></h1>
+                    <p class="welcome-subtitle">A space for growth, healing, and letting go</p>
+                </div>
+                <div class="welcome-content">
+                    <div class="streak-display">
+                        <div class="streak-number" id="current-streak">0</div>
+                        <div class="streak-label">Day Streak <span id="fire-icon"></span></div>
+                    </div>
+                    <button id="start-today-btn" class="primary-btn">Today's Prompt</button>
+                    <button id="view-milestones-btn" class="secondary-btn">View Milestones</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prompt Screen -->
+        <div id="prompt-screen" class="screen">
+            <div class="container">
+                <div class="header">
+                    <button class="back-btn" id="back-to-home">← Back</button>
+                    <div class="date-display" id="current-date"></div>
+                </div>
+                
+                <div id="loading-state" class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Crafting your prompt...</p>
+                </div>
+
+                <div id="prompt-content" class="prompt-card" style="display: none;">
+                    <div class="prompt-icon" id="prompt-icon"></div>
+                    <h2 class="prompt-title">Today's Reflection</h2>
+                    <p class="prompt-text" id="prompt-text"></p>
+                    
+                    <div class="journal-section">
+                        <p class="instruction">After writing in your journal, take a photo of your entry:</p>
+                        <input type="file" id="photo-input" accept="image/*" capture="environment" style="display: none;">
+                        <button class="photo-btn" id="upload-photo-btn">
+                            <span class="camera-icon" id="camera-icon-svg"></span>
+                            <span>Take Photo</span>
+                        </button>
+                        <div id="photo-preview" class="photo-preview"></div>
+                    </div>
+
+                    <div class="ai-feedback-section" style="display: none;">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enable-ai-feedback">
+                            <span>Get AI reflection on my entry (optional)</span>
+                        </label>
+                        <div id="ai-feedback-result" class="ai-feedback"></div>
+                    </div>
+
+                    <button id="complete-entry-btn" class="primary-btn" disabled>Complete Entry</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Milestones Screen -->
+        <div id="milestones-screen" class="screen">
+            <div class="container">
+                <div class="header">
+                    <button class="back-btn" id="back-to-home-2">← Back</button>
+                    <h2 class="screen-title">Milestones <span id="gift-icon"></span></h2>
+                </div>
+                <div class="milestones-grid" id="milestones-grid"></div>
+            </div>
+        </div>
+
+        <!-- Success Modal -->
+        <div id="success-modal" class="modal">
+            <div class="modal-content">
+                <div class="success-icon" id="success-icon-svg"></div>
+                <h2 id="success-title">Entry Logged!</h2>
+                <p id="success-message">Keep going! You're doing amazing.</p>
+                <button class="primary-btn" id="close-modal">Continue</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

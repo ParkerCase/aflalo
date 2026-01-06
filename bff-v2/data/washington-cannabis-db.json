@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Georgetown Bottling",
+      "productName": "Cormorant Gummies",
+      "flavor": "Strawberry Kiwi 1:1",
+      "cannabinoids": {
+        "THC": 100,
+        "CBD": 100
+      },
+      "totalCannabinoids": 200,
+      "servings": 10,
+      "perServing": {
+        "THC": 10,
+        "CBD": 10
+      },
+      "profile": "Balanced THC:CBD",
+      "category": "General Use",
+      "status": "Approved",
+      "license": 355387
+    },
+    {
+      "id": 2,
+      "brand": "NCMX LLC",
+      "productName": "WYLD Gummy",
+      "flavor": "Kiwi",
+      "cannabinoids": {
+        "THC": 50,
+        "THCV": 50
+      },
+      "totalCannabinoids": 100,
+      "servings": 10,
+      "perServing": {
+        "THC": 5,
+        "THCV": 5
+      },
+      "profile": "THC-Dominant",
+      "category": "General Use",
+      "status": "Approved",
+      "license": 416278
+    }
+  ],
+  "metadata": {
+    "totalProducts": 361,
+    "brands": [
+      "American Baked Co.",
+      "Artisan Confections LLC",
+      "Boston Hempire",
+      "Cannabis Beverage",
+      "Dank Drinks",
+      "Emerald Growing LLC",
+      "Georgetown Bottling",
+      "Green Health Labs",
+      "High Five Edibles",
+      "Lucid Brands",
+      "NCMX LLC",
+      "Premium Creations LLC",
+      "THC Partners"
+    ],
+    "cannabinoids": ["THC", "CBD", "THCV", "CBG", "CBN", "CBDV", "THCA", "CBC"],
+    "profiles": ["THC-Dominant", "CBD-Dominant", "Balanced THC:CBD", "Other"],
+    "categories": ["General Use", "High CBD", "High THC"],
+    "profileDistribution": {
+      "THC-Dominant": 245,
+      "CBD-Dominant": 23,
+      "Balanced THC:CBD": 67,
+      "Other": 26
+    },
+    "lastUpdated": "2025-08-29T19:30:00.000Z",
+    "source": "Washington State DOH Cannabis Product Approvals",
+    "license": "Washington State Licensed Products Only",
+    "note": "This is a sample subset. Full database contains 361 products from your Excel file."
+  }
+}

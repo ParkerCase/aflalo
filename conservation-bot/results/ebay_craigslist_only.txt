@@ -1,0 +1,3221 @@
+
+=== Testing ruby_lane with keyword: 'bike' ===
+Found 56 results for 'bike' on ruby_lane.
+
+Result 1:
+  title: Chemlite Carbide Brass Lamp Automobile Bike Carriage Caving Mining
+  price: $135
+  image: https://cdn0.rubylane.com/_pod/item/398016/14548/Chemlite-Carbide-Brass-Lamp-Automobile-Bike-pic-1-220:5.5-3608591915-f.webp
+  url: https://www.rubylane.com/item/398016-14548/Chemlite-Carbide-Brass-Lamp-Automobile-Bike?search=1&t=c24b313d
+  platform: ruby_lane
+  search_term: bike
+
+Result 2:
+  title: Amazing shopdisplay , little miniature step bike by Temsi Mecanno - a doll item
+  price: $177
+  image: https://cdn0.rubylane.com/_pod/item/1874625/0001494/Amazing-shopdisplay-little-miniature-step-bike-pic-1-220:5.5-3608608588-f.webp
+  url: https://www.rubylane.com/item/1874625-0001494/Amazing-shopdisplay-little-miniature-step-bike?search=1&t=4e58e0a4
+  platform: ruby_lane
+  search_term: bike
+
+Result 3:
+  title: Vintage Plush Bunny Rabbit Riding Bike by Character Toys
+  price: $138
+  image: https://cdn0.rubylane.com/_pod/item/2316335/268/Vintage-Plush-Bunny-Rabbit-Riding-Bike-pic-1-220:5.5-4222080397-f.webp
+  url: https://www.rubylane.com/item/2316335-268/Vintage-Plush-Bunny-Rabbit-Riding-Bike?search=1&t=c29c20f7
+  platform: ruby_lane
+  search_term: bike
+
+Result 4:
+  title: Vintage Painted White Nantucket Bike Basket Cruiser D Shaped Decoration or Bike Basket
+  price: $37
+  image: https://cdn0.rubylane.com/_pod/item/741898/Bx2e1485-2084/Vintage-Painted-White-Nantucket-Bike-Basket-pic-1-220:5.5-1725728373-f.webp
+  url: https://www.rubylane.com/item/741898-Bx2e1485-2084/Vintage-Painted-White-Nantucket-Bike-Basket?search=1&t=8168134a
+  platform: ruby_lane
+  search_term: bike
+
+Result 5:
+  title: Vintage Italian Handmade Genuine Silver .800 Flower Cart Bicycle Dollhouse Miniature
+  price: $68
+  image: https://cdn0.rubylane.com/_pod/item/2563733/U1523FLO00075/Vintage-Italian-Handmade-Genuine-Silver-800-pic-1-220:5.5-2389807393-f.webp
+  url: https://www.rubylane.com/item/2563733-U1523FLO00075/Vintage-Italian-Handmade-Genuine-Silver-800?search=1&t=86eaf439
+  platform: ruby_lane
+  search_term: bike
+
+Result 6:
+  title: Superb children's carousel horse, 1860, Auguste Reidemeister tricycle in perfect condition.
+  price: $1,424
+  image: https://cdn0.rubylane.com/_pod/item/2578297/P20401/Superb-childrenx27s-carousel-horse-1860-Auguste-pic-1-220:5.5-4022319122-f.webp
+  url: https://www.rubylane.com/item/2578297-P20401/Superb-childrenx27s-carousel-horse-1860-Auguste?search=1&t=c87be5a4
+  platform: ruby_lane
+  search_term: bike
+
+Result 7:
+  title: Vintage bronze bicycles pendant on long metal chain necklace one-off bike jewelry.
+  price: $187
+  image: https://cdn0.rubylane.com/_pod/item/273283/FR-007/Vintage-bronze-bicycles-pendant-long-metal-pic-1-220:5.5-3785168898-f.webp
+  url: https://www.rubylane.com/item/273283-FR-007/Vintage-bronze-bicycles-pendant-long-metal?search=1&t=49c176b1
+  platform: ruby_lane
+  search_term: bike
+
+Result 8:
+  title: Bike Chain Bracelet Sterling Silver Stainless Steel Heavy Duty Link
+  price: $180
+  image: https://cdn0.rubylane.com/_pod/item/2197528/Jx20Bx2012-19-24x2009/Bike-Chain-Bracelet-Sterling-Silver-Stainless-pic-1-220:5.5-767516830-f.webp
+  url: https://www.rubylane.com/item/2197528-Jx20Bx2012-19-24x2009/Bike-Chain-Bracelet-Sterling-Silver-Stainless?search=1&t=0347e696
+  platform: ruby_lane
+  search_term: bike
+
+Result 9:
+  title: Edwardian 9ct Gold Muff, long guard, bike link chain
+  price: $3,478
+  image: https://cdn0.rubylane.com/_pod/item/2508161/CH257/Edwardian-9ct-Gold-Muff-long-guard-pic-1-220:5.5-2682981682-f.webp
+  url: https://www.rubylane.com/item/2508161-CH257/Edwardian-9ct-Gold-Muff-long-guard?search=1&t=4d0affff
+  platform: ruby_lane
+  search_term: bike
+
+Result 10:
+  title: Vintage Italian Handmade Genuine Silver .800 Bike Bicycle Dollhouse Miniature
+  price: $23
+  image: https://cdn0.rubylane.com/_pod/item/2563733/U1167BIK00020/Vintage-Italian-Handmade-Genuine-Silver-800-pic-1-220:5.5-711301360-f.webp
+  url: https://www.rubylane.com/item/2563733-U1167BIK00020/Vintage-Italian-Handmade-Genuine-Silver-800?search=1&t=17b9b5bf
+  platform: ruby_lane
+  search_term: bike
+
+Result 11:
+  title: Rochard Limoges Peint main Teddy Bears on Bike A82
+  price: $189
+  image: https://cdn0.rubylane.com/_pod/item/2643208/A82/Rochard-Limoges-Peint-main-Teddy-Bears-pic-1-220:5.5-2462677881-f.webp
+  url: https://www.rubylane.com/item/2643208-A82/Rochard-Limoges-Peint-main-Teddy-Bears?search=1&t=1187451f
+  platform: ruby_lane
+  search_term: bike
+
+Result 12:
+  title: Vintage Italian Handmade Genuine Silver .800 Motocross Bike Large Figurine Miniature
+  price: $216
+  image: https://cdn0.rubylane.com/_pod/item/2563733/U1067MOT00130/Vintage-Italian-Handmade-Genuine-Silver-800-pic-1-220:5.5-1062524503-f.webp
+  url: https://www.rubylane.com/item/2563733-U1067MOT00130/Vintage-Italian-Handmade-Genuine-Silver-800?search=1&t=486b2984
+  platform: ruby_lane
+  search_term: bike
+
+Result 13:
+  title: Bicycle Bike Vintage Charm 14K Gold, Outline Design
+  price: $49
+  image: https://cdn0.rubylane.com/_pod/item/1384355/KAPCx207x2e10x2eHR-6/Bicycle-Bike-Vintage-Charm-14K-Gold-pic-1-220:5.5-2065407587-f.webp
+  url: https://www.rubylane.com/item/1384355-KAPCx207x2e10x2eHR-6/Bicycle-Bike-Vintage-Charm-14K-Gold?search=1&t=a595f37a
+  platform: ruby_lane
+  search_term: bike
+
+Result 14:
+  title: Vintage 1980's Wide Embroidered Hippo Ribbon Fabric Wide Preppy Belt, Gold D Ring Buckle, Adjustable, Hippopotamus Animal Riding Bike
+  price: $42
+  image: https://cdn0.rubylane.com/_pod/item/2207100/21-742/Vintage-1980x27s-Wide-Embroidered-Hippo-Ribbon-pic-1-220:5.5-2422461663-f.webp
+  url: https://www.rubylane.com/item/2207100-21-742/Vintage-1980x27s-Wide-Embroidered-Hippo-Ribbon?search=1&t=f590d6db
+  platform: ruby_lane
+  search_term: bike
+
+Result 15:
+  title: Wenger Swiss Army Biker 36 or Small Mountain Bike Multi-Tool Mint in Box with Case and Original Papers
+  price: $100
+  image: https://cdn0.rubylane.com/_pod/item/181694/6416/Wenger-Swiss-Army-Biker-36-Small-pic-1-220:5.5-3136452873-f.webp
+  url: https://www.rubylane.com/item/181694-6416/Wenger-Swiss-Army-Biker-36-Small?search=1&t=7199cbc3
+  platform: ruby_lane
+  search_term: bike
+
+Result 16:
+  title: Very Rare the only 3 embroideries not seen on the market as of beyond 1997 (50 years in my collection) vintage antique Charlie Chaplin, Hardy of Laurel & Hardy and Boy on Bike All Cigarette Embroidery silks are rare FREE FRAME
+  price: $1,063
+  image: https://cdn0.rubylane.com/_pod/item/1890878/2686/Very-only-3-embroideries-not-seen-pic-1-220:5.5-3580301510-f.webp
+  url: https://www.rubylane.com/item/1890878-2686/Very-only-3-embroideries-not-seen?search=1&t=ac66cd00
+  platform: ruby_lane
+  search_term: bike
+
+Result 17:
+  title: Bicycle bike sterling silver marcase lapel pin brooch - wheels spin
+  price: $48
+  image: https://cdn0.rubylane.com/_pod/item/2265493/438/Bicycle-bike-sterling-silver-marcase-lapel-pic-1-220:5.5-942042495-f.webp
+  url: https://www.rubylane.com/item/2265493-438/Bicycle-bike-sterling-silver-marcase-lapel?search=1&t=8550c96e
+  platform: ruby_lane
+  search_term: bike
+
+Result 18:
+  title: Designer Grey Leather Jacket Bike Jacket Space Age Jacket 3/4 Sleeve Jacket Designer Vintage Leather Jackets Motocycle Jacket Mod Jacket
+  price: $300
+  image: https://cdn0.rubylane.com/_pod/item/1343666/Greyx20Lovelyx20Leatherx20Jacket/Designer-Grey-Leather-Jacket-Bike-Jacket-pic-1-220:5.5-3814093913-f.webp
+  url: https://www.rubylane.com/item/1343666-Greyx20Lovelyx20Leatherx20Jacket/Designer-Grey-Leather-Jacket-Bike-Jacket?search=1&t=54d515de
+  platform: ruby_lane
+  search_term: bike
+
+Result 19:
+  title: Fun vintage sterling silver kinetic movable wheel bike bicycle brooch pin
+  price: $50
+  image: https://cdn0.rubylane.com/_pod/item/443324/14309/Fun-vintage-sterling-silver-kinetic-movable-pic-1-220:5.5-1874572508-f.webp
+  url: https://www.rubylane.com/item/443324-14309/Fun-vintage-sterling-silver-kinetic-movable?search=1&t=f059025f
+  platform: ruby_lane
+  search_term: bike
+
+Result 20:
+  title: Original Watercolor Birthday Card WC Paper-Midwest Scene A New Bike
+  price: $50
+  image: https://cdn0.rubylane.com/_pod/item/1928837/2019PPA77/Original-Watercolor-Birthday-Card-WC-Paper-pic-1-220:5.5-2659573942-f.webp
+  url: https://www.rubylane.com/item/1928837-2019PPA77/Original-Watercolor-Birthday-Card-WC-Paper?search=1&t=911d6801
+  platform: ruby_lane
+  search_term: bike
+
+Result 21:
+  title: Rare cloth doll pull toy on bike
+  price: $96
+  image: https://cdn0.rubylane.com/_pod/item/174828/b2867/cloth-doll-pull-toy-bike-pic-1-220:5.5-1381270600-f.webp
+  url: https://www.rubylane.com/item/174828-b2867/cloth-doll-pull-toy-bike?search=1&t=0dbb6966
+  platform: ruby_lane
+  search_term: bike
+
+Result 22:
+  title: Outstanding 10” Original Out-of-Production Modern Industrial Steel Recycled Bicycle/Bike Chain Bowl or Vessel Made in U.S.A. by the Makers at Resource Revival in Mosier, Oregon Displaying an Innovative Found-Object Reuse Aesthetic!
+  price: $55
+  image: https://cdn0.rubylane.com/_pod/item/1470117/2009/Outstanding-10x94-Original-Out-Production-Modern-pic-1-220:5.5-979140425-f.webp
+  url: https://www.rubylane.com/item/1470117-2009/Outstanding-10x94-Original-Out-Production-Modern?search=1&t=c13301bf
+  platform: ruby_lane
+  search_term: bike
+
+Result 23:
+  title: Tomato Red 1980s 80s Leather Motorcycle Jacket Red Leather Moto Jacket Red Leather Cafe Racer Bike Jacket 80s Jackets Jeans Fashion
+  price: $990
+  image: https://cdn0.rubylane.com/_pod/item/1343666/Tomatox20Redx20Motox2080s/Tomato-Red-1980s-80s-Leather-Motorcycle-pic-1-220:5.5-2042268295-f.webp
+  url: https://www.rubylane.com/item/1343666-Tomatox20Redx20Motox2080s/Tomato-Red-1980s-80s-Leather-Motorcycle?search=1&t=637721e0
+  platform: ruby_lane
+  search_term: bike
+
+Result 24:
+  title: 1980s Multicolor Leather Cafe Racer Moto Jacket Bike Jacket Color Block Italian Leather Jacket Holographic Gold Blue White XS
+  price: $1,600
+  image: https://cdn0.rubylane.com/_pod/item/1343666/cafex20racerx20goldx20blue/1980s-Multicolor-Leather-Cafe-Racer-Moto-pic-1-220:5.5-756661575-f.webp
+  url: https://www.rubylane.com/item/1343666-cafex20racerx20goldx20blue/1980s-Multicolor-Leather-Cafe-Racer-Moto?search=1&t=5db0204b
+  platform: ruby_lane
+  search_term: bike
+
+Result 25:
+  title: Patchwork Spotted Ponyskin Fur Leather Bike Biker Jacket Vest Motocycle Jacket Fur and Leather Panels Y2K
+  price: $600
+  image: https://cdn0.rubylane.com/_pod/item/1343666/Ponyx20andx20leatherx20zipx20offx20sleeves/Patchwork-Spotted-Ponyskin-Fur-Leather-Bike-pic-1-220:5.5-3830892637-f.webp
+  url: https://www.rubylane.com/item/1343666-Ponyx20andx20leatherx20zipx20offx20sleeves/Patchwork-Spotted-Ponyskin-Fur-Leather-Bike?search=1&t=402c3da8
+  platform: ruby_lane
+  search_term: bike
+
+Result 26:
+  title: Gold Tone Articulated Tricycle, Designer Style Bike Brooch Pin M804
+  price: $33
+  image: https://cdn0.rubylane.com/_pod/item/2131007/02400/Gold-Tone-Articulated-Tricycle-Designer-Style-pic-1-220:5.5-1994980484-f.webp
+  url: https://www.rubylane.com/item/2131007-02400/Gold-Tone-Articulated-Tricycle-Designer-Style?search=1&t=1eb81a39
+  platform: ruby_lane
+  search_term: bike
+
+Result 27:
+  title: Antique German Sieger Bicycle plated metal wood hand painted trophy award
+  price: $552
+  image: https://cdn0.rubylane.com/_pod/item/2400257/674/Antique-German-Sieger-Bicycle-plated-metal-pic-1-220:5.5-817379071-f.webp
+  url: https://www.rubylane.com/item/2400257-674/Antique-German-Sieger-Bicycle-plated-metal?search=1&t=2db1e07a
+  platform: ruby_lane
+  search_term: bike
+
+Result 28:
+  title: Tricycle Salt and Pepper Shaker Set Figural Bike Bicycle Vintage Kitsch
+  price: $29
+  image: https://cdn0.rubylane.com/_pod/item/398016/13000/Tricycle-Salt-Pepper-Shaker-Set-Figural-pic-1-220:5.5-4110952184-f.webp
+  url: https://www.rubylane.com/item/398016-13000/Tricycle-Salt-Pepper-Shaker-Set-Figural?search=1&t=0e9ab7f4
+  platform: ruby_lane
+  search_term: bike
+
+Result 29:
+  title: Contemporary Ecuadorian Framed Oil on Board “Biking on the Beach” - Signed by Artist
+  price: $225
+  image: https://cdn0.rubylane.com/_pod/item/2152535/12111/Contemporary-Ecuadorian-Framed-Oil-Board-x93Biking-pic-1-220:5.5-1187847830-f.webp
+  url: https://www.rubylane.com/item/2152535-12111/Contemporary-Ecuadorian-Framed-Oil-Board-x93Biking?search=1&t=2692bc6a
+  platform: ruby_lane
+  search_term: bike
+
+Result 30:
+  title: Antique Bicycle Lamp - Antique Hawthorne Old Sol Bicycle Lamp c.1900
+  price: $260
+  image: https://cdn0.rubylane.com/_pod/item/1518436/TVC2305A/Antique-Bicycle-Lamp-Antique-Hawthorne-Sol-pic-1-220:5.5-201292946-f.webp
+  url: https://www.rubylane.com/item/1518436-TVC2305A/Antique-Bicycle-Lamp-Antique-Hawthorne-Sol?search=1&t=3213c1ff
+  platform: ruby_lane
+  search_term: bike
+
+Result 31:
+  title: Edwardian Double Picture Frame, Men On Bikes, Girl With Doll
+  price: $35
+  image: https://cdn0.rubylane.com/_pod/item/299630/17130/Edwardian-Double-Picture-Frame-Men-Bikes-pic-1-220:5.5-3381193056-f.webp
+  url: https://www.rubylane.com/item/299630-17130/Edwardian-Double-Picture-Frame-Men-Bikes?search=1&t=98b4c7e0
+  platform: ruby_lane
+  search_term: bike
+
+Result 32:
+  title: French Art Deco Bike Themed Smoking Set, 1930s
+  price: $2,000
+  image: https://cdn0.rubylane.com/_pod/item/1111360/Refx2001712/French-Art-Deco-Bike-Themed-Smoking-pic-1-220:5.5-3796780530-f.webp
+  url: https://www.rubylane.com/item/1111360-Refx2001712/French-Art-Deco-Bike-Themed-Smoking?search=1&t=4cc3fb2b
+  platform: ruby_lane
+  search_term: bike
+
+Result 33:
+  title: Sterling Silver Mechanical Big Wheel Charm
+  price: $10
+  image: https://cdn0.rubylane.com/_pod/item/810851/0002627/Sterling-Silver-Mechanical-Big-Wheel-Charm-pic-1-220:5.5-3790674123-f.webp
+  url: https://www.rubylane.com/item/810851-0002627/Sterling-Silver-Mechanical-Big-Wheel-Charm?search=1&t=be270b36
+  platform: ruby_lane
+  search_term: bike
+
+Result 34:
+  title: Vintage 1964 First Edition Berenstains Children’s Hardback Book Titled The Bike Lesson
+  price: $30
+  image: https://cdn0.rubylane.com/_pod/item/522414/cg007413/Vintage-1964-First-Edition-Berenstains-Childrenx92s-pic-1-220:5.5-226649393-f.webp
+  url: https://www.rubylane.com/item/522414-cg007413/Vintage-1964-First-Edition-Berenstains-Childrenx92s?search=1&t=532f64e6
+  platform: ruby_lane
+  search_term: bike
+
+Result 35:
+  title: Stacie On The Go Bike NRFB
+  price: $20
+  image: https://cdn0.rubylane.com/_pod/item/1670878/DCx20885/Stacie-Go-Bike-NRFB-pic-1-220:5.5-490415962-f.webp
+  url: https://www.rubylane.com/item/1670878-DCx20885/Stacie-Go-Bike-NRFB?search=1&t=16642442
+  platform: ruby_lane
+  search_term: bike
+
+Result 36:
+  title: Vintage 14KT Yellow Gold Polished Finish Bicycle Bike Pendant
+  price: $225
+  image: https://cdn0.rubylane.com/_pod/item/1964005/PNB00001490/Vintage-14KT-Yellow-Gold-Polished-Finish-pic-1-220:5.5-2853853491-f.webp
+  url: https://www.rubylane.com/item/1964005-PNB00001490/Vintage-14KT-Yellow-Gold-Polished-Finish?search=1&t=f09208a5
+  platform: ruby_lane
+  search_term: bike
+
+Result 37:
+  title: Whimsical Sterling Charm Holder Pendant - Penny Farthing Bicycle Bike
+  price: $18
+  image: https://cdn0.rubylane.com/_pod/item/728022/22954/Whimsical-Sterling-Charm-Holder-Pendant-Penny-pic-1-220:5.5-2728729190-f.webp
+  url: https://www.rubylane.com/item/728022-22954/Whimsical-Sterling-Charm-Holder-Pendant-Penny?search=1&t=0c45e232
+  platform: ruby_lane
+  search_term: bike
+
+Result 38:
+  title: 1997 Miss Gulch Wizard of Oz Hallmark Christmas Keepsake Ornament with Toto in Basket on Bike
+  price: $29
+  image: https://cdn0.rubylane.com/_pod/item/398016/9269/1997-Miss-Gulch-Wizard-Oz-Hallmark-pic-1-220:5.5-854543057-f.webp
+  url: https://www.rubylane.com/item/398016-9269/1997-Miss-Gulch-Wizard-Oz-Hallmark?search=1&t=34041bee
+  platform: ruby_lane
+  search_term: bike
+
+Result 39:
+  title: Awesome Sterling MAN on BICYCLE Bike Vintage Charm
+  price: $22
+  image: https://cdn0.rubylane.com/_pod/item/728022/20276/Awesome-Sterling-MAN-BICYCLE-Bike-Vintage-pic-1-220:5.5-1919462731-f.webp
+  url: https://www.rubylane.com/item/728022-20276/Awesome-Sterling-MAN-BICYCLE-Bike-Vintage?search=1&t=d1ac6eca
+  platform: ruby_lane
+  search_term: bike
+
+Result 40:
+  title: Vintage Photo of Man with His Bicycle Bike and Large Hat
+  price: $19
+  image: https://cdn0.rubylane.com/_pod/item/398016/8349/Vintage-Photo-Man-His-Bicycle-Bike-pic-1-220:5.5-4056730254-f.webp
+  url: https://www.rubylane.com/item/398016-8349/Vintage-Photo-Man-His-Bicycle-Bike?search=1&t=1cc1789b
+  platform: ruby_lane
+  search_term: bike
+
+Result 41:
+  title: Awesome Sterling BICYCLE Bike Vintage Charm
+  price: $22
+  image: https://cdn0.rubylane.com/_pod/item/728022/17789/Awesome-Sterling-BICYCLE-Bike-Vintage-Charm-pic-1-220:5.5-294-f.webp
+  url: https://www.rubylane.com/item/728022-17789/Awesome-Sterling-BICYCLE-Bike-Vintage-Charm?search=1&t=ae7c911e
+  platform: ruby_lane
+  search_term: bike
+
+Result 42:
+  title: Nicole Miller Electric Bikes Transportation Necktie Red Silk 59 inches Environmental Statement Tie
+  price: $20
+  image: https://cdn0.rubylane.com/_pod/item/168117/06943/Nicole-Miller-Electric-Bikes-Transportation-Necktie-pic-1-220:5.5-900313276-f.webp
+  url: https://www.rubylane.com/item/168117-06943/Nicole-Miller-Electric-Bikes-Transportation-Necktie?search=1&t=4f10fb0f
+  platform: ruby_lane
+  search_term: bike
+
+Result 43:
+  title: Maisel Sterling Silver Bicycle Bike Charm on Orig. Card c1930s
+  price: $29
+  image: https://cdn0.rubylane.com/_pod/item/338449/RL9114/Maisel-Sterling-Silver-Bicycle-Bike-Charm-pic-1-220:5.5-376-f.webp
+  url: https://www.rubylane.com/item/338449-RL9114/Maisel-Sterling-Silver-Bicycle-Bike-Charm?search=1&t=cbc55d0e
+  platform: ruby_lane
+  search_term: bike
+
+Result 44:
+  title: Vintage Pin Tuxedo Man on a High Wheeler Bicycle Bike
+  price: $49
+  image: https://cdn0.rubylane.com/_pod/item/338449/RL8787/Vintage-Pin-Tux78edo-Man-High-Wheeler-pic-1-220:5.5-310-f.webp
+  url: https://www.rubylane.com/item/338449-RL8787/Vintage-Pin-Tux78edo-Man-High-Wheeler?search=1&t=27e4b28c
+  platform: ruby_lane
+  search_term: bike
+
+Result 45:
+  title: Miniature BICYCLE Bike Vintage Metal Toy for Doll
+  price: $24
+  image: https://cdn0.rubylane.com/_pod/item/728022/13393/Miniature-BICYCLE-Bike-Vintage-Metal-Toy-pic-1-220:5.5-99-f.webp
+  url: https://www.rubylane.com/item/728022-13393/Miniature-BICYCLE-Bike-Vintage-Metal-Toy?search=1&t=4c943f9a
+  platform: ruby_lane
+  search_term: bike
+
+Result 46:
+  title: Sterling Silver Unger Brothers Mermaid Bicycle Tag/Label
+  price: $675
+  image: https://cdn0.rubylane.com/_pod/item/1230433/ungerbicycletag/Sterling-Silver-Unger-Brothers-Mermaid-Bicycle-pic-1-220:5.5-1064501379-f.webp
+  url: https://www.rubylane.com/item/1230433-ungerbicycletag/Sterling-Silver-Unger-Brothers-Mermaid-Bicycle?search=1&t=d613ba18
+  platform: ruby_lane
+  search_term: bike
+
+Result 47:
+  title: Vintage Sterling Silver Mechanical 3 D Tricycle Charm
+  price: $10
+  image: https://cdn0.rubylane.com/_pod/item/585482/D8-17/Vintage-Sterling-Silver-Mechanical-3-D-pic-1-220:5.5-1564478540-f.webp
+  url: https://www.rubylane.com/item/585482-D8-17/Vintage-Sterling-Silver-Mechanical-3-D?search=1&t=d5e435c9
+  platform: ruby_lane
+  search_term: bike
+
+Result 48:
+  title: Curious George Rides a Bike, H.A. Rey 1952
+  price: $39
+  image: https://cdn0.rubylane.com/_pod/item/192576/2792/Curious-George-Rides-Bike-H-Rey-pic-1-220:5.5-3013963157-f.webp
+  url: https://www.rubylane.com/item/192576-2792/Curious-George-Rides-Bike-H-Rey?search=1&t=25ed24b2
+  platform: ruby_lane
+  search_term: bike
+
+Result 49:
+  title: Sterling Bicycle Bike Charm
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/501985/024charmx20ssx20bicycle/Sterling-Bicycle-Bike-Charm-pic-1-220:5.5-1892770730-f.webp
+  url: https://www.rubylane.com/item/501985-024charmx20ssx20bicycle/Sterling-Bicycle-Bike-Charm?search=1&t=95d9fcb0
+  platform: ruby_lane
+  search_term: bike
+
+Result 50:
+  title: Scarce Trifari Enamel Bicycle Bike Rider Red, White & Blue Pin and measur
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/844929/S5568/Scarce-Trifari-Enamel-Bicycle-Bike-Rider-pic-1-220:5.5-2310581677-f.webp
+  url: https://www.rubylane.com/item/844929-S5568/Scarce-Trifari-Enamel-Bicycle-Bike-Rider?search=1&t=8057542e
+  platform: ruby_lane
+  search_term: bike
+
+Result 51:
+  title: Dressed Cats in a Bike Race Postcard Alfred Mainzer
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/398016/13230/Dressed-Cats-Bike-Race-Postcard-Alfred-pic-1-220:5.5-2692303098-f.webp
+  url: https://www.rubylane.com/item/398016-13230/Dressed-Cats-Bike-Race-Postcard-Alfred?search=1&t=d4a5f975
+  platform: ruby_lane
+  search_term: bike
+
+Result 52:
+  title: 1908 EB Easter Bunny Rabbit Riding Bicycle with Egg Cart Bike Postcard
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/398016/10967/1908-EB-Easter-Bunny-Rabbit-Riding-pic-1-220:5.5-1709127471-f.webp
+  url: https://www.rubylane.com/item/398016-10967/1908-EB-Easter-Bunny-Rabbit-Riding?search=1&t=0318a4e8
+  platform: ruby_lane
+  search_term: bike
+
+Result 53:
+  title: Lapel Vest Pin Motorcycle Bike Guardian Angel Tie Tack
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/2093710/E-021022-053/Lapel-Vest-Pin-Motorcycle-Bike-Guardian-pic-1-220:5.5-4108524303-f.webp
+  url: https://www.rubylane.com/item/2093710-E-021022-053/Lapel-Vest-Pin-Motorcycle-Bike-Guardian?search=1&t=cda9c1e1
+  platform: ruby_lane
+  search_term: bike
+
+Result 54:
+  title: Original oil painting: French father and son on bike:
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/577020/2x2f117/Original-oil-painting-French-father-son-pic-1-220:5.5-2750642064-f.webp
+  url: https://www.rubylane.com/item/577020-2x2f117/Original-oil-painting-French-father-son?search=1&t=4e2a57e8
+  platform: ruby_lane
+  search_term: bike
+
+Result 55:
+  title: Antique Auguste Reidemeister French Tricycle Horse Doll Child 1860
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/719320/TFP-18117/Antique-Auguste-Reidemeister-French-Tricycle-Horse-pic-1-220:5.5-3852277274-f.webp
+  url: https://www.rubylane.com/item/719320-TFP-18117/Antique-Auguste-Reidemeister-French-Tricycle-Horse?search=1&t=7ca47b38
+  platform: ruby_lane
+  search_term: bike
+
+Result 56:
+  title: SWEET Novelty Ceramic Monkey Family in Bike Salt & Pepper Shaker Set
+  price: None
+  image: https://cdn0.rubylane.com/_pod/item/11055/RLx230284/SWEET-Novelty-Ceramic-Monkey-Family-Bike-pic-1-220:5.5-2120252660-f.webp
+  url: https://www.rubylane.com/item/11055-RLx230284/SWEET-Novelty-Ceramic-Monkey-Family-Bike?search=1&t=5c72324b
+  platform: ruby_lane
+  search_term: bike
+
+-----------------------------
+
+
+=== Testing ruby_lane with keyword: 'sofa' ===
+Found 60 results for 'sofa' on ruby_lane.
+
+Result 1:
+  title: Mid Century Brown Leather Three Seat Sofa, Denmark
+  price: $2,850
+  image: https://cdn0.rubylane.com/_pod/item/736411/17158/Mid-Century-Brown-Leather-Three-Seat-pic-1-220:5.5-2200200456-f.webp
+  url: https://www.rubylane.com/item/736411-17158/Mid-Century-Brown-Leather-Three-Seat?search=1&t=d05b3b04
+  platform: ruby_lane
+  search_term: sofa
+
+Result 2:
+  title: 20th Century Brown Leather Chesterfield 2-Seat Sofa
+  price: $4,650
+  image: https://cdn0.rubylane.com/_pod/item/736411/26411/20th-Century-Brown-Leather-Chesterfield-2-pic-1-220:5.5-3618113621-f.webp
+  url: https://www.rubylane.com/item/736411-26411/20th-Century-Brown-Leather-Chesterfield-2?search=1&t=c04be785
+  platform: ruby_lane
+  search_term: sofa
+
+Result 3:
+  title: Sofa Wood Vintage German for Dollhouse
+  price: $65
+  image: https://cdn0.rubylane.com/_pod/item/1343738/x23BZ62/Sofa-Wood-Vintage-German-for-Dollhouse-pic-1-220:5.5-3038707431-f.webp
+  url: https://www.rubylane.com/item/1343738-x23BZ62/Sofa-Wood-Vintage-German-for-Dollhouse?search=1&t=521552c5
+  platform: ruby_lane
+  search_term: sofa
+
+Result 4:
+  title: Lovely Antique Boulle Dollhouse Sofa
+  price: $170
+  image: https://cdn0.rubylane.com/_pod/item/821192/Lx2051250/Lovely-Antique-Boulle-Dollhouse-Sofa-pic-1-220:5.5-2969259889-f.webp
+  url: https://www.rubylane.com/item/821192-Lx2051250/Lovely-Antique-Boulle-Dollhouse-Sofa?search=1&t=1b61c3d3
+  platform: ruby_lane
+  search_term: sofa
+
+Result 5:
+  title: Limoges white Cat on French Sofa Trinket box 2 3/4" x 2.0" x 2 3/4" A285
+  price: $119
+  image: https://cdn0.rubylane.com/_pod/item/2643208/A285/Limoges-white-Cat-French-Sofa-Trinket-pic-1-220:5.5-2099675657-f.webp
+  url: https://www.rubylane.com/item/2643208-A285/Limoges-white-Cat-French-Sofa-Trinket?search=1&t=b9775e8d
+  platform: ruby_lane
+  search_term: sofa
+
+Result 6:
+  title: Sofa Art Nouveau Wood Antique German for Dollhouse
+  price: $145
+  image: https://cdn0.rubylane.com/_pod/item/1343738/x23AN54/Sofa-Art-Nouveau-Wood-Antique-German-pic-1-220:5.5-2736552-f.webp
+  url: https://www.rubylane.com/item/1343738-x23AN54/Sofa-Art-Nouveau-Wood-Antique-German?search=1&t=a6b237aa
+  platform: ruby_lane
+  search_term: sofa
+
+Result 7:
+  title: Vintage Artist Anne Ruff SOFA CHAIR TABLE Set 1:12 Dollhouse Miniature
+  price: $100
+  image: https://cdn0.rubylane.com/_pod/item/450954/9606/Vintage-Artist-Anne-Ruff-SOFA-CHAIR-pic-1-220:5.5-3351782202-f.webp
+  url: https://www.rubylane.com/item/450954-9606/Vintage-Artist-Anne-Ruff-SOFA-CHAIR?search=1&t=9530a427
+  platform: ruby_lane
+  search_term: sofa
+
+Result 8:
+  title: 18th/19th c Gustavian Carved Sofa with Checkered Upholstery
+  price: $1,650
+  image: https://cdn0.rubylane.com/_pod/item/287526/10957/18th-19th-c-Gustavian-Carved-Sofa-pic-1-220:5.5-3136401433-f.webp
+  url: https://www.rubylane.com/item/287526-10957/18th-19th-c-Gustavian-Carved-Sofa?search=1&t=011737d7
+  platform: ruby_lane
+  search_term: sofa
+
+Result 9:
+  title: Circa 1880 French Antique Carved Teal Painted Daybed Sofa by L. Bontemps
+  price: $4,800
+  image: https://cdn0.rubylane.com/_pod/item/943369/502ZGW26A/Circa-1880-French-Antique-Carved-Teal-pic-1-220:5.5-4144602488-f.webp
+  url: https://www.rubylane.com/item/943369-502ZGW26A/Circa-1880-French-Antique-Carved-Teal?search=1&t=608e403e
+  platform: ruby_lane
+  search_term: sofa
+
+Result 10:
+  title: Original Nancy Ann Storybook ~ #1006 Sofa & Chair ~ Furniture Series
+  price: $195
+  image: https://cdn0.rubylane.com/_pod/item/381586/KR7657/Original-Nancy-Ann-Storybook-x231006-Sofa-pic-1-220:5.5-864968083-f.webp
+  url: https://www.rubylane.com/item/381586-KR7657/Original-Nancy-Ann-Storybook-x231006-Sofa?search=1&t=a88f7d86
+  platform: ruby_lane
+  search_term: sofa
+
+Result 11:
+  title: Pierre Jeanneret, French Mid-Century Modern, Fireside Sofa, Teak, White Cowhide
+  price: $49,500
+  image: https://cdn0.rubylane.com/_pod/item/2689859/101-9378/Pierre-Jeanneret-French-Mid-Century-Modern-pic-1-220:5.5-1150486333-f.webp
+  url: https://www.rubylane.com/item/2689859-101-9378/Pierre-Jeanneret-French-Mid-Century-Modern?search=1&t=4bafa3f1
+  platform: ruby_lane
+  search_term: sofa
+
+Result 12:
+  title: Adrian Pearsall for Craft Associates Mid Century Walnut Gondola Sofa
+  price: $6,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0499/Adrian-Pearsall-for-Craft-Associates-Mid-pic-1-220:5.5-2929194516-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0499/Adrian-Pearsall-for-Craft-Associates-Mid?search=1&t=5ddfb3a3
+  platform: ruby_lane
+  search_term: sofa
+
+Result 13:
+  title: Weiman Mid Century Channeled Crescent Sofa - Pair
+  price: $10,995
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0596/Weiman-Mid-Century-Channeled-Crescent-Sofa-pic-1-220:5.5-3600619928-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0596/Weiman-Mid-Century-Channeled-Crescent-Sofa?search=1&t=9785fba3
+  platform: ruby_lane
+  search_term: sofa
+
+Result 14:
+  title: Bernard Brunier, French Mid-Century, Rosewood, Suede, Rare Sofa Set, 1960s
+  price: $28,500
+  image: https://cdn0.rubylane.com/_pod/item/2689859/456-231x2f232/Bernard-Brunier-French-Mid-Century-Rosewood-pic-1-220:5.5-2494293515-f.webp
+  url: https://www.rubylane.com/item/2689859-456-231x2f232/Bernard-Brunier-French-Mid-Century-Rosewood?search=1&t=d9f2bb50
+  platform: ruby_lane
+  search_term: sofa
+
+Result 15:
+  title: ISA Bergamo, Italian Mid-Century Modern, Bronze, Camel Mohair, Sofa Set, 1950s
+  price: $26,000
+  image: https://cdn0.rubylane.com/_pod/item/2689859/467-49x2a/ISA-Bergamo-Italian-Mid-Century-Modern-pic-1-220:5.5-588320743-f.webp
+  url: https://www.rubylane.com/item/2689859-467-49x2a/ISA-Bergamo-Italian-Mid-Century-Modern?search=1&t=eeb9b612
+  platform: ruby_lane
+  search_term: sofa
+
+Result 16:
+  title: English Regency Painted Satinwood Sofa Table Circa 1810
+  price: $8,500
+  image: https://cdn0.rubylane.com/_pod/item/1212253/25050903/English-Regency-Painted-Satinwood-Sofa-Table-pic-1-220:5.5-4020479243-f.webp
+  url: https://www.rubylane.com/item/1212253-25050903/English-Regency-Painted-Satinwood-Sofa-Table?search=1&t=874a6c2b
+  platform: ruby_lane
+  search_term: sofa
+
+Result 17:
+  title: Vintage Tufted Button Back Curved Loveseat Settee
+  price: $795
+  image: https://cdn0.rubylane.com/_pod/item/3258328/88/Vintage-Tufted-Button-Back-Curved-Loveseat-pic-1-220:5.5-2849214993-f.webp
+  url: https://www.rubylane.com/item/3258328-88/Vintage-Tufted-Button-Back-Curved-Loveseat?search=1&t=28f384ff
+  platform: ruby_lane
+  search_term: sofa
+
+Result 18:
+  title: Milo Baughman Style Mid Century Teak Settee
+  price: $3,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0610/Milo-Baughman-Style-Mid-Century-Teak-pic-1-220:5.5-1084709243-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0610/Milo-Baughman-Style-Mid-Century-Teak?search=1&t=3ab8ddb8
+  platform: ruby_lane
+  search_term: sofa
+
+Result 19:
+  title: Edward Wormley for Dunbar Model 5407 Mid Century Black Leather Party Sofa
+  price: $10,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0647/Edward-Wormley-for-Dunbar-Model-5407-pic-1-220:5.5-2733378986-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0647/Edward-Wormley-for-Dunbar-Model-5407?search=1&t=2c1cb4c2
+  platform: ruby_lane
+  search_term: sofa
+
+Result 20:
+  title: Danish Mid-Century Modern, Beech, Brown Sheepskin, Sofa, Denmark, 1930s
+  price: $16,500
+  image: https://cdn0.rubylane.com/_pod/item/2689859/101-9485/Danish-Mid-Century-Modern-Beech-Brown-pic-1-220:5.5-2572426074-f.webp
+  url: https://www.rubylane.com/item/2689859-101-9485/Danish-Mid-Century-Modern-Beech-Brown?search=1&t=09b90086
+  platform: ruby_lane
+  search_term: sofa
+
+Result 21:
+  title: 1920-40's OOAK Artisan Handmade Dollhouse Miniature DOLL
+  price: $58
+  image: https://cdn0.rubylane.com/_pod/item/321341/467205032025/1920-40x27s-OOAK-Artisan-Handmade-Dollhouse-pic-1-220:5.5-2264956611-f.webp
+  url: https://www.rubylane.com/item/321341-467205032025/1920-40x27s-OOAK-Artisan-Handmade-Dollhouse?search=1&t=4a64f7b7
+  platform: ruby_lane
+  search_term: sofa
+
+Result 22:
+  title: Vintage German Solid Wooden Sofa For Dolls 84 cm length
+  price: $180
+  image: https://cdn0.rubylane.com/_pod/item/3105659/dolls10/Vintage-German-Solid-Wooden-Sofa-For-pic-1-220:5.5-2396541366-f.webp
+  url: https://www.rubylane.com/item/3105659-dolls10/Vintage-German-Solid-Wooden-Sofa-For?search=1&t=1b8273c8
+  platform: ruby_lane
+  search_term: sofa
+
+Result 23:
+  title: Lawrence Peabody for Selig Mid Century Settee Sofa
+  price: $4,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0639/Lawrence-Peabody-for-Selig-Mid-Century-pic-1-220:5.5-2597180180-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0639/Lawrence-Peabody-for-Selig-Mid-Century?search=1&t=30a82912
+  platform: ruby_lane
+  search_term: sofa
+
+Result 24:
+  title: 1910 Antique French Louis XV Mahogany Spring-seat Chaise lounge / Sofa
+  price: $1,950
+  image: https://cdn0.rubylane.com/_pod/item/2121225/1200/1910-Antique-French-Louis-XV-Mahogany-pic-1-220:5.5-1171734365-f.webp
+  url: https://www.rubylane.com/item/2121225-1200/1910-Antique-French-Louis-XV-Mahogany?search=1&t=df792632
+  platform: ruby_lane
+  search_term: sofa
+
+Result 25:
+  title: Fine Quality 19th Century Regency Antique Free Standing Lamp/Side Table
+  price: $2,520
+  image: https://cdn0.rubylane.com/_pod/item/2132596/2643/Fine-Quality-19th-Century-Regency-Antique-pic-1-220:5.5-1321433281-f.webp
+  url: https://www.rubylane.com/item/2132596-2643/Fine-Quality-19th-Century-Regency-Antique?search=1&t=6274ff32
+  platform: ruby_lane
+  search_term: sofa
+
+Result 26:
+  title: Fine Quality Antique Edwardian Figured Mahogany Free Standing Sofa/Side Table
+  price: $5,313
+  image: https://cdn0.rubylane.com/_pod/item/2132596/2661/Fine-Quality-Antique-Edwardian-Figured-Mahogany-pic-1-220:5.5-1036250525-f.webp
+  url: https://www.rubylane.com/item/2132596-2661/Fine-Quality-Antique-Edwardian-Figured-Mahogany?search=1&t=df9668d0
+  platform: ruby_lane
+  search_term: sofa
+
+Result 27:
+  title: Rush Seat Bath & Body Works Bar Stools - Pair
+  price: $250
+  image: https://cdn0.rubylane.com/_pod/item/3258328/53/Rush-Seat-Bath-Body-Works-Bar-pic-1-220:5.5-4028194978-f.webp
+  url: https://www.rubylane.com/item/3258328-53/Rush-Seat-Bath-Body-Works-Bar?search=1&t=1d89b12c
+  platform: ruby_lane
+  search_term: sofa
+
+Result 28:
+  title: George Nelson for Herman Miller Mid Century Leather and Chrome Sling Sofa
+  price: $7,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0533/George-Nelson-for-Herman-Miller-Mid-pic-1-220:5.5-3579340663-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0533/George-Nelson-for-Herman-Miller-Mid?search=1&t=16fd72a2
+  platform: ruby_lane
+  search_term: sofa
+
+Result 29:
+  title: Large Vintage Dolls Sofa
+  price: $45
+  image: https://cdn0.rubylane.com/_pod/item/3105659/dolls2/Large-Vintage-Dolls-Sofa-pic-1-220:5.5-3854720435-f.webp
+  url: https://www.rubylane.com/item/3105659-dolls2/Large-Vintage-Dolls-Sofa?search=1&t=bbe1f457
+  platform: ruby_lane
+  search_term: sofa
+
+Result 30:
+  title: Large Vintage Doll Sofa
+  price: $60
+  image: https://cdn0.rubylane.com/_pod/item/3105659/dolls1/Large-Vintage-Doll-Sofa-pic-1-220:5.5-958348362-f.webp
+  url: https://www.rubylane.com/item/3105659-dolls1/Large-Vintage-Doll-Sofa?search=1&t=64783d01
+  platform: ruby_lane
+  search_term: sofa
+
+Result 31:
+  title: Edward Wormley for Dunbar Mid Century Walnut Sofa
+  price: $5,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0423/Edward-Wormley-for-Dunbar-Mid-Century-pic-1-220:5.5-2641171773-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0423/Edward-Wormley-for-Dunbar-Mid-Century?search=1&t=4127fb87
+  platform: ruby_lane
+  search_term: sofa
+
+Result 32:
+  title: Vintage Ethan Allen Demilune Console Table Mahogany Top and Bottom Shelf
+  price: $1,295
+  image: https://cdn0.rubylane.com/_pod/item/1928403/4159Vintagex20Ethanx20Allenx20Demilunex20Consolex20Tablex20Mahoganyx20Topx20andx20Bottomx20Shelf/Vintage-Ethan-Allen-Demilune-Console-Table-pic-1-220:5.5-2549561835-f.webp
+  url: https://www.rubylane.com/item/1928403-4159Vintagex20Ethanx20Allenx20Demilunex20Consolex20Tablex20Mahoganyx20Topx20andx20Bottomx20Shelf/Vintage-Ethan-Allen-Demilune-Console-Table?search=1&t=e11f0c62
+  platform: ruby_lane
+  search_term: sofa
+
+Result 33:
+  title: Antique Miniature Parlor Set for Dollhouse
+  price: $145
+  image: https://cdn0.rubylane.com/_pod/item/829245/9146/Antique-Miniature-Parlor-Set-for-Dollhouse-pic-1-220:5.5-659251463-f.webp
+  url: https://www.rubylane.com/item/829245-9146/Antique-Miniature-Parlor-Set-for-Dollhouse?search=1&t=f72d3bfc
+  platform: ruby_lane
+  search_term: sofa
+
+Result 34:
+  title: William Andrus for Steelcase Model 465 Mid Century Lucite and Fiberglass Sofa
+  price: $10,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0561/William-Andrus-for-Steelcase-Model-465-pic-1-220:5.5-234550206-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0561/William-Andrus-for-Steelcase-Model-465?search=1&t=c2c54690
+  platform: ruby_lane
+  search_term: sofa
+
+Result 35:
+  title: Silverware CHEST, Collectors CABINET, Spool Cabinet, Jewelry, Renaissance Victorian, 32"t
+  price: $2,175
+  image: https://cdn0.rubylane.com/_pod/item/1616515/2321/Silverware-CHEST-Collectors-CABINET-Spool-Cabinet-pic-1-220:5.5-1816580118-f.webp
+  url: https://www.rubylane.com/item/1616515-2321/Silverware-CHEST-Collectors-CABINET-Spool-Cabinet?search=1&t=67c09948
+  platform: ruby_lane
+  search_term: sofa
+
+Result 36:
+  title: Antique J & E Stevens Cast Iron CHAIR Dollhouse Miniature Furniture CROMWELL Connecticut
+  price: $74
+  image: https://cdn0.rubylane.com/_pod/item/321341/466504182025/Antique-J-E-Stevens-Cast-Iron-pic-1-220:5.5-1611969911-f.webp
+  url: https://www.rubylane.com/item/321341-466504182025/Antique-J-E-Stevens-Cast-Iron?search=1&t=4ca4a900
+  platform: ruby_lane
+  search_term: sofa
+
+Result 37:
+  title: Antique J & E Stevens Cast Iron SOFA Dollhouse Miniature Furniture CROMWELL Connecticut
+  price: $98
+  image: https://cdn0.rubylane.com/_pod/item/321341/466404182025/Antique-J-E-Stevens-Cast-Iron-pic-1-220:5.5-1749157141-f.webp
+  url: https://www.rubylane.com/item/321341-466404182025/Antique-J-E-Stevens-Cast-Iron?search=1&t=067a1056
+  platform: ruby_lane
+  search_term: sofa
+
+Result 38:
+  title: Vladimir Kagan for Holly Hunt Mid Century Lucite Roll Back Daybed Sofa
+  price: $20,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0454/Vladimir-Kagan-for-Holly-Hunt-Mid-pic-1-220:5.5-3876970774-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0454/Vladimir-Kagan-for-Holly-Hunt-Mid?search=1&t=913ecdf2
+  platform: ruby_lane
+  search_term: sofa
+
+Result 39:
+  title: Vintage Mission Arts and Crafts Style Oak Console Table Sofa Table
+  price: $695
+  image: https://cdn0.rubylane.com/_pod/item/3258328/5/Vintage-Mission-Arts-Crafts-Style-Oak-pic-1-220:5.5-3114598714-f.webp
+  url: https://www.rubylane.com/item/3258328-5/Vintage-Mission-Arts-Crafts-Style-Oak?search=1&t=087d0813
+  platform: ruby_lane
+  search_term: sofa
+
+Result 40:
+  title: Antique German Dollhouse Painted Settee Sofa And Chair
+  price: $128
+  image: https://cdn0.rubylane.com/_pod/item/1282198/Sb-6800/Antique-German-Dollhouse-Painted-Settee-Sofa-pic-1-220:5.5-1524467762-f.webp
+  url: https://www.rubylane.com/item/1282198-Sb-6800/Antique-German-Dollhouse-Painted-Settee-Sofa?search=1&t=e90e2a43
+  platform: ruby_lane
+  search_term: sofa
+
+Result 41:
+  title: Mario Bellini for B&B Italia Camaleonda Mid Century Leather Sectional Sofa
+  price: $25,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0487/Mario-Bellini-for-B-B-Italia-pic-1-220:5.5-1062516215-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0487/Mario-Bellini-for-B-B-Italia?search=1&t=b4cd0db9
+  platform: ruby_lane
+  search_term: sofa
+
+Result 42:
+  title: Original Hand-Painted Pine Bench with Storage, circa 1890-1920
+  price: $2,850
+  image: https://cdn0.rubylane.com/_pod/item/736411/53206/Original-Hand-Painted-Pine-Bench-Storage-pic-1-220:5.5-2402905787-f.webp
+  url: https://www.rubylane.com/item/736411-53206/Original-Hand-Painted-Pine-Bench-Storage?search=1&t=fc1ed0d5
+  platform: ruby_lane
+  search_term: sofa
+
+Result 43:
+  title: Meyer Gunther Martini Sofa
+  price: $1,950
+  image: https://cdn0.rubylane.com/_pod/item/3275873/L-0003/Meyer-Gunther-Martini-Sofa-pic-1-220:5.5-451645408-f.webp
+  url: https://www.rubylane.com/item/3275873-L-0003/Meyer-Gunther-Martini-Sofa?search=1&t=9d060c82
+  platform: ruby_lane
+  search_term: sofa
+
+Result 44:
+  title: Vintage 1920s TYNIETOY Hepplewhite SOFA 1:12 Dollhouse Miniature
+  price: $55
+  image: https://cdn0.rubylane.com/_pod/item/450954/9307/Vintage-1920s-TYNIETOY-Hepplewhite-SOFA-1-pic-1-220:5.5-3437231145-f.webp
+  url: https://www.rubylane.com/item/450954-9307/Vintage-1920s-TYNIETOY-Hepplewhite-SOFA-1?search=1&t=131256a8
+  platform: ruby_lane
+  search_term: sofa
+
+Result 45:
+  title: 1930s Knoxville Tables CO. Queen Anne Mahogany Console table Sofa Table TV Stand
+  price: $1,650
+  image: https://cdn0.rubylane.com/_pod/item/2121225/1191/1930s-Knox78ville-Tables-CO-Queen-Anne-pic-1-220:5.5-3340577581-f.webp
+  url: https://www.rubylane.com/item/2121225-1191/1930s-Knox78ville-Tables-CO-Queen-Anne?search=1&t=5b130121
+  platform: ruby_lane
+  search_term: sofa
+
+Result 46:
+  title: John Wisner for Ficks Reed Mid Century Bamboo Sofa
+  price: $4,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0446/John-Wisner-for-Ficks-Reed-Mid-pic-1-220:5.5-2304498215-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0446/John-Wisner-for-Ficks-Reed-Mid?search=1&t=0c679545
+  platform: ruby_lane
+  search_term: sofa
+
+Result 47:
+  title: John Wisner for Ficks Reed Mid Century Bamboo Settee Loveseat Sofa
+  price: $3,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0445/John-Wisner-for-Ficks-Reed-Mid-pic-1-220:5.5-4061614248-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0445/John-Wisner-for-Ficks-Reed-Mid?search=1&t=64ed7e13
+  platform: ruby_lane
+  search_term: sofa
+
+Result 48:
+  title: Grete Jalk for France and Son Mid Century Danish Teak Loveseat Sofa
+  price: $4,095
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0246/Grete-Jalk-for-France-Son-Mid-pic-1-220:5.5-3250678436-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0246/Grete-Jalk-for-France-Son-Mid?search=1&t=4548e93c
+  platform: ruby_lane
+  search_term: sofa
+
+Result 49:
+  title: Ethan Allen Sofa Table Console Large Drawer, Book Shelf, Cherry # 25-9506-265
+  price: $1,495
+  image: https://cdn0.rubylane.com/_pod/item/1928403/4138Ethanx20Allenx20Sofax20Tablex20Consolex20Largex20Drawerx2cx20Bookx20Shelfx2cx20Cherryx20x23x2025-9506-265/Ethan-Allen-Sofa-Table-Console-Large-pic-1-220:5.5-3524141676-f.webp
+  url: https://www.rubylane.com/item/1928403-4138Ethanx20Allenx20Sofax20Tablex20Consolex20Largex20Drawerx2cx20Bookx20Shelfx2cx20Cherryx20x23x2025-9506-265/Ethan-Allen-Sofa-Table-Console-Large?search=1&t=660d45b8
+  platform: ruby_lane
+  search_term: sofa
+
+Result 50:
+  title: Adrian Pearsall for Craft Associates Mid Century Long Gondola Sofa
+  price: $10,995
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2024-0328/Adrian-Pearsall-for-Craft-Associates-Mid-pic-1-220:5.5-414094495-f.webp
+  url: https://www.rubylane.com/item/2232579-2024-0328/Adrian-Pearsall-for-Craft-Associates-Mid?search=1&t=dce98739
+  platform: ruby_lane
+  search_term: sofa
+
+Result 51:
+  title: Harvey Probber Mid Century Brass Sectional Sofa
+  price: $15,995
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0086/Harvey-Probber-Mid-Century-Brass-Sectional-pic-1-220:5.5-3202338639-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0086/Harvey-Probber-Mid-Century-Brass-Sectional?search=1&t=72259f3e
+  platform: ruby_lane
+  search_term: sofa
+
+Result 52:
+  title: Miniature Vintage Upholstered Dollhouse Doll Parlor Sofa
+  price: $35
+  image: https://cdn0.rubylane.com/_pod/item/672393/8725/Miniature-Vintage-Upholstered-Dollhouse-Doll-Parlor-pic-1-220:5.5-667742376-f.webp
+  url: https://www.rubylane.com/item/672393-8725/Miniature-Vintage-Upholstered-Dollhouse-Doll-Parlor?search=1&t=684c784c
+  platform: ruby_lane
+  search_term: sofa
+
+Result 53:
+  title: 1860s Antique English Rosewood Brass inlay Flip top Game Table / Sofa table
+  price: $1,700
+  image: https://cdn0.rubylane.com/_pod/item/2121225/1168/1860s-Antique-English-Rosewood-Brass-inlay-pic-1-220:5.5-2605032116-f.webp
+  url: https://www.rubylane.com/item/2121225-1168/1860s-Antique-English-Rosewood-Brass-inlay?search=1&t=91810e0d
+  platform: ruby_lane
+  search_term: sofa
+
+Result 54:
+  title: German Dollhouse Salon Sofa and Chairs
+  price: $195
+  image: https://cdn0.rubylane.com/_pod/item/829245/9036/German-Dollhouse-Salon-Sofa-Chairs-pic-1-220:5.5-521907705-f.webp
+  url: https://www.rubylane.com/item/829245-9036/German-Dollhouse-Salon-Sofa-Chairs?search=1&t=1fd301fc
+  platform: ruby_lane
+  search_term: sofa
+
+Result 55:
+  title: 1840s Antique Dutch Marquetry Inlay Mahogany sofa table / side table
+  price: $1,850
+  image: https://cdn0.rubylane.com/_pod/item/2121225/1166/1840s-Antique-Dutch-Marquetry-Inlay-Mahogany-pic-1-220:5.5-1217803596-f.webp
+  url: https://www.rubylane.com/item/2121225-1166/1840s-Antique-Dutch-Marquetry-Inlay-Mahogany?search=1&t=db2cffde
+  platform: ruby_lane
+  search_term: sofa
+
+Result 56:
+  title: Miniature Brown Velvet Sofa for Dollhouse
+  price: $145
+  image: https://cdn0.rubylane.com/_pod/item/829245/9029/Miniature-Brown-Velvet-Sofa-for-Dollhouse-pic-1-220:5.5-1721287237-f.webp
+  url: https://www.rubylane.com/item/829245-9029/Miniature-Brown-Velvet-Sofa-for-Dollhouse?search=1&t=df876056
+  platform: ruby_lane
+  search_term: sofa
+
+Result 57:
+  title: 19th Century Original Painted Pine Bench with Storage, Hungary
+  price: $2,850
+  image: https://cdn0.rubylane.com/_pod/item/736411/53205/19th-Century-Original-Painted-Pine-Bench-pic-1-220:5.5-3988044232-f.webp
+  url: https://www.rubylane.com/item/736411-53205/19th-Century-Original-Painted-Pine-Bench?search=1&t=d4156d98
+  platform: ruby_lane
+  search_term: sofa
+
+Result 58:
+  title: Fredrik Kayser Model-934 Mid Century Teak and Leather Sofa
+  price: $8,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0337/Fredrik-Kayser-Model-934-Mid-Century-pic-1-220:5.5-1066378276-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0337/Fredrik-Kayser-Model-934-Mid-Century?search=1&t=117975dd
+  platform: ruby_lane
+  search_term: sofa
+
+Result 59:
+  title: Robsjohn Gibbings for Widdicomb Model 1727 Mid Century Walnut and Brass Sofa
+  price: $12,595
+  image: https://cdn0.rubylane.com/_pod/item/2232579/2025-0125/Robsjohn-Gibbings-for-Widdicomb-Model-1727-pic-1-220:5.5-449834305-f.webp
+  url: https://www.rubylane.com/item/2232579-2025-0125/Robsjohn-Gibbings-for-Widdicomb-Model-1727?search=1&t=bb3e15d8
+  platform: ruby_lane
+  search_term: sofa
+
+Result 60:
+  title: Vintage Midcentury Dollhouse Furniture Set with Table Lamp and Curtain
+  price: $105
+  image: https://cdn0.rubylane.com/_pod/item/3149536/014/Vintage-Midcentury-Dollhouse-Furniture-Set-Table-pic-1-220:5.5-4156149862-f.webp
+  url: https://www.rubylane.com/item/3149536-014/Vintage-Midcentury-Dollhouse-Furniture-Set-Table?search=1&t=ad721472
+  platform: ruby_lane
+  search_term: sofa
+
+-----------------------------
+
+
+=== Testing ruby_lane with keyword: 'ring' ===
+Found 60 results for 'ring' on ruby_lane.
+
+Result 1:
+  title: Vintage Natural Burmese Ruby and Diamond Cluster Ring with Certification
+  price: $9,500
+  image: https://cdn0.rubylane.com/_pod/item/561847/L020/Vintage-Natural-Burmese-Ruby-Diamond-Cluster-pic-1-220:5.5-2657227506-f.webp
+  url: https://www.rubylane.com/item/561847-L020/Vintage-Natural-Burmese-Ruby-Diamond-Cluster?search=1&t=0c4eb19a
+  platform: ruby_lane
+  search_term: ring
+
+Result 2:
+  title: 18ct Gold Ruby & Diamond 0.28tcw Half Eternity Ring
+  price: $751
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1405/18ct-Gold-Ruby-Diamond-0-28tcw-pic-1-220:5.5-326603567-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1405/18ct-Gold-Ruby-Diamond-0-28tcw?search=1&t=87fa0527
+  platform: ruby_lane
+  search_term: ring
+
+Result 3:
+  title: Art Deco 18ct, 750 Gold five stone fiery Opal ring
+  price: $525
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1329/Art-Deco-18ct-750-Gold-five-pic-1-220:5.5-3107675330-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1329/Art-Deco-18ct-750-Gold-five?search=1&t=64745af8
+  platform: ruby_lane
+  search_term: ring
+
+Result 4:
+  title: 18ct Gold Diamond 0.55ct half Eternity Ring
+  price: $698
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1241/18ct-Gold-Diamond-0-55ct-half-pic-1-220:5.5-825234982-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1241/18ct-Gold-Diamond-0-55ct-half?search=1&t=4c9ac28d
+  platform: ruby_lane
+  search_term: ring
+
+Result 5:
+  title: Vintage Signet E M J Blue Enamel 14k Yellow Gold Ring Dated 1941
+  price: $1,250
+  image: https://cdn0.rubylane.com/_pod/item/2135323/2503/Vintage-Signet-E-M-J-Blue-pic-1-220:5.5-1160000089-f.webp
+  url: https://www.rubylane.com/item/2135323-2503/Vintage-Signet-E-M-J-Blue?search=1&t=8146416d
+  platform: ruby_lane
+  search_term: ring
+
+Result 6:
+  title: Chanel Coco Faux Pearl Headband Gold Tone
+  price: $1,600
+  image: https://cdn0.rubylane.com/_pod/item/1759378/125050136/Chanel-Coco-Faux78-Pearl-Headband-Gold-pic-1-220:5.5-3173253538-f.webp
+  url: https://www.rubylane.com/item/1759378-125050136/Chanel-Coco-Faux78-Pearl-Headband-Gold?search=1&t=56f8afbd
+  platform: ruby_lane
+  search_term: ring
+
+Result 7:
+  title: Vintage 14K Yellow Gold Mabe Pearl & Diamond Open Shank Ring Sz 7
+  price: $498
+  image: https://cdn0.rubylane.com/_pod/item/2155248/1639/Vintage-14K-Yellow-Gold-Mabe-Pearl-pic-1-220:5.5-1239597300-f.webp
+  url: https://www.rubylane.com/item/2155248-1639/Vintage-14K-Yellow-Gold-Mabe-Pearl?search=1&t=62b11f17
+  platform: ruby_lane
+  search_term: ring
+
+Result 8:
+  title: Diamond and Black Pearl 14kt Yellow Gold Ring
+  price: $1,650
+  image: https://cdn0.rubylane.com/_pod/item/1992721/RING217/Diamond-Black-Pearl-14kt-Yellow-Gold-pic-1-220:5.5-3728169904-f.webp
+  url: https://www.rubylane.com/item/1992721-RING217/Diamond-Black-Pearl-14kt-Yellow-Gold?search=1&t=e6a6690d
+  platform: ruby_lane
+  search_term: ring
+
+Result 9:
+  title: Louis Vuitton Burg LV Colors Ring
+  price: $450
+  image: https://cdn0.rubylane.com/_pod/item/1759378/125050116/Louis-Vuitton-Burg-LV-Colors-Ring-pic-1-220:5.5-702081691-f.webp
+  url: https://www.rubylane.com/item/1759378-125050116/Louis-Vuitton-Burg-LV-Colors-Ring?search=1&t=19a12e2f
+  platform: ruby_lane
+  search_term: ring
+
+Result 10:
+  title: Louis Vuitton Prima Donna Monogram Ring
+  price: $300
+  image: https://cdn0.rubylane.com/_pod/item/1759378/125050115/Louis-Vuitton-Prima-Donna-Monogram-Ring-pic-1-220:5.5-398368597-f.webp
+  url: https://www.rubylane.com/item/1759378-125050115/Louis-Vuitton-Prima-Donna-Monogram-Ring?search=1&t=e60240e4
+  platform: ruby_lane
+  search_term: ring
+
+Result 11:
+  title: Natural Zambian Emerald & Pink Sapphire Cocktail Ring - 18k White Gold Diamond Statement Ring
+  price: $9,300
+  image: https://cdn0.rubylane.com/_pod/item/2110768/RNG2084/Natural-Zambian-Emerald-Pink-Sapphire-Cocktail-pic-1-220:5.5-3870032367-f.webp
+  url: https://www.rubylane.com/item/2110768-RNG2084/Natural-Zambian-Emerald-Pink-Sapphire-Cocktail?search=1&t=923a6342
+  platform: ruby_lane
+  search_term: ring
+
+Result 12:
+  title: Vintage 1960s Hematite Intaglio 9ct Yellow Gold Signet Ring
+  price: $490
+  image: https://cdn0.rubylane.com/_pod/item/1050361/vn-2116/Vintage-1960s-Hematite-Intaglio-9ct-Yellow-pic-1-220:5.5-3979313563-f.webp
+  url: https://www.rubylane.com/item/1050361-vn-2116/Vintage-1960s-Hematite-Intaglio-9ct-Yellow?search=1&t=45cba7a1
+  platform: ruby_lane
+  search_term: ring
+
+Result 13:
+  title: 18k White Gold Diamond Cocktail Ring - Natural Tanzanite Cabochon & Rose Cut Diamonds Wedding Ring
+  price: $5,800
+  image: https://cdn0.rubylane.com/_pod/item/2110768/RNG2083/18k-White-Gold-Diamond-Cocktail-Ring-pic-1-220:5.5-571896294-f.webp
+  url: https://www.rubylane.com/item/2110768-RNG2083/18k-White-Gold-Diamond-Cocktail-Ring?search=1&t=18c50687
+  platform: ruby_lane
+  search_term: ring
+
+Result 14:
+  title: 3.60 TW Marquise Diamond Full Eternity Wedding Band Ring 14K White Gold SZ 5.25
+  price: $2,564
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1414103RRRL/3-60-TW-Marquise-Diamond-Full-pic-1-220:5.5-2815757517-f.webp
+  url: https://www.rubylane.com/item/2112467-1414103RRRL/3-60-TW-Marquise-Diamond-Full?search=1&t=fce3b1c8
+  platform: ruby_lane
+  search_term: ring
+
+Result 15:
+  title: Princess Diamond Engagement Ring 14K White Gold 3.26 TW EGL Certificate SZ 7.25
+  price: $19,799
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1419840RL/Princess-Diamond-Engagement-Ring-14K-White-pic-1-220:5.5-3696908255-f.webp
+  url: https://www.rubylane.com/item/2112467-1419840RL/Princess-Diamond-Engagement-Ring-14K-White?search=1&t=92c781e4
+  platform: ruby_lane
+  search_term: ring
+
+Result 16:
+  title: Princess Blue Sapphire Diamond Dome Ring 14K White Gold 0.47 TW Size 6.5
+  price: $476
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423005/Princess-Blue-Sapphire-Diamond-Dome-Ring-pic-1-220:5.5-3842551418-f.webp
+  url: https://www.rubylane.com/item/2112467-1423005/Princess-Blue-Sapphire-Diamond-Dome-Ring?search=1&t=92d6f69f
+  platform: ruby_lane
+  search_term: ring
+
+Result 17:
+  title: 5-Stone Aquamarine Band Ring 10K Yellow Gold 2.05 CTW Gemstones Size 5.75 Estate
+  price: $125
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423547/5-Stone-Aquamarine-Band-Ring-10K-pic-1-220:5.5-3299216110-f.webp
+  url: https://www.rubylane.com/item/2112467-1423547/5-Stone-Aquamarine-Band-Ring-10K?search=1&t=eca8beb6
+  platform: ruby_lane
+  search_term: ring
+
+Result 18:
+  title: 0.25 TW Diamond Half Eternity Band Ring 14K Gold Round Diamonds Size 6.25
+  price: $566
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423188/0-25-TW-Diamond-Half-Eternity-pic-1-220:5.5-3207939091-f.webp
+  url: https://www.rubylane.com/item/2112467-1423188/0-25-TW-Diamond-Half-Eternity?search=1&t=bcd812f0
+  platform: ruby_lane
+  search_term: ring
+
+Result 19:
+  title: Square Cluster Diamond Halo Ring 10K White Gold 0.65 TW Round Diamonds Size 8
+  price: $562
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1422940/Square-Cluster-Diamond-Halo-Ring-10K-pic-1-220:5.5-596483938-f.webp
+  url: https://www.rubylane.com/item/2112467-1422940/Square-Cluster-Diamond-Halo-Ring-10K?search=1&t=b07cb916
+  platform: ruby_lane
+  search_term: ring
+
+Result 20:
+  title: Cluster Diamond Pear Teardrop Halo Ring 14K White Gold 2.50 TW Size 6.25
+  price: $3,374
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1422955/Cluster-Diamond-Pear-Teardrop-Halo-Ring-pic-1-220:5.5-3425215125-f.webp
+  url: https://www.rubylane.com/item/2112467-1422955/Cluster-Diamond-Pear-Teardrop-Halo-Ring?search=1&t=f43992c8
+  platform: ruby_lane
+  search_term: ring
+
+Result 21:
+  title: Wide Enamel Band Ring Open Shank 14K Yellow Gold Size 8 Ladies Estate
+  price: $386
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423379/Wide-Enamel-Band-Ring-Open-Shank-pic-1-220:5.5-3647457203-f.webp
+  url: https://www.rubylane.com/item/2112467-1423379/Wide-Enamel-Band-Ring-Open-Shank?search=1&t=77da6939
+  platform: ruby_lane
+  search_term: ring
+
+Result 22:
+  title: Blue Sapphire Diamond Square Halo Ring 18K White Gold 0.56 CTW Size 6.75
+  price: $899
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423127/Blue-Sapphire-Diamond-Square-Halo-Ring-pic-1-220:5.5-2567482890-f.webp
+  url: https://www.rubylane.com/item/2112467-1423127/Blue-Sapphire-Diamond-Square-Halo-Ring?search=1&t=077bdc50
+  platform: ruby_lane
+  search_term: ring
+
+Result 23:
+  title: Solitaire Emerald Topaz Accent Cocktail Ring 14K Yellow Gold 1.15 CTW Size 5.75
+  price: $494
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423077/Solitaire-Emerald-Topaz-Accent-Cocktail-Ring-pic-1-220:5.5-2015572934-f.webp
+  url: https://www.rubylane.com/item/2112467-1423077/Solitaire-Emerald-Topaz-Accent-Cocktail-Ring?search=1&t=c51147cb
+  platform: ruby_lane
+  search_term: ring
+
+Result 24:
+  title: Solitaire Peridot Diamond Halo Ring 14K Yellow Gold 0.37 CTW Size 6.25 Estate
+  price: $305
+  image: https://cdn0.rubylane.com/_pod/item/2112467/1423189/Solitaire-Peridot-Diamond-Halo-Ring-14K-pic-1-220:5.5-3145101961-f.webp
+  url: https://www.rubylane.com/item/2112467-1423189/Solitaire-Peridot-Diamond-Halo-Ring-14K?search=1&t=1811315d
+  platform: ruby_lane
+  search_term: ring
+
+Result 25:
+  title: 14K Pear Amethyst Solitaire Vintage Statement Ring Size 5.75 Yellow Gold [CKXS]
+  price: $169
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105973FF/14K-Pear-Amethyst-Solitaire-Vintage-Statement-pic-1-220:5.5-4207687944-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105973FF/14K-Pear-Amethyst-Solitaire-Vintage-Statement?search=1&t=7ca25191
+  platform: ruby_lane
+  search_term: ring
+
+Result 26:
+  title: 14K 0.17 Ct Diamond Solitaire Classic Engagement Ring Size 7 White Gold [CKXS]
+  price: $169
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105968FF/14K-0-17-Ct-Diamond-Solitaire-pic-1-220:5.5-2318208073-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105968FF/14K-0-17-Ct-Diamond-Solitaire?search=1&t=775e7068
+  platform: ruby_lane
+  search_term: ring
+
+Result 27:
+  title: 14K 0.21 Ct Diamond Solitaire Classic Engagement Ring Size 6.5 Yellow Gold [CKXS]
+  price: $239
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105963FF/14K-0-21-Ct-Diamond-Solitaire-pic-1-220:5.5-2044114584-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105963FF/14K-0-21-Ct-Diamond-Solitaire?search=1&t=6fc79948
+  platform: ruby_lane
+  search_term: ring
+
+Result 28:
+  title: Faux Glass Coral Ring Gold Tone Metal Size 9
+  price: $20
+  image: https://cdn0.rubylane.com/_pod/item/1356998/24780/Faux78-Glass-Coral-Ring-Gold-Tone-pic-1-220:5.5-2785082366-f.webp
+  url: https://www.rubylane.com/item/1356998-24780/Faux78-Glass-Coral-Ring-Gold-Tone?search=1&t=a7a4c344
+  platform: ruby_lane
+  search_term: ring
+
+Result 29:
+  title: Silpada Sterling Silver Freshwater Pearl Ring - Size 6.25
+  price: $45
+  image: https://cdn0.rubylane.com/_pod/item/426534/9998RVx2fws5323Rx2fQx2f4-10-23pics/Silpada-Sterling-Silver-Freshwater-Pearl-Ring-pic-1-220:5.5-2573731447-f.webp
+  url: https://www.rubylane.com/item/426534-9998RVx2fws5323Rx2fQx2f4-10-23pics/Silpada-Sterling-Silver-Freshwater-Pearl-Ring?search=1&t=2cab997e
+  platform: ruby_lane
+  search_term: ring
+
+Result 30:
+  title: Modernist 14K Gold .25CT TW Diamond Ring - Kinetic or Spinner Design | Lots of Movement
+  price: $1,595
+  image: https://cdn0.rubylane.com/_pod/item/426534/9996RVx2fws4991JVx2fx2321x2fPLx2f1-23-23pics/Modernist-14K-Gold-25CT-TW-Diamond-pic-1-220:5.5-4211154267-f.webp
+  url: https://www.rubylane.com/item/426534-9996RVx2fws4991JVx2fx2321x2fPLx2f1-23-23pics/Modernist-14K-Gold-25CT-TW-Diamond?search=1&t=ecc07f68
+  platform: ruby_lane
+  search_term: ring
+
+Result 31:
+  title: Vintage Amethyst and Diamond flower ring, 9k yellow gold
+  price: $469
+  image: https://cdn0.rubylane.com/_pod/item/1751524/7075/Vintage-Amethyst-Diamond-flower-ring-9k-pic-1-220:5.5-2824985326-f.webp
+  url: https://www.rubylane.com/item/1751524-7075/Vintage-Amethyst-Diamond-flower-ring-9k?search=1&t=af77499e
+  platform: ruby_lane
+  search_term: ring
+
+Result 32:
+  title: Vintage Art Nouveau 950 Sterling Silver & 24K Gold Ring SIGNED Danish ? Antique
+  price: $620
+  image: https://cdn0.rubylane.com/_pod/item/3083616/17225/Vintage-Art-Nouveau-950-Sterling-Silver-pic-1-220:5.5-2676939810-f.webp
+  url: https://www.rubylane.com/item/3083616-17225/Vintage-Art-Nouveau-950-Sterling-Silver?search=1&t=23bffb4f
+  platform: ruby_lane
+  search_term: ring
+
+Result 33:
+  title: Victorian 10K Gold Signet Ring with EWJ Monogram dated 1906
+  price: $475
+  image: https://cdn0.rubylane.com/_pod/item/501867/j7246/Victorian-10K-Gold-Signet-Ring-EWJ-pic-1-220:5.5-2990948756-f.webp
+  url: https://www.rubylane.com/item/501867-j7246/Victorian-10K-Gold-Signet-Ring-EWJ?search=1&t=6059a21d
+  platform: ruby_lane
+  search_term: ring
+
+Result 34:
+  title: Platinum Diamond 0.18ct princess-cut eternity
+  price: $1,057
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1239/Platinum-Diamond-0-18ct-princess-cut-pic-1-220:5.5-2415974529-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1239/Platinum-Diamond-0-18ct-princess-cut?search=1&t=51d67f3d
+  platform: ruby_lane
+  search_term: ring
+
+Result 35:
+  title: 14K Victorian Turquoise Seed Pearl Swirl Statement Ring Size 5.5 Rose Gold [CKXS]
+  price: $399
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105827FF/14K-Victorian-Turquoise-Seed-Pearl-Swirl-pic-1-220:5.5-1507547727-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105827FF/14K-Victorian-Turquoise-Seed-Pearl-Swirl?search=1&t=3e3dcdbe
+  platform: ruby_lane
+  search_term: ring
+
+Result 36:
+  title: 14K Natural Opal Diamond Halo Ornate Statement Ring Size 6.25 Yellow Gold [CKXS]
+  price: $439
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105821FF/14K-Natural-Opal-Diamond-Halo-Ornate-pic-1-220:5.5-2524764247-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105821FF/14K-Natural-Opal-Diamond-Halo-Ornate?search=1&t=e5fe6d83
+  platform: ruby_lane
+  search_term: ring
+
+Result 37:
+  title: 14K 0.90 Ctw Natural Sapphire Diamond Engagement Ring Size 7.25 White Gold [CKXS]
+  price: $339
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105820FF/14K-0-90-Ctw-Natural-Sapphire-pic-1-220:5.5-1941028856-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105820FF/14K-0-90-Ctw-Natural-Sapphire?search=1&t=4f25cd42
+  platform: ruby_lane
+  search_term: ring
+
+Result 38:
+  title: 18ct Gold Daisy Cluster Ring, 0.62ct Diamond
+  price: $1,190
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1005/18ct-Gold-Daisy-Cluster-Ring-0-pic-1-220:5.5-4041426214-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1005/18ct-Gold-Daisy-Cluster-Ring-0?search=1&t=25642533
+  platform: ruby_lane
+  search_term: ring
+
+Result 39:
+  title: 15,23g Large White Butterscotch Baltic Amber Ring
+  price: $255
+  image: https://cdn0.rubylane.com/_pod/item/2244160/2245/15-23g-Large-White-Butterscotch-Baltic-pic-1-220:5.5-1340839510-f.webp
+  url: https://www.rubylane.com/item/2244160-2245/15-23g-Large-White-Butterscotch-Baltic?search=1&t=488f8b84
+  platform: ruby_lane
+  search_term: ring
+
+Result 40:
+  title: 16g. Huge Baltic Amber Sterling Silver Ring
+  price: $255
+  image: https://cdn0.rubylane.com/_pod/item/2244160/2244/16g-Huge-Baltic-Amber-Sterling-Silver-pic-1-220:5.5-669567291-f.webp
+  url: https://www.rubylane.com/item/2244160-2244/16g-Huge-Baltic-Amber-Sterling-Silver?search=1&t=3aa10770
+  platform: ruby_lane
+  search_term: ring
+
+Result 41:
+  title: 13,5g. Big Bold Baltic Amber Ring
+  price: $189
+  image: https://cdn0.rubylane.com/_pod/item/2244160/2243/13-5g-Big-Bold-Baltic-Amber-pic-1-220:5.5-1084996273-f.webp
+  url: https://www.rubylane.com/item/2244160-2243/13-5g-Big-Bold-Baltic-Amber?search=1&t=d7936d1f
+  platform: ruby_lane
+  search_term: ring
+
+Result 42:
+  title: 18ct Gold & Platinum Diamond Solitaire 0.50ct Engagement Ring
+  price: $1,057
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1558/18ct-Gold-Platinum-Diamond-Solitaire-0-pic-1-220:5.5-3067475570-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1558/18ct-Gold-Platinum-Diamond-Solitaire-0?search=1&t=055497f9
+  platform: ruby_lane
+  search_term: ring
+
+Result 43:
+  title: 18ct Gold & Platinum Diamond 0.33ct trilogy engagement ring
+  price: $911
+  image: https://cdn0.rubylane.com/_pod/item/2508161/RG1550/18ct-Gold-Platinum-Diamond-0-33ct-pic-1-220:5.5-778678416-f.webp
+  url: https://www.rubylane.com/item/2508161-RG1550/18ct-Gold-Platinum-Diamond-0-33ct?search=1&t=1c532617
+  platform: ruby_lane
+  search_term: ring
+
+Result 44:
+  title: Antique German Ring Citrine solid 14K Gold ØUS7 / 2.87gr
+  price: $500
+  image: https://cdn0.rubylane.com/_pod/item/1101066/KPPT280420950x2e2508/Antique-German-Ring-Citrine-solid-14K-pic-1-220:5.5-2091813291-f.webp
+  url: https://www.rubylane.com/item/1101066-KPPT280420950x2e2508/Antique-German-Ring-Citrine-solid-14K?search=1&t=e1b978ba
+  platform: ruby_lane
+  search_term: ring
+
+Result 45:
+  title: 1926 Antique British Sterling Silver Jewelry Vanity Ring Box / 170 gr
+  price: $600
+  image: https://cdn0.rubylane.com/_pod/item/1101066/1926x2eBritx2eSilvx2eBonx2eRingx2eBox78x2e170g/1926-Antique-British-Sterling-Silver-Jewelry-pic-1-220:5.5-1687168611-f.webp
+  url: https://www.rubylane.com/item/1101066-1926x2eBritx2eSilvx2eBonx2eRingx2eBox78x2e170g/1926-Antique-British-Sterling-Silver-Jewelry?search=1&t=a58820dd
+  platform: ruby_lane
+  search_term: ring
+
+Result 46:
+  title: 14k White Gold Princess Cut Cluster Bezel Set Center with Round Diamond Ring
+  price: $1,260
+  image: https://cdn0.rubylane.com/_pod/item/2253171/10173-2/14k-White-Gold-Princess-Cut-Cluster-pic-1-220:5.5-2511447986-f.webp
+  url: https://www.rubylane.com/item/2253171-10173-2/14k-White-Gold-Princess-Cut-Cluster?search=1&t=316411e8
+  platform: ruby_lane
+  search_term: ring
+
+Result 47:
+  title: 14K Garnet Diamond Vintage Ornate Statement Ring Size 7.5 Yellow Gold [CKXS]
+  price: $609
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM105815FF/14K-Garnet-Diamond-Vintage-Ornate-Statement-pic-1-220:5.5-821821168-f.webp
+  url: https://www.rubylane.com/item/1105910-EM105815FF/14K-Garnet-Diamond-Vintage-Ornate-Statement?search=1&t=79ca7385
+  platform: ruby_lane
+  search_term: ring
+
+Result 48:
+  title: Ribbon Wrapped Mexican Fire Opal Diamond Engagement Ring 18K Yellow Gold
+  price: $1,028
+  image: https://cdn0.rubylane.com/_pod/item/3238476/TWOR1370/Ribbon-Wrapped-Mex78ican-Fire-Opal-Diamond-pic-1-220:5.5-379732279-f.webp
+  url: https://www.rubylane.com/item/3238476-TWOR1370/Ribbon-Wrapped-Mex78ican-Fire-Opal-Diamond?search=1&t=785a976d
+  platform: ruby_lane
+  search_term: ring
+
+Result 49:
+  title: 10K 0.50 Ctw Round Diamond Cluster Freeform Ring Size 6 Rose Gold [CKXS]
+  price: $269
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108242F/10K-0-50-Ctw-Round-Diamond-pic-1-220:5.5-2350303359-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108242F/10K-0-50-Ctw-Round-Diamond?search=1&t=d7ea356d
+  platform: ruby_lane
+  search_term: ring
+
+Result 50:
+  title: 14K 2.00 Ctw Marquise Princess Diamond Band Ring Size 5.75 White Gold [CKXS]
+  price: $1,119
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108240F/14K-2-00-Ctw-Marquise-Princess-pic-1-220:5.5-3877194118-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108240F/14K-2-00-Ctw-Marquise-Princess?search=1&t=246a2100
+  platform: ruby_lane
+  search_term: ring
+
+Result 51:
+  title: 14K 0.75 Ctw Marquise Diamond Wrap Wedding Band Ring Size 7.25 Yellow Gold [CKXS]
+  price: $399
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108241F/14K-0-75-Ctw-Marquise-Diamond-pic-1-220:5.5-1962063918-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108241F/14K-0-75-Ctw-Marquise-Diamond?search=1&t=b4baca1e
+  platform: ruby_lane
+  search_term: ring
+
+Result 52:
+  title: 14K 0.50 Ctw Marquise Natural Diamond Engagement Ring Size 5.25 Yellow Gold [CKXS]
+  price: $429
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108239F/14K-0-50-Ctw-Marquise-Natural-pic-1-220:5.5-4064683444-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108239F/14K-0-50-Ctw-Marquise-Natural?search=1&t=f36781fc
+  platform: ruby_lane
+  search_term: ring
+
+Result 53:
+  title: 14K 0.50 Ctw Blue & White Diamond Cluster Ring Size 5.75 Yellow Gold [CKXS]
+  price: $349
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108238F/14K-0-50-Ctw-Blue-White-pic-1-220:5.5-1486282160-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108238F/14K-0-50-Ctw-Blue-White?search=1&t=39bc2529
+  platform: ruby_lane
+  search_term: ring
+
+Result 54:
+  title: 10K 1.00 Ctw Round & Baguette Diamond Twist Band Ring Size 7 Yellow Gold [CKXS]
+  price: $799
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108212F/10K-1-00-Ctw-Round-Baguette-pic-1-220:5.5-3583784702-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108212F/10K-1-00-Ctw-Round-Baguette?search=1&t=0983a4d4
+  platform: ruby_lane
+  search_term: ring
+
+Result 55:
+  title: Ribbon Wrap Fire Opal Diamond Engagement Wedding Ring 18K Yellow Gold
+  price: $1,028
+  image: https://cdn0.rubylane.com/_pod/item/3238476/TWOR1369/Ribbon-Wrap-Fire-Opal-Diamond-Engagement-pic-1-220:5.5-120876915-f.webp
+  url: https://www.rubylane.com/item/3238476-TWOR1369/Ribbon-Wrap-Fire-Opal-Diamond-Engagement?search=1&t=17ecad96
+  platform: ruby_lane
+  search_term: ring
+
+Result 56:
+  title: 14K 1.65 Ctw Tanzanite Diamond Tree Freeform Ring Size 8.25 Yellow Gold [CKXS]
+  price: $1,039
+  image: https://cdn0.rubylane.com/_pod/item/1105910/EM108210F/14K-1-65-Ctw-Tanzanite-Diamond-pic-1-220:5.5-498519993-f.webp
+  url: https://www.rubylane.com/item/1105910-EM108210F/14K-1-65-Ctw-Tanzanite-Diamond?search=1&t=4fa26e40
+  platform: ruby_lane
+  search_term: ring
+
+Result 57:
+  title: Bold & Swirling Vintage 14k Diamond Heart Ring
+  price: $645
+  image: https://cdn0.rubylane.com/_pod/item/2122381/NJ87/Bold-Swirling-Vintage-14k-Diamond-Heart-pic-1-220:5.5-3060962424-f.webp
+  url: https://www.rubylane.com/item/2122381-NJ87/Bold-Swirling-Vintage-14k-Diamond-Heart?search=1&t=af72bea4
+  platform: ruby_lane
+  search_term: ring
+
+Result 58:
+  title: Sculptural 1960s 14k Branch and Cultured Pearl Ring
+  price: $595
+  image: https://cdn0.rubylane.com/_pod/item/2122381/BM7/Sculptural-1960s-14k-Branch-Cultured-Pearl-pic-1-220:5.5-2953801484-f.webp
+  url: https://www.rubylane.com/item/2122381-BM7/Sculptural-1960s-14k-Branch-Cultured-Pearl?search=1&t=125f3701
+  platform: ruby_lane
+  search_term: ring
+
+Result 59:
+  title: Antonio Pineda Triple Amethyst Bars 970 Silver Taxco Mexican Ring Size 6.75
+  price: $485
+  image: https://cdn0.rubylane.com/_pod/item/602373/ANTONIOx20PINEDAx20TRIPLEx20AMETHYSTx20BARSx20RING/Antonio-Pineda-Triple-Amethyst-Bars-970-pic-1-220:5.5-3560965780-f.webp
+  url: https://www.rubylane.com/item/602373-ANTONIOx20PINEDAx20TRIPLEx20AMETHYSTx20BARSx20RING/Antonio-Pineda-Triple-Amethyst-Bars-970?search=1&t=f65fdb6c
+  platform: ruby_lane
+  search_term: ring
+
+Result 60:
+  title: Vintage Sterling Silver and Oval Green Amber Ring
+  price: $55
+  image: https://cdn0.rubylane.com/_pod/item/2085155/SAV2174/Vintage-Sterling-Silver-Oval-Green-Amber-pic-1-220:5.5-3590415132-f.webp
+  url: https://www.rubylane.com/item/2085155-SAV2174/Vintage-Sterling-Silver-Oval-Green-Amber?search=1&t=afeca381
+  platform: ruby_lane
+  search_term: ring
+
+-----------------------------
+
+
+=== Testing poshmark with keyword: 'bike' ===
+Found 96 results for 'bike' on poshmark.
+
+Result 1:
+  title: 
+  price: 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683f36e734e98444dc2883af/s_683f36eb7ac6290eaf31d428.jpeg
+  url: https://poshmark.com/listing/New-Black-bike-shorts-2-pairs-683f36e734e98444dc2883af
+  platform: poshmark
+  search_term: bike
+
+Result 2:
+  title: Old Navy High Rise Bike Shorts
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/09/67cd85e837521871fce7d3dd/s_67cd85ea206847a9c67d4b3e.jpeg
+  url: https://poshmark.com/listing/Old-Navy-High-Rise-Bike-Shorts-67cd85e837521871fce7d3dd
+  platform: poshmark
+  search_term: bike
+
+Result 3:
+  title: Fashion Nova Bike Shorts (Pair)
+  price: $13
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/03/10/65ee71d7fed51fbb4d08f1e6/s_65ee71f556b2f8dd1e9fd5f1.jpg
+  url: https://poshmark.com/listing/Fashion-Nova-Bike-Shorts-Pair-65ee71d7fed51fbb4d08f1e6
+  platform: poshmark
+  search_term: bike
+
+Result 4:
+  title: Yogalicious Camo Bike Shorts Medium
+  price: $13 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/27/6836054644ad4d68c765283c/s_683605a49553837ff8137010.jpg
+  url: https://poshmark.com/listing/Yogalicious-Camo-Bike-Shorts-Medium-6836054644ad4d68c765283c
+  platform: poshmark
+  search_term: bike
+
+Result 5:
+  title: 5/$20 ribbed bike shorts
+  price: $9
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/03/67eec435b6af92bc6ed61c68/s_67eec4574206443db2574754.jpg
+  url: https://poshmark.com/listing/520-ribbed-bike-shorts-67eec435b6af92bc6ed61c68
+  platform: poshmark
+  search_term: bike
+
+Result 6:
+  title: Bike Shorts Bundle
+  price: $23
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683fc4727ac62920b236b1f3/s_683fc4ba2981afc52c929b1f.jpg
+  url: https://poshmark.com/listing/Bike-Shorts-Bundle-683fc4727ac62920b236b1f3
+  platform: poshmark
+  search_term: bike
+
+Result 7:
+  title: Bo+Tee Bike Shorts
+  price: $19
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/03/6816103421b8015ca49f4099/s_6816105bf59cc4feead110f4.jpg
+  url: https://poshmark.com/listing/BoTee-Bike-Shorts-6816103421b8015ca49f4099
+  platform: poshmark
+  search_term: bike
+
+Result 8:
+  title: AFRM bike shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/15/67febb17eba4c44adefe068e/s_67febb189936d6a5700c34b5.jpg
+  url: https://poshmark.com/listing/AFRM-bike-shorts-67febb17eba4c44adefe068e
+  platform: poshmark
+  search_term: bike
+
+Result 9:
+  title: Gymshark Flex Bike Short
+  price: $22 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/08/681cce0a2fa05462851d6f19/s_681cce2a1986c247f13f39e3.jpg
+  url: https://poshmark.com/listing/Gymshark-Flex-Bike-Short-681cce0a2fa05462851d6f19
+  platform: poshmark
+  search_term: bike
+
+Result 10:
+  title: Gap Bike Shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/28/68102876842dd40e1ac7d9dc/s_681028784a072b41d784f5dd.jpeg
+  url: https://poshmark.com/listing/Gap-Bike-Shorts-68102876842dd40e1ac7d9dc
+  platform: poshmark
+  search_term: bike
+
+Result 11:
+  title: Tan Lines ribbed bike shorts
+  price: $21 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/6810f88edcd5a56f74e598f1/s_6810f88fe9c77d401b506144.jpeg
+  url: https://poshmark.com/listing/Tan-Lines-ribbed-bike-shorts-6810f88edcd5a56f74e598f1
+  platform: poshmark
+  search_term: bike
+
+Result 12:
+  title: We Wore What Black Bike Shorts
+  price: $30 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/23/6792b597dff1f16c72a083c4/s_6792b599147b98c264c9f3db.jpg
+  url: https://poshmark.com/listing/We-Wore-What-Black-Bike-Shorts-6792b597dff1f16c72a083c4
+  platform: poshmark
+  search_term: bike
+
+Result 13:
+  title: NWOT; NYLORA bike Shorts 🤎
+  price: $48
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/03/26/66034d501741bec385cc2477/s_66034d5b04166df952d46951.jpg
+  url: https://poshmark.com/listing/NWOT-NYLORA-bike-Shorts-66034d501741bec385cc2477
+  platform: poshmark
+  search_term: bike
+
+Result 14:
+  title: Fabletics Bike Short
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/01/13/65a35d12a0aeb7239f45f27f/s_65a35d301741bedf5512d333.jpg
+  url: https://poshmark.com/listing/Fabletics-Bike-Short-65a35d12a0aeb7239f45f27f
+  platform: poshmark
+  search_term: bike
+
+Result 15:
+  title: Essentials bike short
+  price: $12 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/28/680f917d25b2f2f0617a598d/s_680f917f42064438259857b9.jpeg
+  url: https://poshmark.com/listing/Essentials-bike-short-680f917d25b2f2f0617a598d
+  platform: poshmark
+  search_term: bike
+
+Result 16:
+  title: Wild Fable Bike Shorts Size S Blue
+  price: $15
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/03/67c629ffef1ef7fc5c3b2ef6/s_67c62a029ceaf73ef6132349.jpeg
+  url: https://poshmark.com/listing/Wild-Fable-Bike-Shorts-Size-S-Blue-67c629ffef1ef7fc5c3b2ef6
+  platform: poshmark
+  search_term: bike
+
+Result 17:
+  title: Yogalicious bike shorts 
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/13/6823b7d96cb7776f7abe0039/s_6823b7dded788d6c80c87526.jpeg
+  url: https://poshmark.com/listing/Yogaliciousbikeshorts-6823b7d96cb7776f7abe0039
+  platform: poshmark
+  search_term: bike
+
+Result 18:
+  title: Target bike shorts
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683eff06c4c837a9309f761f/s_683eff0a3509d1fba93eb4e2.jpeg
+  url: https://poshmark.com/listing/Target-bike-shorts-683eff06c4c837a9309f761f
+  platform: poshmark
+  search_term: bike
+
+Result 19:
+  title: Adidas bike shorts
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/28/6799284582dcebcc1b53b0f4/s_6799284c8a00e3625a72f7b3.jpg
+  url: https://poshmark.com/listing/Adidas-bike-shorts-6799284582dcebcc1b53b0f4
+  platform: poshmark
+  search_term: bike
+
+Result 20:
+  title: Woman’s FLX Ascent Bike Shorts
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/26/683519e90c84277ec97b4a6b/s_683519ee9936d61f39c0c764.jpeg
+  url: https://poshmark.com/listing/Womans-FLX-Ascent-Bike-Shorts-683519e90c84277ec97b4a6b
+  platform: poshmark
+  search_term: bike
+
+Result 21:
+  title: Old Navy Black ribbed Bike Shorts
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/19/682bda71b7f0ac7f90c439c2/s_682bdb5cb09b7c7f436d2920.jpg
+  url: https://poshmark.com/listing/Old-Navy-Black-ribbed-Bike-Shorts-682bda71b7f0ac7f90c439c2
+  platform: poshmark
+  search_term: bike
+
+Result 22:
+  title: Fabletics Trinity Bike Shorts
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/09/684728be2c9e44e1519070bd/s_684728cab7f0aca5b679df9b.jpg
+  url: https://poshmark.com/listing/Fabletics-Trinity-Bike-Shorts-684728be2c9e44e1519070bd
+  platform: poshmark
+  search_term: bike
+
+Result 23:
+  title: Allfenix Bike Shorts size XS NWOT
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/21/682dcaccff03204428eedd93/s_682dcaee5919e0556ad3a7ec.jpg
+  url: https://poshmark.com/listing/Allfenix-Bike-Shorts-size-XS-NWOT-682dcaccff03204428eedd93
+  platform: poshmark
+  search_term: bike
+
+Result 24:
+  title: TARGET Black Bike Shorts
+  price: $12 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/6812bc04d6c0dc55c08ca453/s_6812bc06d8024cf3ce141a2b.jpeg
+  url: https://poshmark.com/listing/TARGET-Black-Bike-Shorts-6812bc04d6c0dc55c08ca453
+  platform: poshmark
+  search_term: bike
+
+Result 25:
+  title: Oalka Bike Shorts
+  price: $15
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/07/68442eb42326c885bdc3abfb/s_68442ecba9a4487fcda18810.jpg
+  url: https://poshmark.com/listing/Oalka-Bike-Shorts-68442eb42326c885bdc3abfb
+  platform: poshmark
+  search_term: bike
+
+Result 26:
+  title: Lucy Bike Shorts
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/07/68442e015df8e7c4cfea65af/s_68442e16ff032016c9afbb18.jpg
+  url: https://poshmark.com/listing/Lucy-Bike-Shorts-68442e015df8e7c4cfea65af
+  platform: poshmark
+  search_term: bike
+
+Result 27:
+  title: 5/$20 bike shorts
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/26/67e41fbef88471c74e318a8d/s_67e41fd61985242ba854adae.jpg
+  url: https://poshmark.com/listing/520-bike-shorts-67e41fbef88471c74e318a8d
+  platform: poshmark
+  search_term: bike
+
+Result 28:
+  title: Green tye dye bike shorts
+  price: $17 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/18/68024d5af625333a35c90b84/s_68024d5f88849a49ff5dec35.jpeg
+  url: https://poshmark.com/listing/Green-tye-dye-bike-shorts-68024d5af625333a35c90b84
+  platform: poshmark
+  search_term: bike
+
+Result 29:
+  title: ZYIA Women's Gray Bike Shorts
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/09/681e5bfa9b2158e5f2c0c406/s_681e5c00243dae902944137a.jpg
+  url: https://poshmark.com/listing/ZYIA-Womens-Gray-Bike-Shorts-681e5bfa9b2158e5f2c0c406
+  platform: poshmark
+  search_term: bike
+
+Result 30:
+  title: Beige size XL Abound bike shorts
+  price: $13 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/02/6815866e1b40a7216e2b1e4b/s_68158673b09b7c9925fcf9d8.jpeg
+  url: https://poshmark.com/listing/Beige-size-XL-Abound-bike-shorts-6815866e1b40a7216e2b1e4b
+  platform: poshmark
+  search_term: bike
+
+Result 31:
+  title: Foil print bike shorts
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/04/6840e1e674cb4726bff806d6/s_6840e1eaed788d5a0a212025.jpeg
+  url: https://poshmark.com/listing/Foil-print-bike-shorts-6840e1e674cb4726bff806d6
+  platform: poshmark
+  search_term: bike
+
+Result 32:
+  title: Bike Shorts NWT
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/10/29/6720cc8f50e2df6e673c7831/s_6720cc945af6e6cab894f87a.jpeg
+  url: https://poshmark.com/listing/Bike-Shorts-NWT-6720cc8f50e2df6e673c7831
+  platform: poshmark
+  search_term: bike
+
+Result 33:
+  title: Torrid Plaid and Star Bike Shorts
+  price: $13
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/07/67f4075e3509d171b43601f5/s_67f4076521bd42d036f36a59.jpg
+  url: https://poshmark.com/listing/Torrid-Plaid-and-Star-Bike-Shorts-67f4075e3509d171b43601f5
+  platform: poshmark
+  search_term: bike
+
+Result 34:
+  title: Fitwell| Shaperwear Bike Shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680e98a80274279cb52929a1/s_680e98aaf6035a7802d302bb.jpeg
+  url: https://poshmark.com/listing/Fitwell-Shaperwear-Bike-Shorts-680e98a80274279cb52929a1
+  platform: poshmark
+  search_term: bike
+
+Result 35:
+  title: Snake print bike shorts S small
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/23/68095ceddc3b469504b18f55/s_68095d1588849a4e4c08baae.jpg
+  url: https://poshmark.com/listing/Snake-print-bike-shorts-S-small-68095ceddc3b469504b18f55
+  platform: poshmark
+  search_term: bike
+
+Result 36:
+  title: Bozzolo Black Bike Shorts
+  price: $9
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/18/678c25c3f88471931fad6299/s_678c2774206847b18b330413.jpg
+  url: https://poshmark.com/listing/Bozzolo-Black-Bike-Shorts-678c25c3f88471931fad6299
+  platform: poshmark
+  search_term: bike
+
+Result 37:
+  title: Lululemon Base Pace Bike Short
+  price: $38 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/28/680fcf7a0841b9171e411322/s_680fcf7db14a06029b1b868d.jpeg
+  url: https://poshmark.com/listing/Lululemon-Base-Pace-Bike-Short-680fcf7a0841b9171e411322
+  platform: poshmark
+  search_term: bike
+
+Result 38:
+  title: Nike NSW Street Bike Shorts
+  price: $22
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/6810f3699f19e2e715263634/s_6810f371006e435508586d84.jpg
+  url: https://poshmark.com/listing/Nike-NSW-Street-Bike-Shorts-6810f3699f19e2e715263634
+  platform: poshmark
+  search_term: bike
+
+Result 39:
+  title: Adidas bike shorts size XS
+  price: $24 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/14/67fd2ecee48e8630c1f8a95c/s_67fd2ed10015424a2fd0e88e.jpeg
+  url: https://poshmark.com/listing/Adidas-bike-shorts-size-XS-67fd2ecee48e8630c1f8a95c
+  platform: poshmark
+  search_term: bike
+
+Result 40:
+  title: Athleta Bike Shorts
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683ef0e221bd42c6b01a8c93/s_683ef0e221bd42c6b01a8c94.jpg
+  url: https://poshmark.com/listing/Athleta-Bike-Shorts-683ef0e221bd42c6b01a8c93
+  platform: poshmark
+  search_term: bike
+
+Result 41:
+  title: VANS BIKE SHORTS NWT M
+  price: $22
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/01/683cca1cdcd5a54a19aef46c/s_683cca1ed7555d4d6591732d.jpeg
+  url: https://poshmark.com/listing/VANS-BIKE-SHORTS-NWT-M-683cca1cdcd5a54a19aef46c
+  platform: poshmark
+  search_term: bike
+
+Result 42:
+  title: Abercrombie and Fitch bike shorts
+  price: $23 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2022/08/04/62ebe6cd02760b8f087d5470/s_62ebe72597b5d0e95279bd03.jpg
+  url: https://poshmark.com/listing/Abercrombie-and-Fitch-bike-shorts-62ebe6cd02760b8f087d5470
+  platform: poshmark
+  search_term: bike
+
+Result 43:
+  title: Calia Bike Shorts
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/07/08/668c8af2c38372910fcbd44b/s_668c8af8693ff76a0baf0225.jpg
+  url: https://poshmark.com/listing/Calia-Bike-Shorts-668c8af2c38372910fcbd44b
+  platform: poshmark
+  search_term: bike
+
+Result 44:
+  title: NWT Lioness bike shorts
+  price: $30 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680e9f1cfb5327690e65d304/s_680e9f1edbd8f0fa59fe855a.jpeg
+  url: https://poshmark.com/listing/NWT-Lioness-bike-shorts-680e9f1cfb5327690e65d304
+  platform: poshmark
+  search_term: bike
+
+Result 45:
+  title: SPANX Black Bike Shorts
+  price: $30 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683f874eb94491bdba29bf6d/s_683f875c24d2e7cf13b1b178.jpg
+  url: https://poshmark.com/listing/SPANX-Black-Bike-Shorts-683f874eb94491bdba29bf6d
+  platform: poshmark
+  search_term: bike
+
+Result 46:
+  title: Tommy Hilfiger Bike shorts XL
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/28/6837c8f425b2f2fc5df0279b/s_6837c8f8bedd3410c0b33646.jpeg
+  url: https://poshmark.com/listing/Tommy-Hilfiger-Bike-shorts-XL-6837c8f425b2f2fc5df0279b
+  platform: poshmark
+  search_term: bike
+
+Result 47:
+  title: Black Offline OG Bike Short Size XXL
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/6812ce82842dd47b9c97ebee/s_6812ce84243daea91719657e.jpeg
+  url: https://poshmark.com/listing/Black-Offline-OG-Bike-Short-Size-XXL-6812ce82842dd47b9c97ebee
+  platform: poshmark
+  search_term: bike
+
+Result 48:
+  title: Black Bike Shorts
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/30/683a649eb09b7ce77b26e225/s_683a64b1f6035a5508517eba.jpg
+  url: https://poshmark.com/listing/Black-Bike-Shorts-683a649eb09b7ce77b26e225
+  platform: poshmark
+  search_term: bike
+
+Result 49:
+  title: Loft sculpt charcoal bike shorts
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/05/6841d71bd09987625122c501/s_6841d71da0dc2bd06e33c886.jpeg
+  url: https://poshmark.com/listing/Loft-sculpt-charcoal-bike-shorts-6841d71bd09987625122c501
+  platform: poshmark
+  search_term: bike
+
+Result 50:
+  title: Jacks Athletics Bike Shorts in Large
+  price: $23 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/02/28/65dffaf78bb2e2b9da214150/s_65dffaf74bf9ff60d01763ca.jpg
+  url: https://poshmark.com/listing/Jacks-Athletics-Bike-Shorts-in-Large-65dffaf78bb2e2b9da214150
+  platform: poshmark
+  search_term: bike
+
+Result 51:
+  title: Old Navy Go Dry Bike Shorts Size XL
+  price: $18 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/10/30/6722bd5434e9846f9095bcfa/s_6722bd55cf86b1af02bb9666.jpeg
+  url: https://poshmark.com/listing/Old-Navy-Go-Dry-Bike-Shorts-Size-XL-6722bd5434e9846f9095bcfa
+  platform: poshmark
+  search_term: bike
+
+Result 52:
+  title: BENIE LEATHER bike shorts
+  price: $28 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/01/67ec97722326c8c22296481c/s_67ec97884a072be5a618b154.jpg
+  url: https://poshmark.com/listing/BENIE-LEATHER-bike-shorts-67ec97722326c8c22296481c
+  platform: poshmark
+  search_term: bike
+
+Result 53:
+  title: Dex Faux Leather Bike Shorts M
+  price: $12 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/6811264460beaff1e5beae34/s_68112648f59cc4e2fbe2249e.jpeg
+  url: https://poshmark.com/listing/Dex-Faux-Leather-Bike-Shorts-M-6811264460beaff1e5beae34
+  platform: poshmark
+  search_term: bike
+
+Result 54:
+  title: Old Navy black bike short SZ SM
+  price: $16 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/11/67f9a2a472f45fff1ff4443a/s_67f9a2a644ad4d7295f48c77.jpeg
+  url: https://poshmark.com/listing/Old-Navy-black-bike-short-SZ-SM-67f9a2a472f45fff1ff4443a
+  platform: poshmark
+  search_term: bike
+
+Result 55:
+  title: AERIE High waisted Bike Shorts
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/06/6842f9f34f80f9645eb9b09c/s_6842f9f5b6af92de0d7c7c9f.jpeg
+  url: https://poshmark.com/listing/AERIE-High-waisted-Bike-Shorts-6842f9f34f80f9645eb9b09c
+  platform: poshmark
+  search_term: bike
+
+Result 56:
+  title: SPANX Black Camo Bike Shorts
+  price: $39 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/16/67d7287d280cc6e882ca6854/s_67d72894c383725192852b81.jpg
+  url: https://poshmark.com/listing/SPANX-Black-Camo-Bike-Shorts-67d7287d280cc6e882ca6854
+  platform: poshmark
+  search_term: bike
+
+Result 57:
+  title: AFRM Bike Shorts
+  price: $18
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/681223d993a13d5ab59ccf5e/s_681223dc420644c657ada08b.jpeg
+  url: https://poshmark.com/listing/AFRMBikeShorts-681223d993a13d5ab59ccf5e
+  platform: poshmark
+  search_term: bike
+
+Result 58:
+  title: Gymshark 8” Bike Shorts Grey
+  price: $15
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/11/22/67406f96c9af8c23b11b8b19/s_67406fac07ac558d73167eb2.jpg
+  url: https://poshmark.com/listing/Gymshark-8-Bike-Shorts-Grey-67406f96c9af8c23b11b8b19
+  platform: poshmark
+  search_term: bike
+
+Result 59:
+  title: Danskin Sage Green Bike Shorts XXL
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/06/67f2fc98d7555d2b989dcbf4/s_67f2fc98d7555d2b989dcbf5.jpg
+  url: https://poshmark.com/listing/Danskin-Sage-Green-Bike-Shorts-XXL-67f2fc98d7555d2b989dcbf4
+  platform: poshmark
+  search_term: bike
+
+Result 60:
+  title: Hue Black Bike Shorts
+  price: $18
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2021/09/11/613d1ce76e28465945666f87/s_622bb8bf163df40a359f0790.jpg
+  url: https://poshmark.com/listing/Hue-Black-Bike-Shorts-613d1ce76e28465945666f87
+  platform: poshmark
+  search_term: bike
+
+Result 61:
+  title: Tye dye bike shorts
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/04/6840e5604fab7be8ca881605/s_6840e562bdcb04220cb8dea8.jpeg
+  url: https://poshmark.com/listing/Tye-dye-bike-shorts-6840e5604fab7be8ca881605
+  platform: poshmark
+  search_term: bike
+
+Result 62:
+  title: Foil print bike shorts
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/04/68408886dd06c89d7c2a861c/s_68408889ff032000af14ae14.jpeg
+  url: https://poshmark.com/listing/Foil-print-bike-shorts-68408886dd06c89d7c2a861c
+  platform: poshmark
+  search_term: bike
+
+Result 63:
+  title: Camo bike shorts. Super soft!
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/04/684087a9fbae95a4888489ce/s_684087ac88849a8585c77943.jpeg
+  url: https://poshmark.com/listing/Camo-bike-shorts-Super-soft-684087a9fbae95a4888489ce
+  platform: poshmark
+  search_term: bike
+
+Result 64:
+  title: NIKE Black women's XS bike shorts
+  price: $19
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/11/67f9776747842ca12afb9126/s_67f9777bc4e7b4b8fdf2576f.jpeg
+  url: https://poshmark.com/listing/NIKE-Black-womens-XS-bike-shorts-67f9776747842ca12afb9126
+  platform: poshmark
+  search_term: bike
+
+Result 65:
+  title: Alphalete Black Bike Shorts
+  price: $29
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/28/6837a6b05df8e77a8deeb3d7/s_6837a6bba951050173587344.jpg
+  url: https://poshmark.com/listing/Alphalete-Black-Bike-Shorts-6837a6b05df8e77a8deeb3d7
+  platform: poshmark
+  search_term: bike
+
+Result 66:
+  title: Everlane Bike Shorts XS New
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/24/680a5f0493a13dc8b108ce4c/s_680a5f0921bd42ae98641dfa.jpeg
+  url: https://poshmark.com/listing/Everlane-Bike-Shorts-XS-New-680a5f0493a13dc8b108ce4c
+  platform: poshmark
+  search_term: bike
+
+Result 67:
+  title: Bebe Silky Lace Band Bike Shorts 2X
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/05/67c93a716da06eff28883b49/s_67c93a739d05c4e45281f77c.jpeg
+  url: https://poshmark.com/listing/Bebe-Silky-Lace-Band-Bike-Shorts-2X-67c93a716da06eff28883b49
+  platform: poshmark
+  search_term: bike
+
+Result 68:
+  title: Free people bike shorts
+  price: $16
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/23/6830a18dc24a6de7fe9f4e4c/s_6830a1912c9e443b60b2ea0b.jpeg
+  url: https://poshmark.com/listing/Free-people-bike-shorts-6830a18dc24a6de7fe9f4e4c
+  platform: poshmark
+  search_term: bike
+
+Result 69:
+  title: PINK Ultimate Bike Short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/02/17/65d15d2491e0536348763cb5/s_65d15d2491e0536348763cb6.jpg
+  url: https://poshmark.com/listing/PINK-Ultimate-Bike-Short-65d15d2491e0536348763cb5
+  platform: poshmark
+  search_term: bike
+
+Result 70:
+  title: Nike Womens Bike Short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2022/12/23/63a5cd1522f79773cd9a15ea/s_63a5cd18dbb0e7bbe9eb6790.jpeg
+  url: https://poshmark.com/listing/Nike-Womens-Bike-Short-63a5cd1522f79773cd9a15ea
+  platform: poshmark
+  search_term: bike
+
+Result 71:
+  title: Juicy Couture bike shorts
+  price: $32 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2021/06/07/60be57f5ce1e874be86fbf3c/s_60be58096f6c914d10ed760e.jpg
+  url: https://poshmark.com/listing/Juicy-Couture-bike-shorts-60be57f5ce1e874be86fbf3c
+  platform: poshmark
+  search_term: bike
+
+Result 72:
+  title: Champion Bike Shorts - Grey - XS
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/03/08/65eb7360db3a6fdcce1faf2d/s_65eb74dadbb0e7b1e687c487.jpeg
+  url: https://poshmark.com/listing/Champion-Bike-Shorts-Grey-XS-65eb7360db3a6fdcce1faf2d
+  platform: poshmark
+  search_term: bike
+
+Result 73:
+  title: Nike Luxe Performance Bike Shorts
+  price: $30 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/16/680063a4fe4c6856a7cfffe7/s_680063c7b7f0acf4940628aa.jpg
+  url: https://poshmark.com/listing/Nike-Luxe-Performance-Bike-Shorts-680063a4fe4c6856a7cfffe7
+  platform: poshmark
+  search_term: bike
+
+Result 74:
+  title: Bike Dri-Fit Shorts 7” inseam
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/24/680ae853d6c0dcf34cfa09ba/s_680ae8552326c8de88716305.jpeg
+  url: https://poshmark.com/listing/Bike-DriFit-Shorts-7-inseam-680ae853d6c0dcf34cfa09ba
+  platform: poshmark
+  search_term: bike
+
+Result 75:
+  title: Sage Collective Bike Shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/03/06/6406ab118d7a3c306838fdf0/s_6406ab4e17e49c32d60b2b2d.jpg
+  url: https://poshmark.com/listing/Sage-Collective-Bike-Shorts-6406ab118d7a3c306838fdf0
+  platform: poshmark
+  search_term: bike
+
+Result 76:
+  title: Wild Fable bike shorts
+  price: $13 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/12/07/65726db691e053d2395aba70/s_65726e07a0aeb7bb0b2dd4f8.jpg
+  url: https://poshmark.com/listing/Wild-Fable-bike-shorts-65726db691e053d2395aba70
+  platform: poshmark
+  search_term: bike
+
+Result 77:
+  title: Crown & Ivy Red Star Bike Shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/13/6823b60fb944910e01682270/s_6823b7249f19e29e3c363d3c.jpg
+  url: https://poshmark.com/listing/Crown-Ivy-Red-Star-Bike-Shorts-6823b60fb944910e01682270
+  platform: poshmark
+  search_term: bike
+
+Result 78:
+  title: Zara seamless bike shorts large
+  price: $21
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/30/67e8fc6fb09b7c514c422405/s_67e8fc6fb09b7c514c422406.jpg
+  url: https://poshmark.com/listing/Zara-seamless-bike-shorts-large-67e8fc6fb09b7c514c422405
+  platform: poshmark
+  search_term: bike
+
+Result 79:
+  title: Gap Fit Snakeskin Bike Shorts
+  price: $13
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/28/680fbb1c7321b04ff2abe0b9/s_680fbb1e006e43f9634e753f.jpeg
+  url: https://poshmark.com/listing/Gap-Fit-Snakeskin-Bike-Shorts-680fbb1c7321b04ff2abe0b9
+  platform: poshmark
+  search_term: bike
+
+Result 80:
+  title: Fila bike shorts
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/18/6801fbf7e0f2ceb73151dedd/s_6801fbf9a0dc2be37b393594.jpeg
+  url: https://poshmark.com/listing/Fila-bike-shorts-6801fbf7e0f2ceb73151dedd
+  platform: poshmark
+  search_term: bike
+
+Result 81:
+  title: Z by Zella High Waist Bike Short
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/07/67cb3f059d05c48486076e91/s_67cb3f44775caf4baf2252cb.jpg
+  url: https://poshmark.com/listing/Z-by-Zella-High-Waist-Bike-Short-67cb3f059d05c48486076e91
+  platform: poshmark
+  search_term: bike
+
+Result 82:
+  title: Bike short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/06/02/647a1e501645f74b9d114956/s_647a1e6592e4913af2fb52f6.jpg
+  url: https://poshmark.com/listing/Bike-short-647a1e501645f74b9d114956
+  platform: poshmark
+  search_term: bike
+
+Result 83:
+  title: Bike Short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/05/18/6466132aa0e6c615307fcbc0/s_6466132aa0e6c615307fcbc1.jpg
+  url: https://poshmark.com/listing/Bike-Short-6466132aa0e6c615307fcbc0
+  platform: poshmark
+  search_term: bike
+
+Result 84:
+  title: Bike short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/05/13/646022f1c5df6ce64722e9b8/s_646022f89464f3f2ef17aa67.jpg
+  url: https://poshmark.com/listing/Bike-short-646022f1c5df6ce64722e9b8
+  platform: poshmark
+  search_term: bike
+
+Result 85:
+  title: Pearl Izumi Bike Shorts
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/02/07/65c43b8317e49cd12d52d0d3/s_65c43ba152eee1c6141989d1.jpg
+  url: https://poshmark.com/listing/Pearl-Izumi-Bike-Shorts-65c43b8317e49cd12d52d0d3
+  platform: poshmark
+  search_term: bike
+
+Result 86:
+  title: Yogalicious Camo Bike Short
+  price: $18
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/12/68222febe9c77dacfdad78f8/s_68223004a0dc2b6e14c99791.jpg
+  url: https://poshmark.com/listing/Yogalicious-Camo-Bike-Short-68222febe9c77dacfdad78f8
+  platform: poshmark
+  search_term: bike
+
+Result 87:
+  title: Bebe Surf The Web Bike Shorts Rhinestone Bike Shorts Size Large
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/26/67e481d634d1568a74b04cf5/s_67e481dc520b70a210a4c374.jpeg
+  url: https://poshmark.com/listing/Bebe-Surf-The-Web-Bike-Shorts-Rhinestone-Bike-Shorts-Size-Large-67e481d634d1568a74b04cf5
+  platform: poshmark
+  search_term: bike
+
+Result 88:
+  title: Onzie Bike Shorts
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/08/67f5521a006e4357522bfe4d/s_67f55227f59cc4f8ccc8a738.jpg
+  url: https://poshmark.com/listing/Onzie-Bike-Shorts-67f5521a006e4357522bfe4d
+  platform: poshmark
+  search_term: bike
+
+Result 89:
+  title: Women's Orange Aerie Bike Shorts
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/02/26/67bf568006c231df60e36e0b/s_67bf578756b2f83e62ff326b.jpeg
+  url: https://poshmark.com/listing/Womens-Orange-Aerie-Bike-Shorts-67bf568006c231df60e36e0b
+  platform: poshmark
+  search_term: bike
+
+Result 90:
+  title: Bike Short
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/05/15/6462830dbd66cd396de504e5/s_6462831a1645f78360fcc728.jpg
+  url: https://poshmark.com/listing/Bike-Short-6462830dbd66cd396de504e5
+  platform: poshmark
+  search_term: bike
+
+Result 91:
+  title: Cotton On bike shorts
+  price: $25
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/05/08/6459798e52eee1a71c45ad2f/s_645979a4fb73045f33b5f19a.jpg
+  url: https://poshmark.com/listing/Cotton-On-bike-shorts-6459798e52eee1a71c45ad2f
+  platform: poshmark
+  search_term: bike
+
+Result 92:
+  title: Nike Fast 7” Purple Bike Short
+  price: $17 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680e02c8375218e93b0bf249/s_680e02c9b7f0ac03fdf03217.jpeg
+  url: https://poshmark.com/listing/Nike-Fast-7-Purple-Bike-Short-680e02c8375218e93b0bf249
+  platform: poshmark
+  search_term: bike
+
+Result 93:
+  title: Cyclebar Ribbed Bike Shorts
+  price: $11 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/68110e8b2c7ec684e5ea332e/s_68110e8c2fa0542f6268f31f.jpeg
+  url: https://poshmark.com/listing/Cyclebar-Ribbed-Bike-Shorts-68110e8b2c7ec684e5ea332e
+  platform: poshmark
+  search_term: bike
+
+Result 94:
+  title: Wild Fable Black Bike Shorts
+  price: $22
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/24/680aaab0ed788d64a21ee5c1/s_680aaabd9f034c90dcd7ed99.jpg
+  url: https://poshmark.com/listing/Wild-Fable-Black-Bike-Shorts-680aaab0ed788d64a21ee5c1
+  platform: poshmark
+  search_term: bike
+
+Result 95:
+  title: Lululemon High Rise Bike Shorts
+  price: $33 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/28/67e6afc8f6035af0728d2222/s_67e6afc888849a73e3e32336.jpg
+  url: https://poshmark.com/listing/Lululemon-High-Rise-Bike-Shorts-67e6afc8f6035af0728d2222
+  platform: poshmark
+  search_term: bike
+
+Result 96:
+  title: Scott Mountain Bike Shorts
+  price: $29 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/09/6847259f05deb3ed52da2326/s_6847259f05deb3ed52da2327.jpg
+  url: https://poshmark.com/listing/Scott-Mountain-Bike-Shorts-6847259f05deb3ed52da2326
+  platform: poshmark
+  search_term: bike
+
+-----------------------------
+
+
+=== Testing poshmark with keyword: 'sofa' ===
+Found 96 results for 'sofa' on poshmark.
+
+Result 1:
+  title: 
+  price: 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/29/683873a91986c24ef520c231/s_683873a91986c24ef520c232.jpg
+  url: https://poshmark.com/listing/Ikea-KIVIK-3-seat-sofa-CUSHION-COVERS-683873a91986c24ef520c231
+  platform: poshmark
+  search_term: sofa
+
+Result 2:
+  title: Roller Rabbit Throw Blanket 48" x 68" Woven Tasseled Beach Couch Sofa Striped
+  price: $49 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/18/68026f00e2ac0cb8ea00b4e9/s_68026f022c9e4419399919b1.jpeg
+  url: https://poshmark.com/listing/Roller-Rabbit-Throw-Blanket-48-x-68-Woven-Tasseled-Beach-Couch-Sofa-Striped-68026f00e2ac0cb8ea00b4e9
+  platform: poshmark
+  search_term: sofa
+
+Result 3:
+  title: BIG PRICE DROP!! QTY 6 - 20X20 / QTY 2 - 18X18 SOFA PILLOW COVERS GRAY & TAUPE
+  price: $45 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/05/13/6642b750a2c69e36ce79ce0a/s_6642b7ad142ad4761b0bcb26.jpg
+  url: https://poshmark.com/listing/BIG-PRICE-DROP-QTY-6-20X20-QTY-2-18X18-SOFA-PILLOW-COVERS-GRAY-TAUPE-6642b750a2c69e36ce79ce0a
+  platform: poshmark
+  search_term: sofa
+
+Result 4:
+  title: Wekapo Inflatable Lounger Air Sofa Hammock-Portable
+  price: $18 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/02/15/67b110e406c23189453576cb/s_67b111f69d05c4dce19d13ff.jpeg
+  url: https://poshmark.com/listing/Wekapo-Inflatable-Lounger-Air-Sofa-HammockPortable-67b110e406c23189453576cb
+  platform: poshmark
+  search_term: sofa
+
+Result 5:
+  title: Vintage Velvet Floral Victorian Round Tapestry Toss Sofa Bed Pillow Antique
+  price: $135 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683fbdb0b142f3b83d4864fc/s_683fbdb824d2e73f01b392b1.jpeg
+  url: https://poshmark.com/listing/Vintage-Velvet-Floral-Victorian-Round-Tapestry-Toss-Sofa-Bed-Pillow-Antique-683fbdb0b142f3b83d4864fc
+  platform: poshmark
+  search_term: sofa
+
+Result 6:
+  title: Easy Going Reversible Sofa Cover Blue/ Ivory
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/07/23/669f7058b2780cb6fd0ff3d4/s_669f7058bfd9a62b12036d2f.jpeg
+  url: https://poshmark.com/listing/Easy-Going-ReversibleSofa-Cover-Blue-Ivory-669f7058b2780cb6fd0ff3d4
+  platform: poshmark
+  search_term: sofa
+
+Result 7:
+  title: Easy-Going Stretch Sofa Slipcover Color Natural NWT
+  price: $25 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/26/6796974f3752185b25c59f4d/s_67969a250e517204d5785411.jpg
+  url: https://poshmark.com/listing/EasyGoing-Stretch-Sofa-Slipcover-Color-Natural-NWT-6796974f3752185b25c59f4d
+  platform: poshmark
+  search_term: sofa
+
+Result 8:
+  title: REVERSIBLE QUILTED SOFA COVER FURNITURE PROTECTOR BROWN AND TAN 71”x110”
+  price: $23
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/16/68277d2e18d1c295e854cc52/s_68277d2f88849a780b10c842.jpeg
+  url: https://poshmark.com/listing/REVERSIBLE-QUILTED-SOFA-COVER-FURNITURE-PROTECTOR-BROWN-AND-TAN-71x110-68277d2e18d1c295e854cc52
+  platform: poshmark
+  search_term: sofa
+
+Result 9:
+  title: Victorian Couple Sitting on Sofa Figurine Cobalt Blue and White Vintage Decor
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/14/67fd2188af7f472386973c91/s_67fd2189c4e7b46358122662.jpeg
+  url: https://poshmark.com/listing/Victorian-Couple-Sitting-on-Sofa-Figurine-Cobalt-Blue-and-White-Vintage-Decor-67fd2188af7f472386973c91
+  platform: poshmark
+  search_term: sofa
+
+Result 10:
+  title: Light Grey Knit Jacquard Weave Pattern Decorative Warm Flannel Bed/Sofa Blanket
+  price: $89 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/06/15/666dc9b734e9849ca246fdfb/s_666dc9b8b9db3a590877e2d7.jpeg
+  url: https://poshmark.com/listing/Light-Grey-Knit-Jacquard-Weave-Pattern-Decorative-Warm-Flannel-BedSofa-Blanket-666dc9b734e9849ca246fdfb
+  platform: poshmark
+  search_term: sofa
+
+Result 11:
+  title: SyMax Sofa SlipCovers new in packaging Steel Blue
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/02/683e15d1a95105f33ee32c7e/s_683e15d8ff03209ee90467c5.jpg
+  url: https://poshmark.com/listing/SyMax-Sofa-SlipCovers-new-in-packaging-Steel-Blue-683e15d1a95105f33ee32c7e
+  platform: poshmark
+  search_term: sofa
+
+Result 12:
+  title: Camping Inflatable Sofa Portable Air Recliner Folding Lazy Sofa Couch Footrest
+  price: $53 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680f028b450b4208fc468412/s_680f028b5df8e75eea687740.jpeg
+  url: https://poshmark.com/listing/Camping-Inflatable-Sofa-Portable-Air-Recliner-Folding-Lazy-Sofa-Couch-Footrest-680f028b450b4208fc468412
+  platform: poshmark
+  search_term: sofa
+
+Result 13:
+  title: Real Genuine Leather Pillow Cover - Sofa Cushion Case - Decorative Throw Grey US
+  price: $40
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/09/08/66de3c1b0382919a72052f49/s_66de3c78dc8a4e0447db5c6d.jpeg
+  url: https://poshmark.com/listing/Real-Genuine-Leather-Pillow-Cover-Sofa-Cushion-Case-Decorative-Throw-Grey-US-66de3c1b0382919a72052f49
+  platform: poshmark
+  search_term: sofa
+
+Result 14:
+  title: Sofa Leather Repair Patch Tape 15x60 Inch Red-Brown
+  price: $18
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/12/682200f24f80f9c0b1a5df78/s_682200f8d8024cf5a0d4f0f3.jpeg
+  url: https://poshmark.com/listing/Sofa-Leather-Repair-Patch-Tape-15x60-Inch-RedBrown-682200f24f80f9c0b1a5df78
+  platform: poshmark
+  search_term: sofa
+
+Result 15:
+  title: 3 Universal Couch Cushion Covers, Washable, Stretch, 3 Cushion Sofa, Gray)
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/21/682e9f63b3ef6251b1b2c569/s_682e9f679b21585217755786.jpeg
+  url: https://poshmark.com/listing/3-Universal-Couch-Cushion-Covers-Washable-Stretch-3-Cushion-Sofa-Gray-682e9f63b3ef6251b1b2c569
+  platform: poshmark
+  search_term: sofa
+
+Result 16:
+  title: Dusty Pink Knit Jacquard Weave Pattern Decorative Warm Flannel Bed/Sofa Blanket
+  price: $89 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2022/12/17/639ec4a46defc59e6ae1f0a2/s_639ec4e891e05388330437a9.jpeg
+  url: https://poshmark.com/listing/Dusty-Pink-Knit-Jacquard-Weave-Pattern-Decorative-Warm-Flannel-BedSofa-Blanket-639ec4a46defc59e6ae1f0a2
+  platform: poshmark
+  search_term: sofa
+
+Result 17:
+  title: New! 4CT Furniture Risers 9" Sofa Chair
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2021/08/21/612138667ec30c70ae09b773/s_612138993bad6dd4ccf2fe1a.jpg
+  url: https://poshmark.com/listing/New-4CT-Furniture-Risers-9-Sofa-Chair-612138667ec30c70ae09b773
+  platform: poshmark
+  search_term: sofa
+
+Result 18:
+  title: Green and Gray Reversible Sofa Protection Cover Scalloped Edge 75” long
+  price: $30
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/31/683b042d34e984f9f10f4338/s_683b043124b20b9a38023981.jpeg
+  url: https://poshmark.com/listing/Green-and-Gray-Reversible-Sofa-Protection-Cover-Scalloped-Edge-75-long-683b042d34e984f9f10f4338
+  platform: poshmark
+  search_term: sofa
+
+Result 19:
+  title: NEW- BearCover Sofa Cover for 3 Cushion Sofa - Pet Friendly, Waterproof
+  price: $29 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/26/680cbb1b694d72c619703701/s_680cbb1cf6035acc27c1fc57.jpg
+  url: https://poshmark.com/listing/NEW-BearCover-Sofa-Cover-for-3-Cushion-Sofa-Pet-Friendly-Waterproof-680cbb1b694d72c619703701
+  platform: poshmark
+  search_term: sofa
+
+Result 20:
+  title: Vintage Wicker Love Seat Doll Furniture Sofa Bench Doll House Diorama 6"x5"x4"
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/27/67e62689943ddb414fa1dcf5/s_67e62692b7f0acb9dcedebfa.jpeg
+  url: https://poshmark.com/listing/Vintage-Wicker-Love-Seat-Doll-Furniture-Sofa-Bench-Doll-House-Diorama-6x5x4-67e62689943ddb414fa1dcf5
+  platform: poshmark
+  search_term: sofa
+
+Result 21:
+  title: Vintage Victorian Curvy Carved Settee Sofa Three Photo‎ Resin Standing Pic Frame
+  price: $17
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/12/68219e7127539d0c8602b752/s_68219e7127539d0c8602b753.jpg
+  url: https://poshmark.com/listing/Vintage-Victorian-Curvy-Carved-Settee-Sofa-Three-Photo-Resin-Standing-Pic-Frame-68219e7127539d0c8602b752
+  platform: poshmark
+  search_term: sofa
+
+Result 22:
+  title: ☕Cases Sofa Pillow Cover Cappuccino
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2019/11/02/5dbde64c29f0308b22200d64/s_5dbde667d400085d964f7b8f.jpg
+  url: https://poshmark.com/listing/Cases-Sofa-Pillow-Cover-Cappuccino-5dbde64c29f0308b22200d64
+  platform: poshmark
+  search_term: sofa
+
+Result 23:
+  title: The House Of Miniatures Chippendale Sofa Circa 1750-1790 NEW IN BOX dollhouse fu
+  price: $12 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2022/12/10/6395305084b307771b96f61e/s_6395310ef8c5da35908280ed.jpeg
+  url: https://poshmark.com/listing/The-House-Of-Miniatures-Chippendale-Sofa-Circa-17501790-NEW-IN-BOX-dollhouse-fu-6395305084b307771b96f61e
+  platform: poshmark
+  search_term: sofa
+
+Result 24:
+  title: San Francisco Giants Reversible Sofa Protector
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/31/683b7c49bedd341020604a55/s_683b7caa21bd425312036f0a.jpg
+  url: https://poshmark.com/listing/San-Francisco-Giants-Reversible-Sofa-Protector-683b7c49bedd341020604a55
+  platform: poshmark
+  search_term: sofa
+
+Result 25:
+  title: Light Cream Farmhouse Cozy Sherpa Bohemian Tassel Thick Throw Sofa/Bed Blanket
+  price: $115
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/10/15/670e6cd3450b42b7960d3355/s_670e6ec42839bcf0120eeb37.jpeg
+  url: https://poshmark.com/listing/Light-Cream-Farmhouse-Cozy-Sherpa-Bohemian-Tassel-Thick-Throw-SofaBed-Blanket-670e6cd3450b42b7960d3355
+  platform: poshmark
+  search_term: sofa
+
+Result 26:
+  title: Lovesac Brown Corded Velvet Cushion Cover 22" x 36" Sofa Couch Slipcover
+  price: $48 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/18/680274d349d8d8cd15efe3aa/s_680274d6c4e7b42666d0f487.jpeg
+  url: https://poshmark.com/listing/Lovesac-Brown-Corded-Velvet-Cushion-Cover-22-x-36-Sofa-Couch-Slipcover-680274d349d8d8cd15efe3aa
+  platform: poshmark
+  search_term: sofa
+
+Result 27:
+  title: NEW! Ikea KLIPPAN Loveseat Sofa COVER Only radbyn green white 304.601.75
+  price: $75
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/12/67fa6c362fd49a495bd99409/s_67fa6c3ac4e7b4f5aff9a05f.jpeg
+  url: https://poshmark.com/listing/NEW-Ikea-KLIPPANLoveseat-Sofa-COVER-Only-radbyn-green-white-30460175-67fa6c362fd49a495bd99409
+  platform: poshmark
+  search_term: sofa
+
+Result 28:
+  title: Vintage Lavender Gold Trinket Box Fainting Sofa Ceramic Couch with Dog 1960’s
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/31/67eb1927842dd47a30fefe40/s_67eb196fd7555d9e13c395ef.jpeg
+  url: https://poshmark.com/listing/Vintage-Lavender-Gold-Trinket-Box-Fainting-Sofa-Ceramic-Couch-with-Dog-1960s-67eb1927842dd47a30fefe40
+  platform: poshmark
+  search_term: sofa
+
+Result 29:
+  title: Brand New -Kylinlucky Outdoor Patio Sofa Cover
+  price: $28
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/23/6808f8b53509d1f19db35657/s_6808f8b53509d1f19db35658.jpg
+  url: https://poshmark.com/listing/Brand-New-Kylinlucky-Outdoor-Patio-Sofa-Cover-6808f8b53509d1f19db35657
+  platform: poshmark
+  search_term: sofa
+
+Result 30:
+  title: Callisto Pillows Sofa Set Of 3 Large 20” X 20” Metallic Pink Gold EUC
+  price: $150
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683efc22e0f2ce1b4b9e8eb0/s_683efc232c9e4416530c3c87.jpg
+  url: https://poshmark.com/listing/Callisto-Pillows-Sofa-Set-Of-3-Large-20-X-20-Metallic-Pink-Gold-EUC-683efc22e0f2ce1b4b9e8eb0
+  platform: poshmark
+  search_term: sofa
+
+Result 31:
+  title: 🐈 Restock All you need is a Cat Case Sofa Cushion
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2019/10/13/5da365f1aa7ed39c26348503/s_5da3662dffc2d406e822abdd.jpg
+  url: https://poshmark.com/listing/Restock-All-you-need-is-a-Cat-Case-Sofa-Cushion-5da365f1aa7ed39c26348503
+  platform: poshmark
+  search_term: sofa
+
+Result 32:
+  title: Stretch Recliner Loveseat Sofa Covers Console Pockets, 4-Pieces Reclining
+  price: $79 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/25/680c0dd7013d2a64c5d4dd4c/s_680c0ddb9f034c6d2ee3b44e.jpeg
+  url: https://poshmark.com/listing/Stretch-Recliner-Loveseat-Sofa-Covers-Console-Pockets-4Pieces-Reclining-680c0dd7013d2a64c5d4dd4c
+  platform: poshmark
+  search_term: sofa
+
+Result 33:
+  title: Cozy Floral Velveteen Blanket Pink sofa throw cottage chic housewarming Sage
+  price: $59 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/19/68041b1a842dd432c61844d7/s_68041b1f9f034c5cc09ce83e.jpeg
+  url: https://poshmark.com/listing/Cozy-Floral-VelveteenBlanket-Pink-sofa-throw-cottage-chic-housewarming-Sage-68041b1a842dd432c61844d7
+  platform: poshmark
+  search_term: sofa
+
+Result 34:
+  title: Sofa Stretch Fabric Cover for Chair 32"- 40" in Red
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/02/6776fdf8f33f716c91e3debf/s_6782f6fcd399ff4e0990c23b.jpg
+  url: https://poshmark.com/listing/Sofa-Stretch-Fabric-Cover-for-Chair-32-40-in-Red-6776fdf8f33f716c91e3debf
+  platform: poshmark
+  search_term: sofa
+
+Result 35:
+  title: BEDELITE Fleece Throw Blanket 50in X 60in for Couch Sofa Bed, Black
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/17/67d86f12694d72ae79fbdb46/s_67d86f12c38372a318909e98.jpg
+  url: https://poshmark.com/listing/BEDELITE-Fleece-Throw-Blanket-50in-X-60in-for-Couch-Sofa-Bed-Black-67d86f12694d72ae79fbdb46
+  platform: poshmark
+  search_term: sofa
+
+Result 36:
+  title: Fringed Beige Sofa Couch Decorative Pillows - 12x12” - Se of 2 Two Home Decor
+  price: $16
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/31/67eb0d9f943ddb008d7f14a7/s_67eb0da0955383b685674a2f.jpeg
+  url: https://poshmark.com/listing/Fringed-Beige-Sofa-Couch-Decorative-Pillows-12x12-Se-of-2-Two-Home-Decor-67eb0d9f943ddb008d7f14a7
+  platform: poshmark
+  search_term: sofa
+
+Result 37:
+  title: Stretch Chair Sofa Slipcover 1 Piece Couch Cover, 1 Seater Settee Coat Soft
+  price: $43 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/08/13/66bc2be9fe7e2c7024b843f6/s_66bc2be9ce70659cb75e725a.jpg
+  url: https://poshmark.com/listing/Stretch-Chair-Sofa-Slipcover-1-Piece-Couch-Cover-1-Seater-Settee-Coat-Soft-66bc2be9fe7e2c7024b843f6
+  platform: poshmark
+  search_term: sofa
+
+Result 38:
+  title: SOFA‎ saver slipcover 72”wide
+  price: $22
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/05/25/66529b2a842dd4f48612793d/s_66529b2d580123d44e28a84b.jpeg
+  url: https://poshmark.com/listing/SOFA-saver-slipcover-72wide-66529b2a842dd4f48612793d
+  platform: poshmark
+  search_term: sofa
+
+Result 39:
+  title: 🆕 Sofa Armrest Clip Table, Brown
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/08/6845e3dee48e861b4b975b1c/s_6845e3e0d8024c9227db18b4.jpeg
+  url: https://poshmark.com/listing/Sofa-Armrest-Clip-Table-Brown-6845e3dee48e861b4b975b1c
+  platform: poshmark
+  search_term: sofa
+
+Result 40:
+  title: Throw Blanket Beach Picnic Bedding Lap Sofa Plaid Home Tartan Fringe Tailgate
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/01/683c64e2eba4c44c3bff3349/s_683c64e40015422ccd7fd7a4.jpeg
+  url: https://poshmark.com/listing/Throw-Blanket-Beach-Picnic-Bedding-Lap-Sofa-Plaid-Home-Tartan-Fringe-Tailgate-683c64e2eba4c44c3bff3349
+  platform: poshmark
+  search_term: sofa
+
+Result 41:
+  title: Jinamart Stretch Sofa Slipcover White for Chair with Pillow Covers
+  price: $19 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/25/6833a9843e0efbac8ccff88a/s_6833a98549e17bbffd4e3e9d.jpg
+  url: https://poshmark.com/listing/Jinamart-Stretch-Sofa-Slipcover-White-for-Chair-with-Pillow-Covers-6833a9843e0efbac8ccff88a
+  platform: poshmark
+  search_term: sofa
+
+Result 42:
+  title: 6" Solid Wood Tapered Furniture Legs Black Finish Sofa/Chair/Ottoman Set of 6
+  price: $55
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/23/6809495e6da06e93e1f0553f/s_6809495fc71ba1a490cfb32d.jpeg
+  url: https://poshmark.com/listing/6-Solid-Wood-Tapered-Furniture-Legs-Black-Finish-SofaChairOttoman-Set-of-6-6809495e6da06e93e1f0553f
+  platform: poshmark
+  search_term: sofa
+
+Result 43:
+  title: BATTILO HOME Boho Throw Blanket Rust Red Throw Blankets for Couch Bed Sofa
+  price: $22 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/13/682344ac75334e4b501c08ba/s_682344ae2981af6571225eac.jpeg
+  url: https://poshmark.com/listing/BATTILO-HOME-Boho-Throw-Blanket-Rust-Red-Throw-Blankets-for-Couch-Bed-Sofa-682344ac75334e4b501c08ba
+  platform: poshmark
+  search_term: sofa
+
+Result 44:
+  title: Throw Blanket Zigzag Afghan Hand Knitted Bedding Boho Hippie Colorful Couch Sofa
+  price: $30
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/30/683a2e6dbe296b8f7aed7b98/s_683a2e6e1986c20b1e3fcbfd.jpeg
+  url: https://poshmark.com/listing/Throw-Blanket-Zigzag-Afghan-Hand-Knitted-Bedding-Boho-Hippie-Colorful-Couch-Sofa-683a2e6dbe296b8f7aed7b98
+  platform: poshmark
+  search_term: sofa
+
+Result 45:
+  title: Miniature Rattan Sofa Plant Stand Vintage
+  price: $10
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/09/16/66e8e69504b36d99cda7c0d1/s_66e8e696d3309f79f6f0c79b.jpeg
+  url: https://poshmark.com/listing/Miniature-Rattan-Sofa-Plant-Stand-Vintage-66e8e69504b36d99cda7c0d1
+  platform: poshmark
+  search_term: sofa
+
+Result 46:
+  title: 2Pc Throw Pillow Case Cushion Cover Home Sofa Decorative Soft Pillow Cover 18x18
+  price: $13
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/14/67fcec58528015f30e80b88b/s_67fcec5b9b215898b6e133e2.jpeg
+  url: https://poshmark.com/listing/2Pc-Throw-PillowCase-Cushion-Cover-Home-Sofa-Decorative-Soft-Pillow-Cover-18x18-67fcec58528015f30e80b88b
+  platform: poshmark
+  search_term: sofa
+
+Result 47:
+  title: 2 Sofa Arm Tables.
+  price: $26
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/16/67d707370c0a3f09cb5d7d19/s_67d707a62839bc35ad449398.jpg
+  url: https://poshmark.com/listing/2-Sofa-Arm-Tables-67d707370c0a3f09cb5d7d19
+  platform: poshmark
+  search_term: sofa
+
+Result 48:
+  title: NWT Square Velvet Decorative Sofa Pillow Case, Sofa, Bed etc Pink 17 x 17 inches
+  price: $3 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/11/13/67356f039d05c42d279717ce/s_67356f20dc327d32f72c375a.jpg
+  url: https://poshmark.com/listing/NWT-Square-Velvet-Decorative-Sofa-Pillow-Case-Sofa-Bed-etc-Pink-17-x-17-inches-67356f039d05c42d279717ce
+  platform: poshmark
+  search_term: sofa
+
+Result 49:
+  title: NWT Square Velvet Decorative Sofa Pillow Case, Sofa, Bed etc Pink 17 x 17 inches
+  price: $3 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/11/13/67356f039d05c42d279717ce/s_67356f20dc327d32f72c375a.jpg
+  url: https://poshmark.com/listing/NWT-Square-Velvet-Decorative-Sofa-Pillow-Case-Sofa-Bed-etc-Pink-17-x-17-inches-67356f039d05c42d279717ce
+  platform: poshmark
+  search_term: sofa
+
+Result 50:
+  title: Waterproof Couch Cover Protector for Kids, Pets, Dog and Cat (Sofa, Dark Gray)
+  price: $15 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/20/67dc212cd909594de060b4ac/s_67dc21c99a76ef7ae913a2e8.jpeg
+  url: https://poshmark.com/listing/Waterproof-Couch-Cover-Protector-for-Kids-Pets-Dog-and-Cat-Sofa-Dark-Gray-67dc212cd909594de060b4ac
+  platform: poshmark
+  search_term: sofa
+
+Result 51:
+  title: CaliTime Pack of 2 Cozy Throw Pillow Covers Cases for Couch Sofa Home Decoration
+  price: $23
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/20/682ca8bb013d2a906107ba1c/s_682ca8bb013d2a906107ba1d.jpeg
+  url: https://poshmark.com/listing/CaliTime-Pack-of-2-Cozy-Throw-Pillow-Covers-Cases-for-Couch-Sofa-Home-Decoration-682ca8bb013d2a906107ba1c
+  platform: poshmark
+  search_term: sofa
+
+Result 52:
+  title: Empire Home Reversible Furniture Protector For Sofa
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/26/6834dde805deb361ae91cc61/s_6834deef21b801c2b8b54ab1.jpg
+  url: https://poshmark.com/listing/Empire-Home-Reversible-Furniture-Protector-For-Sofa-6834dde805deb361ae91cc61
+  platform: poshmark
+  search_term: sofa
+
+Result 53:
+  title: Sideli Luxury Chenille European Sofa Arm Protector Nonslip Jacquard Armrest Cove
+  price: $32 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/23/68308749842dd436b7d0e260/s_6830874e310f1c7ef45d2307.jpeg
+  url: https://poshmark.com/listing/Sideli-Luxury-Chenille-European-Sofa-Arm-Protector-Nonslip-Jacquard-Armrest-Cove-68308749842dd436b7d0e260
+  platform: poshmark
+  search_term: sofa
+
+Result 54:
+  title: Beige Velvet Sofa Slipcover NIP
+  price: $36
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/08/681d4f21a56649c8030b63c5/s_681d4f22ff0320a6371d89fc.jpg
+  url: https://poshmark.com/listing/Beige-Velvet-Sofa-Slipcover-NIP-681d4f21a56649c8030b63c5
+  platform: poshmark
+  search_term: sofa
+
+Result 55:
+  title: Granbest Premium Water Repellent Sofa Cover High Stretch Couch Slipcover ca329
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/29/67e88b5a038291bf6bec1b24/s_67e88b5bfe4c680ed93d2f4f.jpeg
+  url: https://poshmark.com/listing/Granbest-Premium-Water-Repellent-Sofa-Cover-High-Stretch-Couch-Slipcover-ca329-67e88b5a038291bf6bec1b24
+  platform: poshmark
+  search_term: sofa
+
+Result 56:
+  title: Stuffed Fabric Owl, Handmade Colorful Cozy Sofa Accent Pillow Owl Lover Gift
+  price: $30
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/21/68066cea1493777d4e501a67/s_68066d30fe4c68f9f5d5c0fd.jpg
+  url: https://poshmark.com/listing/Stuffed-Fabric-Owl-Handmade-Colorful-Cozy-Sofa-Accent-Pillow-Owl-Lover-Gift-68066cea1493777d4e501a67
+  platform: poshmark
+  search_term: sofa
+
+Result 57:
+  title: Sculpture The Heirloom Tradition Louis Icart 1937 Parfum de Fieurs woman on Sofa
+  price: $56
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/681243f2cc0a738f76f89d47/s_681243f344ad4ddaa5302243.jpeg
+  url: https://poshmark.com/listing/Sculpture-The-Heirloom-Tradition-Louis-Icart-1937-Parfum-de-Fieurs-woman-on-Sofa-681243f2cc0a738f76f89d47
+  platform: poshmark
+  search_term: sofa
+
+Result 58:
+  title: Bamboo Sofa Arm Tray Table, Foldable, Anti Falling, Cup Holder, Portable NIB
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/12/67842021f62533fb94bc56b9/s_6784202582dcebeef220afd7.jpeg
+  url: https://poshmark.com/listing/Bamboo-Sofa-Arm-Tray-Table-Foldable-Anti-Falling-Cup-Holder-Portable-NIB-67842021f62533fb94bc56b9
+  platform: poshmark
+  search_term: sofa
+
+Result 59:
+  title: Red Hat Ladies Sofa Small Handmade Quilt
+  price: $30
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/10/03/66febe0fdb3a6fa043e8f741/s_66febe14b4ee5b84eb4d12f0.jpg
+  url: https://poshmark.com/listing/Red-Hat-Ladies-Sofa-Small-Handmade-Quilt-66febe0fdb3a6fa043e8f741
+  platform: poshmark
+  search_term: sofa
+
+Result 60:
+  title: Handmade crochet sofa throw blanket, beautiful afghan- 56" x 63"
+  price: $45 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/02/19/67b6450eb9db3aca8678aeae/s_67b645240e5172c44c6a9070.jpg
+  url: https://poshmark.com/listing/Handmade-crochet-sofa-throw-blanket-beautiful-afghan-56-x-63-67b6450eb9db3aca8678aeae
+  platform: poshmark
+  search_term: sofa
+
+Result 61:
+  title: Vintage Set Of Tin Can Art Pin cushion chairs sofa
+  price: $38
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2020/12/02/5fc8068c29e698918008b686/s_5fc8068fbcdb2f6e13c17ee5.jpeg
+  url: https://poshmark.com/listing/Vintage-Set-Of-Tin-Can-Art-Pin-cushion-chairs-sofa-5fc8068c29e698918008b686
+  platform: poshmark
+  search_term: sofa
+
+Result 62:
+  title: Couch Covers L Shape Sofa Covers Super Stretch 2pcs Sofa Slipcovers for 3 + 3
+  price: $49 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/6808602139a1f6611b43da62/s_68086023001542c0bfc8ec23.jpeg
+  url: https://poshmark.com/listing/Couch-Covers-L-Shape-Sofa-Covers-Super-Stretch-2pcs-Sofa-Slipcovers-for-3-3-6808602139a1f6611b43da62
+  platform: poshmark
+  search_term: sofa
+
+Result 63:
+  title: VINTAGE TAPESTRY LUMBAR PILLOW 13x6 COUCH SOFA Floral Sisters‎ Cute Best Friends
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/17/6800f9ea013d2a22742b9ea7/s_6800f9ea013d2a22742b9ea8.jpg
+  url: https://poshmark.com/listing/VINTAGE-TAPESTRY-LUMBAR-PILLOW-13x6-COUCH-SOFA-Floral-Sisters-Cute-Best-Friends-6800f9ea013d2a22742b9ea7
+  platform: poshmark
+  search_term: sofa
+
+Result 64:
+  title: Vtg Roseanne Granny Square Crochet Afghan Blanket Sofa Throw Multi-Color 48x80"
+  price: $90
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/02/02/63dbd64cf14e9c748f1d9dbe/s_63dbd64f87a2f51fd6310302.jpeg
+  url: https://poshmark.com/listing/Vtg-Roseanne-Granny-Square-Crochet-Afghan-Blanket-Sofa-Throw-MultiColor-48x80-63dbd64cf14e9c748f1d9dbe
+  platform: poshmark
+  search_term: sofa
+
+Result 65:
+  title: IKEA KIVIK 3-Seat Sofa Cover Orrsta Light Gray NWT
+  price: $125 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/27/6835cacad7555d8a535556c2/s_6835cacad7555d8a535556c3.jpg
+  url: https://poshmark.com/listing/IKEA-KIVIK-3Seat-Sofa-Cover-Orrsta-Light-Gray-NWT-6835cacad7555d8a535556c2
+  platform: poshmark
+  search_term: sofa
+
+Result 66:
+  title: Dark Shadows Barnabas Collins-inspired baby blanket/sofa throw
+  price: $37 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/03/6816d7bda9a448ba74970bf5/s_6816d7beb14a065fb0e51f50.jpg
+  url: https://poshmark.com/listing/Dark-Shadows-Barnabas-Collinsinspired-baby-blanketsofa-throw-6816d7bda9a448ba74970bf5
+  platform: poshmark
+  search_term: sofa
+
+Result 67:
+  title: 4pcs Throw Pillowcases Spring Pink Flower Print For Living Room Bedroom Sofa
+  price: $28
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/06/16/648cc6b78634cbbf41efb5cd/s_648cc6c28bb2e2e9043b2a45.jpg
+  url: https://poshmark.com/listing/4pcs-Throw-Pillowcases-Spring-Pink-Flower-Print-For-Living-Room-Bedroom-Sofa-648cc6b78634cbbf41efb5cd
+  platform: poshmark
+  search_term: sofa
+
+Result 68:
+  title: Vintage Louis Nichole Elegant Doll with Ornate Sofa Set
+  price: $60
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/20/67dc8e97c479b897b27c8d4a/s_67dc93fe9d05c4f7548b84e4.jpg
+  url: https://poshmark.com/listing/Vintage-Louis-Nichole-Elegant-Doll-with-Ornate-Sofa-Set-67dc8e97c479b897b27c8d4a
+  platform: poshmark
+  search_term: sofa
+
+Result 69:
+  title: Granny Square Crochet Afghan Sofa Throw Blanket 74" x 55" Grannycore VTG 70s
+  price: $40
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/10/681f912acc0a734a2c3cb05c/s_681f912b05deb30c7bdb675b.jpeg
+  url: https://poshmark.com/listing/Granny-Square-Crochet-Afghan-Sofa-Throw-Blanket-74-x-55-Grannycore-VTG-70s-681f912acc0a734a2c3cb05c
+  platform: poshmark
+  search_term: sofa
+
+Result 70:
+  title: Waterproof L-shaped Sectional Sofa Cover Brown Reversible Size Small
+  price: $38
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/30/683a46c53fd8e7b525f74f8f/s_683a46c621b8010f3ecb82c8.jpg
+  url: https://poshmark.com/listing/Waterproof-Lshaped-Sectional-Sofa-Cover-Brown-Reversible-Size-Small-683a46c53fd8e7b525f74f8f
+  platform: poshmark
+  search_term: sofa
+
+Result 71:
+  title: VTG Snowman & Feather Friends Square Printed Pillow Snowy Night Christmas Sofa
+  price: $19 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680e8cdff3d624b27a7e08e1/s_680e8ce17ac629b175207dfa.jpeg
+  url: https://poshmark.com/listing/VTG-Snowman-Feather-Friends-Square-Printed-Pillow-Snowy-Night-Christmas-Sofa-680e8cdff3d624b27a7e08e1
+  platform: poshmark
+  search_term: sofa
+
+Result 72:
+  title: Pottery Barn Polar Bear on Sleigh Lumbar Embroidered Sofa Toss Pillow Cover
+  price: $42
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/11/67f8fb3b14d7a65a33ae7d26/s_67f8fb3be9c77df70944c27b.jpeg
+  url: https://poshmark.com/listing/Pottery-Barn-Polar-Bear-on-Sleigh-Lumbar-Embroidered-Sofa-Toss-Pillow-Cover-67f8fb3b14d7a65a33ae7d26
+  platform: poshmark
+  search_term: sofa
+
+Result 73:
+  title: NWT SureFit Denim Sofa Slipcover Dark Indigo Sure Fit 74-96" Preppy Classic
+  price: $54
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/13/67fbff8bc24a6da83bc8d722/s_67fc003f3509d1897efa1de8.jpg
+  url: https://poshmark.com/listing/NWT-SureFit-Denim-Sofa-Slipcover-Dark-Indigo-Sure-Fit-7496-Preppy-Classic-67fbff8bc24a6da83bc8d722
+  platform: poshmark
+  search_term: sofa
+
+Result 74:
+  title: The House Of Miniatures NO. 40015 Chippendale Sofa/Circa 1750-1790 NEW!
+  price: $15
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/26/683511d46da06e35b29c45f2/s_683511d5bd4ce33be66157e2.jpg
+  url: https://poshmark.com/listing/The-House-Of-Miniatures-NO-40015-Chippendale-SofaCirca-17501790-NEW-683511d46da06e35b29c45f2
+  platform: poshmark
+  search_term: sofa
+
+Result 75:
+  title: PureFit Super Stretch Chair Sofa Slipcover
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/09/22/66f0caffcf86b1925fd0aa68/s_66f0cb0de825d160c9e9b2d2.jpg
+  url: https://poshmark.com/listing/PureFit-Super-Stretch-Chair-Sofa-Slipcover-66f0caffcf86b1925fd0aa68
+  platform: poshmark
+  search_term: sofa
+
+Result 76:
+  title: Fall sofa throw cover 50”x40”
+  price: $5
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/07/23/66a049e1d253f16b9030e502/s_66a049f5dc327d51f952e86b.jpg
+  url: https://poshmark.com/listing/Fall-sofa-throw-cover-50x40-66a049e1d253f16b9030e502
+  platform: poshmark
+  search_term: sofa
+
+Result 77:
+  title: Blue Quilted Sofa Cover NEW
+  price: $29 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/20/682cf7f405deb3d6880fd6af/s_682cf854006e43770eb9a9d8.jpg
+  url: https://poshmark.com/listing/Blue-Quilted-Sofa-Cover-NEW-682cf7f405deb3d6880fd6af
+  platform: poshmark
+  search_term: sofa
+
+Result 78:
+  title: Vtg Crochet Retro Afghan Sofa Blanket Orange Yellow Green Citrus Dotty 39"x48"
+  price: $55
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/03/07/65eab22db3ef62f5c6228e6a/s_65eab22f932a8a9845dc53bb.jpeg
+  url: https://poshmark.com/listing/Vtg-Crochet-Retro-Afghan-Sofa-Blanket-Orange-Yellow-Green-Citrus-Dotty-39x48-65eab22db3ef62f5c6228e6a
+  platform: poshmark
+  search_term: sofa
+
+Result 79:
+  title: Houndstooth Convertible Sofa Replacement Cover
+  price: $99 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2019/08/29/5d6847cd2e7c2fa9431ccb84/s_5d6847e92e7c2f27ec1ccbf3.jpg
+  url: https://poshmark.com/listing/Houndstooth-Convertible-Sofa-Replacement-Cover-5d6847cd2e7c2fa9431ccb84
+  platform: poshmark
+  search_term: sofa
+
+Result 80:
+  title: Embroidered Pillow Covers 3 Cats Cartoon Style Apprx 17x17 Sofa
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/01/683c9a51a0dc2bfb85f6f7fe/s_683c9a6ca0dc2b6073f6f91b.jpg
+  url: https://poshmark.com/listing/Embroidered-Pillow-Covers-3-Cats-Cartoon-Style-Apprx-17x17-Sofa-683c9a51a0dc2bfb85f6f7fe
+  platform: poshmark
+  search_term: sofa
+
+Result 81:
+  title: Black Sectional Sofa Cover
+  price: $22
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/20/68059573b7f0ac78a68b284e/s_6805957c21b8012023392717.jpg
+  url: https://poshmark.com/listing/Black-Sectional-Sofa-Cover-68059573b7f0ac78a68b284e
+  platform: poshmark
+  search_term: sofa
+
+Result 82:
+  title: Meistar Home Sofa Arm Tray Table Phone Holder Convenience Protects Sofa EUC
+  price: $20
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/12/68228e4f24d2e7fee3331a5b/s_68228e6a2981af2acc1ec6f8.jpg
+  url: https://poshmark.com/listing/Meistar-Home-Sofa-Arm-Tray-Table-Phone-Holder-Convenience-Protects-Sofa-EUC-68228e4f24d2e7fee3331a5b
+  platform: poshmark
+  search_term: sofa
+
+Result 83:
+  title: Pure Fit black L Shape Sofa Cover. New
+  price: $48 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/02/14/67b042b5dc8a4e01f435045c/s_67b042b607ac55d08678b068.jpg
+  url: https://poshmark.com/listing/Pure-Fit-black-L-Shape-Sofa-Cover-New-67b042b5dc8a4e01f435045c
+  platform: poshmark
+  search_term: sofa
+
+Result 84:
+  title: NWT Elastic 1 SEAT Sofa Cover Stretch Tight Chair Cover 90-140cm Feather Design
+  price: $46
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/24/680a51544a072b16e5a05694/s_680a51651986c21668d1b5d6.jpg
+  url: https://poshmark.com/listing/NWT-Elastic-1-SEAT-Sofa-Cover-Stretch-Tight-Chair-Cover-90140cm-Feather-Design-680a51544a072b16e5a05694
+  platform: poshmark
+  search_term: sofa
+
+Result 85:
+  title: Hokway Sofa Chair Cushion Covers - Small
+  price: $15
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/11/22/655e99a4c9a22881bb981af0/s_655e99bab635f8a174907ec6.jpg
+  url: https://poshmark.com/listing/Hokway-Sofa-Chair-Cushion-Covers-Small-655e99a4c9a22881bb981af0
+  platform: poshmark
+  search_term: sofa
+
+Result 86:
+  title: Outdoor Sofa Connector - Camping cot converts to loveseat Camping Chair Sofa Bed
+  price: $57 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/11/17/6739fa4b8d997742eff10bef/s_6739fa4c0c0a3f830ba45200.jpeg
+  url: https://poshmark.com/listing/Outdoor-Sofa-Connector-Camping-cot-converts-to-loveseat-Camping-Chair-Sofa-Bed-6739fa4b8d997742eff10bef
+  platform: poshmark
+  search_term: sofa
+
+Result 87:
+  title: Do4u zippered decorative sofa 18x18 pillow cover
+  price: $12
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/15/6825934d3fd8e7010f2f89a8/s_68259357310f1c5bbf256860.jpg
+  url: https://poshmark.com/listing/Do4u-zippered-decorative-sofa-18x18-pillow-cover-6825934d3fd8e7010f2f89a8
+  platform: poshmark
+  search_term: sofa
+
+Result 88:
+  title: Adorable sofa or chair cushion
+  price: $55 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680ea966d50746c896e6f0cf/s_680ea96b9b21582a3e8a9b9b.jpeg
+  url: https://poshmark.com/listing/Adorable-sofa-or-chair-cushion-680ea966d50746c896e6f0cf
+  platform: poshmark
+  search_term: sofa
+
+Result 89:
+  title: AIR SOFA for camping - Pool - Beach NEW - Black
+  price: $20 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2023/08/10/64d535f564164a355d71d51e/s_64d535f5dbb0e713a328bb14.jpeg
+  url: https://poshmark.com/listing/AIR-SOFA-for-camping-Pool-Beach-NEW-Black-64d535f564164a355d71d51e
+  platform: poshmark
+  search_term: sofa
+
+Result 90:
+  title: STONE CRITTERS Vintage Red Miniature Sofa
+  price: $50
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/15/67fede41d7555d8fec7ff74d/s_67fede55fe4c68c901ff9b3a.jpg
+  url: https://poshmark.com/listing/STONE-CRITTERS-Vintage-Red-Miniature-Sofa-67fede41d7555d8fec7ff74d
+  platform: poshmark
+  search_term: sofa
+
+Result 91:
+  title: New two seat sofa cover gorgeous mod print
+  price: $29 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/05/15/6644df7eb9db3a955e17dde3/s_6644e1efce7065f1cc4b85cf.jpg
+  url: https://poshmark.com/listing/New-two-seat-sofa-cover-gorgeous-mod-print-6644df7eb9db3a955e17dde3
+  platform: poshmark
+  search_term: sofa
+
+Result 92:
+  title: Sofa or bed cover new
+  price: $50 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/01/12/67840820ce706523d5835a45/s_67840820ce706523d5835a46.jpg
+  url: https://poshmark.com/listing/Sofa-or-bed-cover-new-67840820ce706523d5835a45
+  platform: poshmark
+  search_term: sofa
+
+Result 93:
+  title: Sofa or bed cover new
+  price: $50 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/02/17/67b34ec3b9db3a8e4d3b4881/s_67b34ec3b9db3a8e4d3b4882.jpg
+  url: https://poshmark.com/listing/Sofa-or-bed-cover-new-67b34ec3b9db3a8e4d3b4881
+  platform: poshmark
+  search_term: sofa
+
+Result 94:
+  title: 3-pieces sofa cover
+  price: $70 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/05/14/6824a7872326c86a73a8141a/s_6824a7872326c86a73a8141b.jpg
+  url: https://poshmark.com/listing/3pieces-sofa-cover-6824a7872326c86a73a8141a
+  platform: poshmark
+  search_term: sofa
+
+Result 95:
+  title: PureFit Carmel Sofa Slipcover
+  price: $38
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/08/6845761ebedd34029a8025ed/s_6845761ebedd34029a8025ee.jpg
+  url: https://poshmark.com/listing/PureFit-Carmel-Sofa-Slipcover-6845761ebedd34029a8025ed
+  platform: poshmark
+  search_term: sofa
+
+Result 96:
+  title: Hokway 7 Pieces Sofa Slipcover Sets Couch Cover Sets Chenille Sofa Covers **GRAY
+  price: $48
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/14/67fde0e1134ddbf9c4cfcfec/s_67fde0e1134ddbf9c4cfcfed.jpeg
+  url: https://poshmark.com/listing/Hokway-7-Pieces-Sofa-Slipcover-Sets-Couch-Cover-Sets-Chenille-Sofa-Covers-GRAY-67fde0e1134ddbf9c4cfcfec
+  platform: poshmark
+  search_term: sofa
+
+-----------------------------
+
+
+=== Testing poshmark with keyword: 'ring' ===
+Found 96 results for 'ring' on poshmark.
+
+Result 1:
+  title: 
+  price: 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/06/08/6664f741dc8a4e4b315a64b4/s_6664f74b580123268e9f092b.jpg
+  url: https://poshmark.com/listing/Ring-6664f741dc8a4e4b315a64b4
+  platform: poshmark
+  search_term: ring
+
+Result 2:
+  title: 925 Sterling Silver Ring Matte Ring Chunky Ring Wide Ring Band Textured Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/25/680ba54972f45f527c6488c7/s_680ba54a4a072b1bd2ab5d59.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Ring-Matte-Ring-Chunky-Ring-Wide-Ring-Band-Textured-Ring-680ba54972f45f527c6488c7
+  platform: poshmark
+  search_term: ring
+
+Result 3:
+  title: Gold Ring
+  price: $8
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/68125594d47be52f3104635f/s_6812559821b80170e7ecfea1.jpeg
+  url: https://poshmark.com/listing/Gold-Ring-68125594d47be52f3104635f
+  platform: poshmark
+  search_term: ring
+
+Result 4:
+  title: 925 Sterling Silver Wave Ring Stackable Ring Band Dainty Ring Minimalist Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/20/680553f43eddeb2c52b6c386/s_680553f59b2158d14adeebdf.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Wave-Ring-Stackable-Ring-Band-Dainty-Ring-Minimalist-Ring-680553f43eddeb2c52b6c386
+  platform: poshmark
+  search_term: ring
+
+Result 5:
+  title: 925 Sterling Silver Minimalist Ring Modern Ring Knot Ring Geometric Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/6807f8a78e40fd361c9d7452/s_6807f8a9001542ea19c49bb7.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Minimalist-Ring-Modern-Ring-Knot-Ring-Geometric-Ring-6807f8a78e40fd361c9d7452
+  platform: poshmark
+  search_term: ring
+
+Result 6:
+  title: Silver Ring
+  price: $70
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/03/683f902dd6ab5d52e0291f8f/s_683f90302c9e441811116a1f.jpeg
+  url: https://poshmark.com/listing/Silver-Ring-683f902dd6ab5d52e0291f8f
+  platform: poshmark
+  search_term: ring
+
+Result 7:
+  title: Bunny Ring
+  price: $10 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/68123ab0b2780c527865475f/s_68123ab4bd4ce3275d49199b.jpeg
+  url: https://poshmark.com/listing/Bunny-Ring-68123ab0b2780c527865475f
+  platform: poshmark
+  search_term: ring
+
+Result 8:
+  title: 925 Sterling Silver Chunky Ring Statement Ring Pearl Ring Pearl Flower Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/20/6805a3eb64164aaa1c0f5bcf/s_6805a3eb64164aaa1c0f5bd0.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Chunky-Ring-Statement-Ring-Pearl-Ring-Pearl-Flower-Ring-6805a3eb64164aaa1c0f5bcf
+  platform: poshmark
+  search_term: ring
+
+Result 9:
+  title: 925 Sterling Silver Chunky Ring Cutout Ring Minimalist Ring Dainty Ring Band
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/6807d86a948ffe397a824b1b/s_6807d86d24b20bede086eb4a.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Chunky-Ring-Cutout-Ring-Minimalist-Ring-Dainty-Ring-Band-6807d86a948ffe397a824b1b
+  platform: poshmark
+  search_term: ring
+
+Result 10:
+  title: PANDORA Ring Knotted Heart Ring
+  price: $100 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/68116b16b591ed9e8c674bcd/s_68116b1788849a1d6a5046c0.jpeg
+  url: https://poshmark.com/listing/PANDORA-Ring-Knotted-Heart-Ring-68116b16b591ed9e8c674bcd
+  platform: poshmark
+  search_term: ring
+
+Result 11:
+  title: 925 Sterling Silver Cross Bow Ring Arrow Ring Wide Ring Band Chunky Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/23/6809488b32b786275d39ec65/s_6809488d88849ad9a207d5e3.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Cross-Bow-Ring-Arrow-Ring-Wide-Ring-Band-Chunky-Ring-6809488b32b786275d39ec65
+  platform: poshmark
+  search_term: ring
+
+Result 12:
+  title: Love Ring 14k Gold Plated Ring Size 7 Ring for Women Girls Eternity Ring Gift
+  price: $33
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/06/04/6840b56de2ac0c0e82ecda8a/s_6840b571e9c77da1e08f2646.jpeg
+  url: https://poshmark.com/listing/Love-Ring-14k-Gold-Plated-Ring-Size-7-Ring-for-Women-Girls-Eternity-Ring-Gift-6840b56de2ac0c0e82ecda8a
+  platform: poshmark
+  search_term: ring
+
+Result 13:
+  title: Ring
+  price: $4 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/06/08/6664f9ad1df6366f14d22af4/s_6664f9b99d05c4473816328e.jpg
+  url: https://poshmark.com/listing/Ring-6664f9ad1df6366f14d22af4
+  platform: poshmark
+  search_term: ring
+
+Result 14:
+  title: Ring  
+  price: $35 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/21/68065237538beb0f6fc5e71d/s_680652399b21582bbce65296.jpeg
+  url: https://poshmark.com/listing/Ring-68065237538beb0f6fc5e71d
+  platform: poshmark
+  search_term: ring
+
+Result 15:
+  title: 925 Sterling Silver Chunky Ring Textured Ring Band Minimalist Ring Foil Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/68087b6964164a9979e691dc/s_68087b6b49e17b84920874ec.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Chunky-Ring-Textured-Ring-Band-Minimalist-Ring-Foil-Ring-68087b6964164a9979e691dc
+  platform: poshmark
+  search_term: ring
+
+Result 16:
+  title: Ring
+  price: $4 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/06/08/6664fa6f1df636c768d230ec/s_6664fa76a2c69e2617397d42.jpg
+  url: https://poshmark.com/listing/Ring-6664fa6f1df636c768d230ec
+  platform: poshmark
+  search_term: ring
+
+Result 17:
+  title: ❤️Ring Ring Ring 925 Sterling Silver Gift
+  price: $53 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/01/15/65a58e82c24a6d976c26ec1c/s_65a59b801741be526e22ed9c.jpeg
+  url: https://poshmark.com/listing/Ring-Ring-Ring-925-Sterling-Silver-Gift-65a58e82c24a6d976c26ec1c
+  platform: poshmark
+  search_term: ring
+
+Result 18:
+  title: 925 Sterling Silver Vintage Ring Thumb Ring Pinky Ring Oval Geometric Open Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/30/6812dce98fa20709c9a52db7/s_6812dcebc71ba19aabca8088.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Vintage-Ring-Thumb-Ring-Pinky-Ring-Oval-Geometric-Open-Ring-6812dce98fa20709c9a52db7
+  platform: poshmark
+  search_term: ring
+
+Result 19:
+  title: Wave Ring
+  price: $18
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680ec7055bb1ee77684dde6b/s_680ec7065df8e7c89f65f9a7.jpeg
+  url: https://poshmark.com/listing/Wave-Ring-680ec7055bb1ee77684dde6b
+  platform: poshmark
+  search_term: ring
+
+Result 20:
+  title: 14k Gold Bow Shank Ring / Toe Ring
+  price: $212
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2022/06/13/62a7c900c693bd5ba79facba/s_62a7c91b4fd23a8854ac590e.jpg
+  url: https://poshmark.com/listing/14k-Gold-Bow-Shank-Ring-Toe-Ring-62a7c900c693bd5ba79facba
+  platform: poshmark
+  search_term: ring
+
+Result 21:
+  title: 925 Sterling Silver Lace Ring Dainty Ring Band Delicate Ring Lacey Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/6807b671f8ede7b71aab5516/s_6807b6722fa05426ee73ae9e.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Lace-Ring-Dainty-Ring-Band-Delicate-Ring-Lacey-Ring-6807b671f8ede7b71aab5516
+  platform: poshmark
+  search_term: ring
+
+Result 22:
+  title: Ring
+  price: $4 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2024/06/08/6664f92f693ff71653cedc0b/s_6664f9386af575b67bc1a166.jpg
+  url: https://poshmark.com/listing/Ring-6664f92f693ff71653cedc0b
+  platform: poshmark
+  search_term: ring
+
+Result 23:
+  title: 925 Sterling Silver Seashell Ring Shell Ring Dainty Minimalist Ring Beach Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/68087d5acd201b89ccf6773d/s_68087d5cc4e7b426a38f781b.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Seashell-Ring-Shell-Ring-Dainty-Minimalist-Ring-Beach-Ring-68087d5acd201b89ccf6773d
+  platform: poshmark
+  search_term: ring
+
+Result 24:
+  title: 925 Sterling Silver Textured Ring Band Thin Ring Minimalist Ring Foil Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/681139a5981d486925f5cd24/s_681139a77ac6299a2ef59ea3.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Textured-Ring-Band-Thin-Ring-Minimalist-Ring-Foil-Ring-681139a5981d486925f5cd24
+  platform: poshmark
+  search_term: ring
+
+Result 25:
+  title: 925 Sterling Silver Dainty Bar Ring Black Bar Ring Link Ring Minimalist Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/23/680929a48e40fddb30367cb6/s_680929a69b2158b5025b0f92.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Dainty-Bar-Ring-Black-Bar-Ring-Link-Ring-Minimalist-Ring-680929a48e40fddb30367cb6
+  platform: poshmark
+  search_term: ring
+
+Result 26:
+  title: 925 Sterling Silver Bead Ring Ball Ring Minimalist Ring Stackable Ring Band
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/27/680e5750bbfbeade78c90bd9/s_680e5752bdcb0461d91e70f1.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Bead-Ring-Ball-Ring-Minimalist-Ring-Stackable-Ring-Band-680e5750bbfbeade78c90bd9
+  platform: poshmark
+  search_term: ring
+
+Result 27:
+  title: 925 Silver Checkered Ring Square Signet Ring Heart Ring Black and White Ring
+  price: $38
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/21/6806abb8963c42c9993fa4d9/s_6806abba9936d6005cec9401.jpeg
+  url: https://poshmark.com/listing/925-Silver-Checkered-Ring-Square-Signet-Ring-Heart-Ring-Black-and-White-Ring-6806abb8963c42c9993fa4d9
+  platform: poshmark
+  search_term: ring
+
+Result 28:
+  title: Wrap Ring
+  price: $18 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/03/27/67e57c532981afd71abc51fb/s_67e57c532981afd71abc51fc.jpg
+  url: https://poshmark.com/listing/Wrap-Ring-67e57c532981afd71abc51fb
+  platform: poshmark
+  search_term: ring
+
+Result 29:
+  title: 925 Sterling Silver Black Circle Ring Chunky Ring Oval Ring Thick Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/20/6805237e8d99771752aeb135/s_680523802981af6f4f400a3d.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Black-Circle-Ring-Chunky-Ring-Oval-Ring-Thick-Ring-6805237e8d99771752aeb135
+  platform: poshmark
+  search_term: ring
+
+Result 30:
+  title: 925 Sterling Silver Flower Ring Geometric Ring Chunky Ring Leaf Ring
+  price: $35
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/22/68086e36b3ef62d9de5d8f02/s_68086e3824d2e71e78838784.jpeg
+  url: https://poshmark.com/listing/925-Sterling-Silver-Flower-Ring-Geometric-Ring-Chunky-Ring-Leaf-Ring-68086e36b3ef62d9de5d8f02
+  platform: poshmark
+  search_term: ring
+
+Result 31:
+  title: Chunky Ring
+  price: $18

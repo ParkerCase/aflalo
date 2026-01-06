@@ -1,0 +1,58 @@
+{
+  "name": "signature-analysis",
+  "version": "1.0.0",
+  "description": "Advanced image signature generation and analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "test:integration": "jest --config jest.integration.config.js",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "tsc",
+    "optimize": "node scripts/optimize.js",
+    "memory-test": "node scripts/memory-test.js",
+    "benchmark": "node scripts/benchmark.js",
+    "coverage": "jest --coverage",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "lodash": "^4.17.21",
+    "lru-cache": "^8.0.5",
+    "mathjs": "^11.8.0",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm run test:integration"
+    }
+  }
+}

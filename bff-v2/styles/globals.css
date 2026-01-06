@@ -1,0 +1,477 @@
+/* Modern 2025 Premium Cannabis AI Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Cannabis Green Palette */
+  --cannabis-50: #f0fdf4;
+  --cannabis-100: #dcfce7;
+  --cannabis-200: #bbf7d0;
+  --cannabis-300: #86efac;
+  --cannabis-400: #4ade80;
+  --cannabis-500: #22c55e;
+  --cannabis-600: #16a34a;
+  --cannabis-700: #15803d;
+  --cannabis-800: #166534;
+  --cannabis-900: #14532d;
+  --cannabis-950: #052e16;
+  
+  /* Dark Theme */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #2a2a2a;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-hover: rgba(255, 255, 255, 0.06);
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  
+  /* Shadows & Glows */
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --shadow-glass-hover: 0 12px 40px rgba(0, 0, 0, 0.4);
+  --glow-cannabis: 0 0 20px rgba(34, 197, 94, 0.3);
+  --glow-cannabis-strong: 0 0 40px rgba(34, 197, 94, 0.5);
+}
+
+/* Base Styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(34, 197, 94, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(20, 83, 45, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 50% 100%, rgba(34, 197, 94, 0.08) 0%, transparent 70%),
+    linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism Components */
+.glass-premium {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-premium:hover {
+  background: var(--glass-hover);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: var(--shadow-glass-hover);
+  transform: translateY(-2px);
+}
+
+.glass-cannabis {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: linear-gradient(135deg, 
+    rgba(34, 197, 94, 0.15) 0%, 
+    rgba(20, 83, 45, 0.1) 100%
+  );
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  box-shadow: 
+    var(--shadow-glass),
+    inset 0 1px 0 rgba(34, 197, 94, 0.1),
+    var(--glow-cannabis);
+}
+
+/* Buttons */
+.btn-premium {
+  background: linear-gradient(135deg, var(--cannabis-500) 0%, var(--cannabis-600) 100%);
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 4px 15px rgba(34, 197, 94, 0.25),
+    0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  min-height: 44px; /* Mobile touch target */
+}
+
+.btn-premium:hover {
+  background: linear-gradient(135deg, var(--cannabis-400) 0%, var(--cannabis-500) 100%);
+  box-shadow: 
+    0 6px 20px rgba(34, 197, 94, 0.4),
+    0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.btn-premium:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 2px 8px rgba(34, 197, 94, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-premium:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.1);
+}
+
+.btn-premium-outline {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  color: var(--cannabis-400);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  min-height: 44px;
+}
+
+.btn-premium-outline:hover {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: var(--cannabis-400);
+  box-shadow: var(--glow-cannabis);
+  transform: translateY(-2px);
+}
+
+/* Input Fields */
+.input-premium {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 12px;
+  padding: 16px 20px;
+  color: var(--text-primary);
+  font-size: 16px; /* Prevents zoom on iOS */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  width: 100%;
+  min-height: 52px; /* Mobile friendly */
+}
+
+.input-premium::placeholder {
+  color: var(--text-muted);
+}
+
+.input-premium:focus {
+  border-color: rgba(34, 197, 94, 0.6);
+  box-shadow: 
+    0 0 0 4px rgba(34, 197, 94, 0.2),
+    var(--glow-cannabis);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Text Styling */
+.text-gradient {
+  background: linear-gradient(135deg, var(--cannabis-400) 0%, var(--cannabis-600) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* Cannabis Glow Animation */
+.cannabis-pulse {
+  animation: cannabis-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes cannabis-glow {
+  from {
+    box-shadow: var(--glow-cannabis);
+  }
+  to {
+    box-shadow: var(--glow-cannabis-strong);
+  }
+}
+
+/* Premium Card */
+.card-premium {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--shadow-glass);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-glass-hover);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Chat Message Styling */
+.message-user {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  padding: 16px 20px;
+  border-radius: 20px 20px 4px 20px;
+  max-width: 80%;
+  margin-left: auto;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.message-assistant {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-left: 4px solid var(--cannabis-400);
+  color: var(--text-primary);
+  padding: 16px 20px;
+  border-radius: 20px 20px 20px 4px;
+  max-width: 80%;
+  box-shadow: var(--shadow-glass);
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.avatar-user {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+}
+
+.avatar-assistant {
+  background: linear-gradient(135deg, var(--cannabis-500) 0%, var(--cannabis-600) 100%);
+  color: white;
+}
+
+/* Loading Animation */
+.loading-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.loading-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--cannabis-400);
+  border-radius: 50%;
+  animation: loading-bounce 1.4s ease-in-out infinite both;
+}
+
+.loading-dot:nth-child(1) { animation-delay: -0.32s; }
+.loading-dot:nth-child(2) { animation-delay: -0.16s; }
+.loading-dot:nth-child(3) { animation-delay: 0s; }
+
+@keyframes loading-bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .card-premium {
+    padding: 20px;
+    border-radius: 16px;
+  }
+  
+  .btn-premium, .btn-premium-outline {
+    padding: 14px 20px;
+    font-size: 16px;
+    min-height: 48px;
+  }
+  
+  .input-premium {
+    padding: 16px;
+    font-size: 16px;
+    min-height: 52px;
+  }
+  
+  .message-user, .message-assistant {
+    max-width: 90%;
+    padding: 14px 16px;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .card-premium {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  
+  .btn-premium, .btn-premium-outline {
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  
+  .input-premium {
+    padding: 12px 16px;
+    border-radius: 10px;
+  }
+  
+  .message-user, .message-assistant {
+    padding: 12px 14px;
+    border-radius: 16px 16px 4px 16px;
+  }
+  
+  .message-assistant {
+    border-radius: 16px 16px 16px 4px;
+  }
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-1 { flex: 1; }
+.flex-shrink-0 { flex-shrink: 0; }
+
+.gap-1 { gap: 4px; }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
+.gap-4 { gap: 16px; }
+.gap-6 { gap: 24px; }
+.gap-8 { gap: 32px; }
+
+.space-y-4 > * + * { margin-top: 16px; }
+.space-y-6 > * + * { margin-top: 24px; }
+
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.min-h-screen { min-height: 100vh; }
+
+.max-w-md { max-width: 448px; }
+.max-w-2xl { max-width: 672px; }
+.max-w-4xl { max-width: 896px; }
+.max-w-7xl { max-width: 1280px; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.p-4 { padding: 16px; }
+.p-6 { padding: 24px; }
+.px-4 { padding-left: 16px; padding-right: 16px; }
+.px-6 { padding-left: 24px; padding-right: 24px; }
+.py-4 { padding-top: 16px; padding-bottom: 16px; }
+.py-6 { padding-top: 24px; padding-bottom: 24px; }
+.py-8 { padding-top: 32px; padding-bottom: 32px; }
+.py-12 { padding-top: 48px; padding-bottom: 48px; }
+
+.mb-8 { margin-bottom: 32px; }
+.mb-12 { margin-bottom: 48px; }
+.mb-20 { margin-bottom: 80px; }
+
+.border-t { border-top: 1px solid var(--glass-border); }
+.border-b { border-bottom: 1px solid var(--glass-border); }
+
+.rounded-xl { border-radius: 12px; }
+.rounded-2xl { border-radius: 16px; }
+.rounded-full { border-radius: 50%; }
+
+.overflow-hidden { overflow: hidden; }
+.overflow-y-auto { overflow-y: auto; }
+
+.max-h-96 { max-height: 384px; }
+
+/* Text Colors */
+.text-white { color: var(--text-primary); }
+.text-gray-300 { color: var(--text-secondary); }
+.text-gray-400 { color: var(--text-muted); }
+
+/* Font Sizes */
+.text-sm { font-size: 14px; }
+.text-lg { font-size: 18px; }
+.text-xl { font-size: 20px; }
+.text-2xl { font-size: 24px; }
+.text-4xl { font-size: 36px; }
+
+/* Font Weights */
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+
+/* Hover Effects */
+.hover\\:text-white:hover { color: var(--text-primary); }
+
+/* Disabled States */
+.disabled\\:opacity-50:disabled { opacity: 0.5; }
+
+/* Focus States */
+.outline-none { outline: none; }

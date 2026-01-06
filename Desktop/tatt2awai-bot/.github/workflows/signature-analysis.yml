@@ -1,0 +1,107 @@
+# .github/workflows/signature-analysis.yml
+name: Signature Analysis CI/CD
+
+on:
+  push:
+    branches: [main, master, develop]
+    paths:
+      - '**.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - '**.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libvips-dev
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install sharp@latest --save
+          npm install lodash@latest --save
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Run linting
+        run: |
+          npm install eslint --save-dev
+          npx eslint .
+
+      - name: Run tests
+        run: npm test
+        env:
+          NODE_ENV: test
+          FORCE_COLOR: true
+
+      - name: Run memory leak checks
+        run: npm run memory-test
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Build and optimize
+        run: |
+          npm run build
+          npm run optimize
+
+      - name: Run integration tests
+        run: npm run test:integration
+        env:
+          NODE_ENV: test
+
+      - name: Check for performance regressions
+        run: npm run benchmark
+
+      - name: Generate coverage report
+        run: npm run coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage/lcov.info
+          flags: unittests
+          name: codecov-umbrella
+
+  deploy:
+    needs: analyze
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy to production
+        run: |
+          echo "Add your deployment steps here"
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}

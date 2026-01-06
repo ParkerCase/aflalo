@@ -1,0 +1,217 @@
+'use client'
+
+import { useState } from 'react'
+import { useRouter } from 'next/router'
+import { Shield, AlertTriangle, Calendar, MapPin } from 'lucide-react'
+
+export default function AgeVerification() {
+  const [birthDate, setBirthDate] = useState({ month: '', day: '', year: '' })
+  const [location, setLocation] = useState('')
+  const [agreedToTerms, setAgreedToTerms] = useState(false)
+  const [isVerifying, setIsVerifying] = useState(false)
+  const [error, setError] = useState('')
+  const router = useRouter()
+
+  const handleVerification = async () => {
+    try {
+      setIsVerifying(true)
+      setError('')
+
+      // Validate age
+      const birthDateObj = new Date(
+        parseInt(birthDate.year),
+        parseInt(birthDate.month) - 1,
+        parseInt(birthDate.day)
+      )
+      
+      const today = new Date()
+      const age = today.getFullYear() - birthDateObj.getFullYear()
+      const monthDiff = today.getMonth() - birthDateObj.getMonth()
+      
+      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDateObj.getDate())) {
+        age--
+      }
+
+      if (age < 21) {
+        setError('You must be 21 or older to use this service.')
+        return
+      }
+
+      if (!agreedToTerms) {
+        setError('Please agree to the terms and conditions.')
+        return
+      }
+
+      // Log age verification
+      console.log(`[LEGAL] Age verification passed - Age: ${age}, Location: ${location}`)
+      
+      // Store verification in sessionStorage (not localStorage for security)
+      sessionStorage.setItem('bff-age-verified', 'true')
+      sessionStorage.setItem('bff-verification-time', new Date().toISOString())
+      
+      // Redirect to onboarding
+      router.push('/onboarding')
+    } catch (error) {
+      console.error('[LEGAL] Age verification error:', error)
+      setError('Invalid date. Please check your birth date.')
+    } finally {
+      setIsVerifying(false)
+    }
+  }
+
+  return (
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <div className="w-full max-w-md">
+        {/* Legal Warning */}
+        <div className="glass-premium rounded-2xl p-6 mb-6 border-2 border-red-500">
+          <div className="flex items-center gap-3 mb-4">
+            <AlertTriangle className="w-8 h-8 text-red-500" />
+            <h1 className="text-xl font-bold text-white">Age Verification Required</h1>
+          </div>
+          <p className="text-gray-300 text-sm">
+            This application provides information about cannabis products. You must be 21 or older to continue.
+          </p>
+        </div>
+
+        {/* Verification Form */}
+        <div className="glass-premium rounded-2xl p-6">
+          <div className="mb-6">
+            <div className="flex items-center gap-3 mb-4">
+              <Calendar className="w-6 h-6 text-green-500" />
+              <h2 className="text-lg font-semibold text-white">Birth Date</h2>
+            </div>
+            
+            <div className="grid grid-cols-3 gap-3">
+              <div>
+                <label className="block text-gray-300 text-sm mb-1">Month</label>
+                <select
+                  value={birthDate.month}
+                  onChange={(e) => setBirthDate(prev => ({ ...prev, month: e.target.value }))}
+                  className="input-premium w-full"
+                  required
+                >
+                  <option value="">MM</option>
+                  {Array.from({ length: 12 }, (_, i) => (
+                    <option key={i + 1} value={i + 1}>{String(i + 1).padStart(2, '0')}</option>
+                  ))}
+                </select>
+              </div>
+              
+              <div>
+                <label className="block text-gray-300 text-sm mb-1">Day</label>
+                <select
+                  value={birthDate.day}
+                  onChange={(e) => setBirthDate(prev => ({ ...prev, day: e.target.value }))}
+                  className="input-premium w-full"
+                  required
+                >
+                  <option value="">DD</option>
+                  {Array.from({ length: 31 }, (_, i) => (
+                    <option key={i + 1} value={i + 1}>{String(i + 1).padStart(2, '0')}</option>
+                  ))}
+                </select>
+              </div>
+              
+              <div>
+                <label className="block text-gray-300 text-sm mb-1">Year</label>
+                <select
+                  value={birthDate.year}
+                  onChange={(e) => setBirthDate(prev => ({ ...prev, year: e.target.value }))}
+                  className="input-premium w-full"
+                  required
+                >
+                  <option value="">YYYY</option>
+                  {Array.from({ length: 100 }, (_, i) => {
+                    const year = new Date().getFullYear() - i
+                    return <option key={year} value={year}>{year}</option>
+                  })}
+                </select>
+              </div>
+            </div>
+          </div>
+
+          {/* Location */}
+          <div className="mb-6">
+            <div className="flex items-center gap-3 mb-3">
+              <MapPin className="w-6 h-6 text-blue-500" />
+              <h2 className="text-lg font-semibold text-white">Location</h2>
+            </div>
+            <select
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+              className="input-premium w-full"
+              required
+            >
+              <option value="">Select your state/province</option>
+              <option value="WA">Washington</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="OR">Oregon</option>
+              <option value="NV">Nevada</option>
+              <option value="other">Other/Prefer not to say</option>
+            </select>
+          </div>
+
+          {/* Legal Disclaimers */}
+          <div className="mb-6">
+            <div className="bg-black bg-opacity-30 rounded-lg p-4 border border-gray-600">
+              <h3 className="font-semibold text-white mb-3">Legal Disclaimers</h3>
+              <div className="space-y-2 text-sm text-gray-300">
+                <p>• This service is for educational and informational purposes only</p>
+                <p>• Cannabis laws vary by location - follow your local regulations</p>
+                <p>• BFF is not a medical professional - consult healthcare providers for medical advice</p>
+                <p>• Do not drive or operate machinery after cannabis use</p>
+                <p>• Keep cannabis products away from children and pets</p>
+                <p>• Your data is anonymous and not linked to personal information</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Terms Agreement */}
+          <div className="mb-6">
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={agreedToTerms}
+                onChange={(e) => setAgreedToTerms(e.target.checked)}
+                className="w-5 h-5 text-green-500 bg-gray-700 border-gray-600 rounded focus:ring-green-500 focus:ring-2 mt-1"
+              />
+              <span className="text-white text-sm">
+                I confirm that I am 21 years of age or older, I understand the legal disclaimers,
+                and I agree to use this service responsibly and in compliance with my local laws.
+              </span>
+            </label>
+          </div>
+
+          {/* Error Message */}
+          {error && (
+            <div className="mb-4 p-3 bg-red-500 bg-opacity-20 border border-red-500 rounded-lg">
+              <p className="text-red-400 text-sm">{error}</p>
+            </div>
+          )}
+
+          {/* Verify Button */}
+          <button
+            onClick={handleVerification}
+            disabled={!birthDate.month || !birthDate.day || !birthDate.year || !location || !agreedToTerms || isVerifying}
+            className="w-full btn-premium py-4 text-lg font-semibold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {isVerifying ? 'Verifying...' : 'Verify Age & Continue'}
+          </button>
+
+          <p className="text-center text-xs text-gray-400 mt-4">
+            Your age verification is not stored permanently and expires when you close your browser.
+          </p>
+        </div>
+
+        {/* Privacy Notice */}
+        <div className="text-center mt-6">
+          <div className="flex items-center justify-center gap-2 text-gray-400 text-sm">
+            <Shield className="w-4 h-4" />
+            <span>Your privacy is protected. No personal data is stored.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

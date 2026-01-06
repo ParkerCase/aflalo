@@ -1,0 +1,22 @@
+{
+  "name": "alexa-journal-pwa",
+  "version": "1.0.0",
+  "description": "A beautiful Progressive Web App for journaling with AI feedback",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed - static files'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "pwa",
+    "journaling",
+    "openai",
+    "progressive-web-app"
+  ],
+  "author": "Chaz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
+

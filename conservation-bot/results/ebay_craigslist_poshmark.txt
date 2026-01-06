@@ -1,0 +1,41 @@
+
+=== Running ebay with keyword: 'ring' ===
+Error running ebay: 'access_token'
+Saved 0 results to results/ebay_ring.json
+
+-----------------------------
+
+
+=== Running craigslist with keyword: 'ring' ===
+Error running craigslist: 'CraigslistHTMLScraper' object has no attribute 'scan'
+Saved 0 results to results/craigslist_ring.json
+
+-----------------------------
+
+
+=== Running poshmark with keyword: 'ring' ===
+Saved 96 results to results/poshmark_ring.json
+
+Result 1:
+  title: 
+  price: 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/19/68035aa2b9bd74acb029c9c0/s_68035aa42fa054a596d04a70.jpeg
+  url: https://poshmark.com/listing/Ring-68035aa2b9bd74acb029c9c0
+  platform: poshmark
+  search_term: ring
+
+Result 2:
+  title: PANDORA Ring Knotted Heart Ring
+  price: $100 
+  image: https://di2ponv0v5otw.cloudfront.net/posts/2025/04/29/68116b16b591ed9e8c674bcd/s_68116b1788849a1d6a5046c0.jpeg
+  url: https://poshmark.com/listing/PANDORA-Ring-Knotted-Heart-Ring-68116b16b591ed9e8c674bcd
+  platform: poshmark
+  search_term: ring
+
+-----------------------------
+
+
+=== SUMMARY ===
+ebay: 0 results
+craigslist: 0 results
+poshmark: 96 results
