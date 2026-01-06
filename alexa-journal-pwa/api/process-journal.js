@@ -174,10 +174,14 @@ async function handler(req, res) {
             });
         }
         
-        // Validate base64 format
+        // Validate base64 format - accept any image format (we convert on client side)
         if (!imageBase64.startsWith('data:image/')) {
             return res.status(400).json({ error: 'Invalid image format' });
         }
+        
+        // Extract the actual image data (remove data:image/xxx;base64, prefix)
+        // OpenAI Vision API accepts: png, jpeg, gif, webp
+        // Client-side conversion ensures we send JPEG
         
         // Process with OpenAI
         const reflection = await callOpenAIWithRetry(imageBase64);

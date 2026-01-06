@@ -420,6 +420,18 @@ function showWelcomeScreen() {
 }
 
 function showPromptScreen() {
+    // For testing: Reset date check on each deployment
+    // This allows testing without waiting for the next day
+    const deploymentKey = 'journal-deployment-v1';
+    const lastReset = localStorage.getItem(deploymentKey);
+    const now = Date.now();
+    
+    // Reset if more than 1 hour has passed (for testing) or if it's a new session
+    if (!lastReset || (now - parseInt(lastReset)) > 3600000) {
+        state.lastEntryDate = null;
+        localStorage.setItem(deploymentKey, now.toString());
+    }
+    
     // Check if already completed today
     const today = new Date().toDateString();
     if (state.lastEntryDate === today) {
@@ -487,21 +499,68 @@ function generatePrompt() {
     document.getElementById('prompt-text').textContent = randomPrompt.text;
 }
 
+// Convert image to supported format (handles HEIC from iPhone)
+async function convertImageToJpeg(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            const img = new Image();
+            img.onload = () => {
+                // Create canvas and convert to JPEG
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+                
+                // Convert to blob as JPEG
+                canvas.toBlob((blob) => {
+                    if (blob) {
+                        // Create a new File object with JPEG extension
+                        const jpegFile = new File([blob], file.name.replace(/\.[^/.]+$/, '.jpg'), {
+                            type: 'image/jpeg',
+                            lastModified: Date.now()
+                        });
+                        resolve(jpegFile);
+                    } else {
+                        reject(new Error('Failed to convert image'));
+                    }
+                }, 'image/jpeg', 0.95); // 95% quality
+            };
+            img.onerror = () => reject(new Error('Failed to load image'));
+            img.src = e.target.result;
+        };
+        reader.onerror = () => reject(new Error('Failed to read file'));
+        reader.readAsDataURL(file);
+    });
+}
+
 // Handle Photo Upload
 async function handlePhotoUpload(e) {
     const file = e.target.files[0];
     if (!file) return;
     
+    try {
+        // Convert HEIC/other formats to JPEG for compatibility
+        let processedFile = file;
+        const fileType = file.type.toLowerCase();
+        
+        // If it's not a standard web format, convert it
+        if (!fileType.match(/^image\/(jpeg|jpg|png|gif|webp)$/)) {
+            console.log('Converting image format from', fileType, 'to JPEG');
+            processedFile = await convertImageToJpeg(file);
+        }
+    
     // Check if photo is different from previous ones
-    const hash = await generateImageHash(file);
+        const hash = await generateImageHash(processedFile);
     
     if (state.previousPhotoHashes.includes(hash)) {
-        alert('Please use a different photo! Each entry should have a unique photo of your journal page.');
+            alert('Please use a different photo! Each entry should have a unique photo of your journal page.');
         e.target.value = '';
         return;
     }
     
-    state.currentPhoto = file;
+        state.currentPhoto = processedFile;
     state.currentPhotoHash = hash;
     
     // Preview
@@ -510,17 +569,23 @@ async function handlePhotoUpload(e) {
         const preview = document.getElementById('photo-preview');
         preview.innerHTML = `<img src="${e.target.result}" alt="Journal entry">`;
     };
-    reader.readAsDataURL(file);
+        reader.readAsDataURL(processedFile);
     
     // Enable complete button
     document.getElementById('complete-entry-btn').disabled = false;
     
-    // Show AI feedback section (always available now)
+        // Show AI feedback section (always available now)
         document.querySelector('.ai-feedback-section').style.display = 'block';
-    
-    // Hide the result div initially (only show when there's content)
-    document.getElementById('ai-feedback-result').style.display = 'none';
-    document.getElementById('ai-feedback-result').innerHTML = '';
+        
+        // Hide the result div initially (only show when there's content)
+        const feedbackResult = document.getElementById('ai-feedback-result');
+        feedbackResult.style.display = 'none';
+        feedbackResult.innerHTML = '';
+    } catch (error) {
+        console.error('Error processing photo:', error);
+        alert('Error processing photo. Please try again with a different image.');
+        e.target.value = '';
+    }
 }
 
 // Generate simple image hash
