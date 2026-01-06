@@ -613,8 +613,27 @@ async function processAIFeedback() {
     feedbackDiv.innerHTML = '<p style="color: var(--text-medium);"><em>Processing your entry...</em></p>';
     
     try {
-        // Convert image to base64
-        const imageBase64 = await fileToBase64(state.currentPhoto);
+        // Convert image to base64 - ensure it's JPEG format
+        let imageBase64 = await fileToBase64(state.currentPhoto);
+        
+        // If the image isn't already JPEG, convert it
+        if (!imageBase64.startsWith('data:image/jpeg') && !imageBase64.startsWith('data:image/jpg')) {
+            // Convert to JPEG using canvas
+            const img = new Image();
+            await new Promise((resolve, reject) => {
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    imageBase64 = canvas.toDataURL('image/jpeg', 0.95);
+                    resolve();
+                };
+                img.onerror = reject;
+                img.src = imageBase64;
+            });
+        }
         
         // Get API endpoint (works in both dev and production)
         const apiUrl = window.location.origin + '/api/process-journal';
