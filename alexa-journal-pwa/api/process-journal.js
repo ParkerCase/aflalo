@@ -36,7 +36,10 @@ function getClientIP(req) {
 async function callOpenAIWithRetry(imageBase64, retries = MAX_RETRIES) {
     const apiKey = process.env.OPEN_AI_API || process.env.OPENAI_API_KEY;
     
+    console.log('Checking API key...', apiKey ? 'Key found (length: ' + apiKey.length + ')' : 'KEY MISSING!');
+    
     if (!apiKey) {
+        console.error('OpenAI API key not configured!');
         throw new Error('OpenAI API key not configured. Please set OPEN_AI_API environment variable.');
     }
     
@@ -205,8 +208,17 @@ async function handler(req, res) {
         
         // Process with OpenAI
         console.log('Calling OpenAI API with image (size:', imageBase64.length, 'chars)');
-        const reflection = await callOpenAIWithRetry(imageBase64);
-        console.log('OpenAI returned reflection, length:', reflection ? reflection.length : 0);
+        console.log('Image preview (first 100 chars):', imageBase64.substring(0, 100));
+        
+        let reflection;
+        try {
+            reflection = await callOpenAIWithRetry(imageBase64);
+            console.log('OpenAI returned reflection, length:', reflection ? reflection.length : 0);
+        } catch (openAIError) {
+            console.error('OpenAI API call failed:', openAIError.message);
+            console.error('Error stack:', openAIError.stack);
+            throw openAIError; // Re-throw to be caught by outer catch
+        }
         
         if (!reflection || reflection.trim().length === 0) {
             console.error('OpenAI returned empty reflection');
@@ -215,6 +227,8 @@ async function handler(req, res) {
                 success: false
             });
         }
+        
+        console.log('Successfully processed journal entry, returning reflection');
         
         // Return success (never log the content for privacy)
         return res.status(200).json({ 
@@ -226,13 +240,15 @@ async function handler(req, res) {
         // Log error (but not journal content) for debugging
         console.error('Journal processing error:', {
             error: error.message,
+            stack: error.stack,
             timestamp: new Date().toISOString(),
             // Intentionally not logging image or content
         });
         
         // Return user-friendly error
+        const errorMessage = error.message || 'Unable to process journal entry. Please try again.';
         return res.status(500).json({ 
-            error: error.message || 'Unable to process journal entry. Please try again.',
+            error: errorMessage,
             success: false
         });
     }
