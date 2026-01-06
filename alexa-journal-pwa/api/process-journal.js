@@ -52,7 +52,7 @@ async function callOpenAIWithRetry(imageBase64, retries = MAX_RETRIES) {
                 content: [
                     {
                         type: 'text',
-                        text: 'Please read this journal entry and provide a brief, compassionate reflection. Focus on what shows growth, self-awareness, or courage. Offer gentle encouragement.'
+                        text: 'Please read this handwritten journal entry carefully. Extract all the text you can see, even if the handwriting is difficult to read. Then provide a brief, compassionate reflection (3-4 sentences) on what the person wrote. Focus on what shows growth, self-awareness, or courage. Offer gentle encouragement. If you cannot read the handwriting clearly, do your best to understand the general sentiment and provide supportive feedback based on what you can discern.'
                     },
                     {
                         type: 'image_url',
@@ -103,15 +103,26 @@ async function callOpenAIWithRetry(imageBase64, retries = MAX_RETRIES) {
             
             const data = await response.json();
             
+            console.log('OpenAI API response received, has choices:', !!data.choices);
+            
             if (data.error) {
+                console.error('OpenAI API error:', data.error);
                 throw new Error(data.error.message);
             }
             
             if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+                console.error('Unexpected OpenAI response format:', JSON.stringify(data).substring(0, 200));
                 throw new Error('Unexpected response format from OpenAI API');
             }
             
-            return data.choices[0].message.content;
+            const content = data.choices[0].message.content;
+            console.log('OpenAI returned content, length:', content ? content.length : 0);
+            
+            if (!content || content.trim().length === 0) {
+                throw new Error('OpenAI returned empty content');
+            }
+            
+            return content;
             
         } catch (error) {
             if (error.name === 'AbortError') {
@@ -193,7 +204,17 @@ async function handler(req, res) {
         }
         
         // Process with OpenAI
+        console.log('Calling OpenAI API with image (size:', imageBase64.length, 'chars)');
         const reflection = await callOpenAIWithRetry(imageBase64);
+        console.log('OpenAI returned reflection, length:', reflection ? reflection.length : 0);
+        
+        if (!reflection || reflection.trim().length === 0) {
+            console.error('OpenAI returned empty reflection');
+            return res.status(500).json({ 
+                error: 'Received empty response from AI. Please try again.',
+                success: false
+            });
+        }
         
         // Return success (never log the content for privacy)
         return res.status(200).json({ 

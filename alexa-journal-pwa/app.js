@@ -715,18 +715,36 @@ async function processAIFeedback() {
         
         console.log('API response status:', response.status);
         
-        const data = await response.json();
-        console.log('API response data:', data);
+        let data;
+        try {
+            data = await response.json();
+            console.log('API response data keys:', Object.keys(data));
+            console.log('API response has reflection:', !!data.reflection);
+            console.log('API response success:', data.success);
+        } catch (parseError) {
+            console.error('Failed to parse API response:', parseError);
+            const text = await response.text();
+            console.error('Response text:', text.substring(0, 500));
+            throw new Error('Invalid response from server. Please try again.');
+        }
         
         if (!response.ok) {
+            console.error('API error response:', data);
             throw new Error(data.error || 'Unable to process journal entry');
         }
         
-        if (!data.success || !data.reflection) {
-            throw new Error('Unexpected response from server');
+        if (!data.success) {
+            console.error('API returned success: false', data);
+            throw new Error(data.error || 'Unexpected response from server');
+        }
+        
+        if (!data.reflection || data.reflection.trim().length === 0) {
+            console.error('API returned empty reflection:', data);
+            throw new Error('Received empty reflection. Please try again.');
         }
         
         const reflection = data.reflection;
+        console.log('Displaying reflection, length:', reflection.length);
         
         feedbackDiv.innerHTML = `
             <h4>${getIcon('thought')} Reflection</h4>
