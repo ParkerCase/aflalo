@@ -874,7 +874,43 @@ async function completeEntry() {
     
     // If AI feedback was provided, include it in the success message
     if (aiReflection && aiFeedbackEnabled) {
-        successMessage = `${getIcon('thought')} <strong>Your Reflection:</strong><br><br>${aiReflection}<br><br>${successMessage}`;
+        // Clean up markdown formatting and structure the message better
+        let formattedReflection = aiReflection
+            .replace(/\*\*Extracted Text:\*\*/g, '') // Remove markdown bold
+            .replace(/\*\*Reflection:\*\*/g, '') // Remove markdown bold
+            .replace(/\*\*/g, '') // Remove any remaining bold markers
+            .trim();
+        
+        // Split into extracted text and reflection if they're separate
+        const extractedMatch = formattedReflection.match(/Extracted Text:?\s*(.+?)(?=Reflection:|$)/is);
+        const reflectionMatch = formattedReflection.match(/Reflection:?\s*(.+?)$/is);
+        
+        let reflectionHTML = '';
+        if (extractedMatch && reflectionMatch) {
+            // Has both sections
+            const extractedText = extractedMatch[1].trim();
+            const reflectionText = reflectionMatch[1].trim();
+            reflectionHTML = `
+                <div style="text-align: left; margin-bottom: 30px;">
+                    <h3 style="color: var(--pink-darker); margin-bottom: 10px; font-size: 1.1em;">Extracted Text</h3>
+                    <p style="color: var(--text-dark); font-style: italic; line-height: 1.6; padding: 15px; background: var(--pink-lighter); border-radius: 10px; border-left: 3px solid var(--pink-dark);">${extractedText}</p>
+                </div>
+                <div style="text-align: left; margin-bottom: 30px;">
+                    <h3 style="color: var(--pink-darker); margin-bottom: 10px; font-size: 1.1em;">${getIcon('thought')} Reflection</h3>
+                    <p style="color: var(--text-dark); line-height: 1.8;">${reflectionText}</p>
+                </div>
+            `;
+        } else {
+            // Just reflection text
+            reflectionHTML = `
+                <div style="text-align: left; margin-bottom: 30px;">
+                    <h3 style="color: var(--pink-darker); margin-bottom: 10px; font-size: 1.1em;">${getIcon('thought')} Reflection</h3>
+                    <p style="color: var(--text-dark); line-height: 1.8;">${formattedReflection}</p>
+                </div>
+            `;
+        }
+        
+        successMessage = `${reflectionHTML}<div style="margin-top: 20px; padding-top: 20px; border-top: 2px dashed var(--pink-light);">${successMessage}</div>`;
         useHTML = true;
     }
     
