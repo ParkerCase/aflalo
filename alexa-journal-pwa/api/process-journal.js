@@ -55,7 +55,7 @@ async function callOpenAIWithRetry(imageBase64, retries = MAX_RETRIES) {
                 content: [
                     {
                         type: 'text',
-                        text: 'Please read this handwritten journal entry carefully. Extract all the text you can see, even if the handwriting is difficult to read. Then provide a brief, compassionate reflection (3-4 sentences) on what the person wrote. Focus on what shows growth, self-awareness, or courage. Offer gentle encouragement. If you cannot read the handwriting clearly, do your best to understand the general sentiment and provide supportive feedback based on what you can discern.'
+                        text: 'Please read this handwritten journal entry carefully. Provide ONLY a brief, compassionate reflection (3-4 sentences) on what the person wrote. Focus on what shows growth, self-awareness, or courage. Offer gentle encouragement. Do NOT include the extracted text - only provide your reflection. If you cannot read the handwriting clearly, do your best to understand the general sentiment and provide supportive feedback based on what you can discern.'
                     },
                     {
                         type: 'image_url',
