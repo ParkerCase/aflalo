@@ -517,6 +517,10 @@ async function handlePhotoUpload(e) {
     
     // Show AI feedback section (always available now)
         document.querySelector('.ai-feedback-section').style.display = 'block';
+    
+    // Hide the result div initially (only show when there's content)
+    document.getElementById('ai-feedback-result').style.display = 'none';
+    document.getElementById('ai-feedback-result').innerHTML = '';
 }
 
 // Generate simple image hash
@@ -536,6 +540,11 @@ function handleAIFeedbackToggle(e) {
 // Process AI Feedback
 async function processAIFeedback() {
     const feedbackDiv = document.getElementById('ai-feedback-result');
+    const feedbackSection = document.querySelector('.ai-feedback-section');
+    
+    // Show the feedback section and display loading state
+    feedbackSection.style.display = 'block';
+    feedbackDiv.style.display = 'block';
     feedbackDiv.innerHTML = '<p style="color: var(--text-medium);"><em>Processing your entry...</em></p>';
     
     try {
@@ -544,6 +553,8 @@ async function processAIFeedback() {
         
         // Get API endpoint (works in both dev and production)
         const apiUrl = window.location.origin + '/api/process-journal';
+        
+        console.log('Calling AI feedback API:', apiUrl);
         
         // Call backend API (which securely handles OpenAI)
         const response = await fetch(apiUrl, {
@@ -556,7 +567,10 @@ async function processAIFeedback() {
             })
         });
         
+        console.log('API response status:', response.status);
+        
         const data = await response.json();
+        console.log('API response data:', data);
         
         if (!response.ok) {
             throw new Error(data.error || 'Unable to process journal entry');
@@ -572,6 +586,7 @@ async function processAIFeedback() {
             <h4>${getIcon('thought')} Reflection</h4>
             <p>${reflection}</p>
         `;
+        feedbackDiv.style.display = 'block';
     } catch (error) {
         console.error('AI feedback error:', error);
         
@@ -586,6 +601,10 @@ async function processAIFeedback() {
             errorMessage = 'Image is too large. Please use a smaller image (max 10MB).';
         } else if (error.message.includes('Invalid image')) {
             errorMessage = 'Invalid image format. Please use a valid image file.';
+        } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+            errorMessage = 'Unable to connect to server. Please check your internet connection and try again.';
+        } else if (error.message) {
+            errorMessage = `Error: ${error.message}`;
         }
         
         feedbackDiv.innerHTML = `
@@ -593,6 +612,7 @@ async function processAIFeedback() {
                 <em>${errorMessage} ${getIcon('heart')}</em>
             </p>
         `;
+        feedbackDiv.style.display = 'block';
     }
 }
 
@@ -619,8 +639,17 @@ async function completeEntry() {
     completeBtn.textContent = 'Processing...';
     
     // Process AI feedback if enabled
-    if (document.getElementById('enable-ai-feedback').checked) {
+    const aiFeedbackEnabled = document.getElementById('enable-ai-feedback').checked;
+    if (aiFeedbackEnabled) {
+        try {
         await processAIFeedback();
+        } catch (error) {
+            console.error('Error processing AI feedback:', error);
+            // Continue with entry completion even if AI feedback fails
+        }
+    } else {
+        // Hide feedback section if not enabled
+        document.querySelector('.ai-feedback-section').style.display = 'none';
     }
     
     // Update streak
@@ -679,6 +708,8 @@ async function completeEntry() {
     document.getElementById('photo-preview').innerHTML = '';
     document.getElementById('enable-ai-feedback').checked = false;
     document.getElementById('ai-feedback-result').innerHTML = '';
+    document.getElementById('ai-feedback-result').style.display = 'none';
+    document.querySelector('.ai-feedback-section').style.display = 'none';
     completeBtn.textContent = 'Complete Entry';
 }
 
