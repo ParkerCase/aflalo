@@ -1,4 +1,6 @@
 {
+  "buildCommand": "echo 'No build step needed - static files'",
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/service-worker.js",
