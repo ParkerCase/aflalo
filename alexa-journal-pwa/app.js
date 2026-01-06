@@ -627,7 +627,14 @@ async function processAIFeedback() {
                 ctx.drawImage(img, 0, 0);
                 // Convert to JPEG base64 with explicit format
                 imageBase64 = canvas.toDataURL('image/jpeg', 0.95);
-                console.log('Converted image to JPEG, size:', imageBase64.length, 'format:', imageBase64.substring(0, 30));
+                console.log('Converted image to JPEG, size:', imageBase64.length, 'format:', imageBase64.substring(0, 50));
+                
+                // Verify it's actually JPEG
+                if (!imageBase64.startsWith('data:image/jpeg')) {
+                    console.error('Conversion failed - not JPEG format:', imageBase64.substring(0, 50));
+                    reject(new Error('Image conversion to JPEG failed'));
+                    return;
+                }
                 resolve();
             };
             img.onerror = (err) => {
@@ -644,10 +651,17 @@ async function processAIFeedback() {
             reader.readAsDataURL(state.currentPhoto);
         });
         
+        // Verify the image is in the correct format before sending
+        if (!imageBase64 || !imageBase64.startsWith('data:image/jpeg')) {
+            console.error('Image format verification failed:', imageBase64 ? imageBase64.substring(0, 50) : 'null');
+            throw new Error('Image conversion failed. Please try a different image.');
+        }
+        
         // Get API endpoint (works in both dev and production)
         const apiUrl = window.location.origin + '/api/process-journal';
         
         console.log('Calling AI feedback API:', apiUrl);
+        console.log('Image format verified as JPEG, size:', imageBase64.length);
         
         // Call backend API (which securely handles OpenAI)
         const response = await fetch(apiUrl, {
