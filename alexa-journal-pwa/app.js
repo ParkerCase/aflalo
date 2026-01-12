@@ -109,7 +109,8 @@ const state = {
     currentPhoto: null,
     currentPhotoHash: null,
     previousPhotoHashes: [],
-    allPrompts: []
+    allPrompts: [],
+    entryDates: [] // Track all entry dates for streak calculation
 };
 
 // Milestones Configuration
@@ -208,25 +209,25 @@ function initializeIcons() {
 function loadPrompts() {
     state.allPrompts = [
         // Letting Go & Acceptance (15 prompts)
-        { text: "Write about something you've been holding onto that no longer serves you. What would it feel like to release it?", category: "letting_go", canRevisit: true },
-        { text: "Describe a worry that keeps coming back. Now, write a gentle goodbye letter to it.", category: "letting_go", canRevisit: false },
-        { text: "What would you tell your best friend if they had your exact worries? Write those words to yourself.", category: "letting_go", canRevisit: true },
-        { text: "List 5 things you can't control right now. Then write: 'I release my need to control these things.'", category: "letting_go", canRevisit: true },
+        { text: "Write about something you've been holding onto that no longer serves you. What would it feel like to kiss that thought goodbye?", category: "letting_go", canRevisit: true },
+        { text: "Describe a worry or fear that keeps coming back. Now, write a gentle goodbye letter to it and as you do, imagine it floating away like the balloon... from IT. No, but seriously, you can do it.", category: "letting_go", canRevisit: false },
+        { text: "What would you tell your best friend whether it's me, Sara, or Christina if they had your exact worries? Write those words to yourself.", category: "letting_go", canRevisit: true },
+        { text: "List 5 things you can't control right now. Then write: 'I'm letting go of my need to control these things. And, mean it.'", category: "letting_go", canRevisit: true },
         { text: "Write about a time you let something go and felt lighter. How can you recreate that feeling today?", category: "letting_go", canRevisit: false },
         { text: "What are you afraid will happen if you stop worrying about ___? Explore this fear with curiosity, not judgment.", category: "letting_go", canRevisit: false },
         { text: "Write: 'I forgive myself for...' and complete it with something that's been weighing on you.", category: "letting_go", canRevisit: true },
-        { text: "Describe the physical sensations in your body when you're anxious. Now imagine breathing each one out.", category: "letting_go", canRevisit: false },
+        { text: "Describe the physical sensations in your body when you're anxious. Now imagine that when you exhale, you are exhaling those sensations out of your body. Write about what it feels like to find peace through anxiety.", category: "letting_go", canRevisit: false },
         { text: "What would you do differently today if you weren't afraid? Write about that version of your day.", category: "letting_go", canRevisit: false },
         { text: "Write about a 'worst case scenario' you fear. Then write 3 ways you would handle it if it happened.", category: "letting_go", canRevisit: false },
         { text: "What does your anxiety want you to know? Give it a voice, then respond with compassion.", category: "letting_go", canRevisit: true },
-        { text: "List everything racing through your mind right now. Look at each item and ask: 'Is this mine to carry today?'", category: "letting_go", canRevisit: true },
+        { text: "List everything racing through your mind right now. Look at each item and ask if it's really worth carrying today.'", category: "letting_go", canRevisit: true },
         { text: "Write a permission slip to yourself: 'Today, I give myself permission to...'", category: "letting_go", canRevisit: false },
         { text: "What would 'good enough' look like today? How can you honor that instead of chasing perfect?", category: "letting_go", canRevisit: true },
         { text: "Imagine your worries as clouds passing by. Describe them floating away, one by one.", category: "letting_go", canRevisit: false },
 
         // Present Moment & Mindfulness (12 prompts)
         { text: "Right now, list 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste.", category: "mindfulness", canRevisit: true },
-        { text: "Describe this exact moment in detail - what's around you, how you feel, what's beautiful right now.", category: "mindfulness", canRevisit: false },
+        { text: "Describe this exact moment in detail and write about what's around you, how you feel, what's beautiful right now.", category: "mindfulness", canRevisit: false },
         { text: "Write about something small that brought you joy today, no matter how tiny.", category: "mindfulness", canRevisit: false },
         { text: "What does your body need right now? Write about how you can honor that need today.", category: "mindfulness", canRevisit: true },
         { text: "Describe your breathing for one minute. Just notice it, without trying to change it. What did you discover?", category: "mindfulness", canRevisit: false },
@@ -239,38 +240,38 @@ function loadPrompts() {
         { text: "Take 3 deep breaths. Write about any shift you notice in your body or mind.", category: "mindfulness", canRevisit: false },
 
         // Self-Compassion & Body Image (15 prompts)
-        { text: "Write a love letter to your body, thanking it for all it does for you every single day.", category: "self_compassion", canRevisit: true },
-        { text: "What would you say to comfort a close friend feeling how you feel right now? Say those words to yourself.", category: "self_compassion", canRevisit: true },
+        { text: "Write a love letter to your body, thanking it for all it does for you every single day. Think about how you literally would not be here without it.", category: "self_compassion", canRevisit: true },
+        { text: "What would you say to comfort a close friend feeling how you feel right now? Write those words to yourself.", category: "self_compassion", canRevisit: true },
         { text: "List 5 things your body allows you to do (hug, laugh, create, etc). Express gratitude for each one.", category: "self_compassion", canRevisit: true },
         { text: "Write about a time you were kind to yourself. How can you practice that kindness today?", category: "self_compassion", canRevisit: false },
         { text: "Describe yourself the way someone who loves you would describe you.", category: "self_compassion", canRevisit: false },
         { text: "What are 3 things you like about yourself that have nothing to do with appearance?", category: "self_compassion", canRevisit: false },
         { text: "Write: 'My body is not an ornament, it is...' Complete this sentence with what your body really is.", category: "self_compassion", canRevisit: false },
-        { text: "What does your body need to feel nourished today - not punished, but truly cared for?", category: "self_compassion", canRevisit: true },
-        { text: "Write about a part of yourself you've been judging harshly. Offer it compassion instead.", category: "self_compassion", canRevisit: false },
-        { text: "List 10 things you're grateful your body can do, starting with: 'I'm grateful I can breathe...'", category: "self_compassion", canRevisit: false },
+        { text: "What does your body need to feel nourished today and not punished, but truly cared for?", category: "self_compassion", canRevisit: true },
+        { text: "Write about a part of yourself you've been judging harshly. Write offering it compassion instead.", category: "self_compassion", canRevisit: false },
+        { text: "List 10 things you're grateful your body can do, starting with 'I'm grateful I can breathe...'", category: "self_compassion", canRevisit: false },
         { text: "Write about how you want to feel in your body, not how you want to look.", category: "self_compassion", canRevisit: true },
         { text: "What would treating yourself with gentleness look like today? Write specific actions.", category: "self_compassion", canRevisit: false },
         { text: "Describe a moment you felt strong, capable, or powerful. What made you feel that way?", category: "self_compassion", canRevisit: false },
-        { text: "Write to your future self 6 months from now. What do you hope they feel about their body?", category: "self_compassion", canRevisit: false },
+        { text: "Write to your future self 6 months from now. What do you hope you feel about your body then?", category: "self_compassion", canRevisit: false },
         { text: "What compliment about yourself (appearance or otherwise) have you been deflecting? Write why you deserve it.", category: "self_compassion", canRevisit: false },
 
         // Challenging Intrusive Thoughts (12 prompts)
-        { text: "Write down a recurring intrusive thought. Now write 3 reasons why it's not true.", category: "thought_challenge", canRevisit: true },
+        { text: "Write down a recurring intrusive thought. Now write 3 reasons why it makes absolutely no sense.", category: "thought_challenge", canRevisit: true },
         { text: "What's the difference between a thought and a fact? Write about a thought you've been treating as fact.", category: "thought_challenge", canRevisit: true },
         { text: "Describe your inner critic's voice. Now give your inner compassionate voice a turn to respond.", category: "thought_challenge", canRevisit: false },
-        { text: "Write about a fear that feels huge. Then write: 'Even if this happens, I will...'", category: "thought_challenge", canRevisit: false },
+        { text: "Write about a fear that feels too big to handle. Then write, 'Even if this happens, I will...'", category: "thought_challenge", canRevisit: false },
         { text: "List 'thinking traps' you fall into (all-or-nothing, catastrophizing, etc). Which one is strongest today?", category: "thought_challenge", canRevisit: true },
-        { text: "What evidence do you have AGAINST the worry that's consuming you right now?", category: "thought_challenge", canRevisit: false },
+        { text: "What evidence do you have AGAINST the worry that's consuming you right now? Basically, why is the worry you're thinking about right now not realistic?", category: "thought_challenge", canRevisit: false },
         { text: "Write about a time your anxiety was wrong about something. What actually happened instead?", category: "thought_challenge", canRevisit: false },
         { text: "If your OCD thoughts were a bully, what would you say to stand up to them?", category: "thought_challenge", canRevisit: false },
         { text: "What's the kindest interpretation of [situation causing anxiety]? Write that story instead.", category: "thought_challenge", canRevisit: false },
         { text: "Write: 'This thought is just a thought. It is not...' and complete it with what it's not.", category: "thought_challenge", canRevisit: false },
         { text: "What would you tell past-you who was worried about something that turned out okay?", category: "thought_challenge", canRevisit: false },
-        { text: "List 5 times your anxiety/OCD made you avoid something that would have actually been fine or good.", category: "thought_challenge", canRevisit: false },
+        { text: "List 5 times your anxiety/OCD made you avoid something that would have actually been completely fine or good.", category: "thought_challenge", canRevisit: false },
 
         // Gratitude & Joy (10 prompts)
-        { text: "List 10 small things that made today a little bit better, even if the day was hard.", category: "gratitude", canRevisit: false },
+        { text: "List 10 small things that made today a little bit better, even if the day was rough.", category: "gratitude", canRevisit: false },
         { text: "Write about someone who made you smile recently. What did they do? How did it feel?", category: "gratitude", canRevisit: false },
         { text: "What's something you're taking for granted that you'd miss if it was gone?", category: "gratitude", canRevisit: false },
         { text: "Describe your favorite cozy moment. What makes it perfect for you?", category: "gratitude", canRevisit: false },
@@ -284,7 +285,7 @@ function loadPrompts() {
         // Health & Hashimoto's (10 prompts)
         { text: "How is your body feeling today? Write about it with curiosity, not judgment.", category: "health", canRevisit: true },
         { text: "What does nourishment mean to you beyond just food? How can you nourish yourself today?", category: "health", canRevisit: false },
-        { text: "Write about your relationship with your thyroid condition. What would you say to it?", category: "health", canRevisit: false },
+        { text: "Write about your relationship with Hashimoto's. What would you say to it?", category: "health", canRevisit: false },
         { text: "List 5 ways you've taken care of your health this week, no matter how small.", category: "health", canRevisit: false },
         { text: "What does your body need more of? What does it need less of? Write without shame.", category: "health", canRevisit: true },
         { text: "Describe how you feel after eating something that truly nourishes you vs. eating from stress.", category: "health", canRevisit: false },
@@ -304,8 +305,8 @@ function loadPrompts() {
         { text: "What comparison thoughts come up when you're on social media? Challenge each one.", category: "digital", canRevisit: false },
 
         // Relationships & Connection (8 prompts)
-        { text: "Write about someone who loves you exactly as you are. How does their love feel?", category: "connection", canRevisit: false },
-        { text: "What do you appreciate most about Chaz? Be specific and write from your heart.", category: "connection", canRevisit: false },
+        { text: "Write about someone who loves you exactly as you are. Doesn't have to be me. How does their love feel?", category: "connection", canRevisit: false },
+        { text: "What do you appreciate most about Pee Par Wee Warr? Be specific and write from your heart.", category: "connection", canRevisit: false },
         { text: "Describe a moment when you felt truly seen and understood by someone. What made it special?", category: "connection", canRevisit: false },
         { text: "Write a thank you note to someone who's been patient with you during hard times.", category: "connection", canRevisit: false },
         { text: "What makes you feel most loved? How can you ask for more of that?", category: "connection", canRevisit: false },
@@ -321,11 +322,11 @@ function loadPrompts() {
         { text: "What do you want to be remembered for? How can you live that today?", category: "values", canRevisit: false },
         { text: "List 5 things that give your life meaning, big or small.", category: "values", canRevisit: false },
         { text: "What lights you up? Write about activities or moments where you feel most alive.", category: "values", canRevisit: false },
-        { text: "If you could give advice to someone struggling like you, what would you say? That's your wisdom - honor it.", category: "values", canRevisit: false },
+        { text: "If you could give advice to someone struggling like you, what would you say? That's your wisdom. Honor it.", category: "values", canRevisit: false },
 
         // Medication & Treatment (6 prompts)
-        { text: "How are your medications making you feel? Write without judgment - just observe.", category: "treatment", canRevisit: true },
-        { text: "What positive changes have you noticed since starting your treatment? List even small improvements.", category: "treatment", canRevisit: false },
+        { text: "How are your medications making you feel? Write without judgment and just observe.", category: "treatment", canRevisit: true },
+        { text: "What positive changes have you noticed since starting your treatment? List even the smallest of improvements.", category: "treatment", canRevisit: false },
         { text: "Write about your relationship with taking medication. What feelings come up?", category: "treatment", canRevisit: false },
         { text: "What support do you need with your treatment plan? Who can you ask?", category: "treatment", canRevisit: false },
         { text: "Describe how you feel on days when you take care of your health vs. days when you don't.", category: "treatment", canRevisit: false },
@@ -338,7 +339,7 @@ function loadPrompts() {
         { text: "What's a pattern you're ready to break? What would replacing it look like?", category: "growth", canRevisit: false },
         { text: "List 5 ways you've grown in the past month, no matter how subtle.", category: "growth", canRevisit: false },
         { text: "What boundary do you need to set for your own wellbeing? Practice writing it.", category: "growth", canRevisit: false },
-        { text: "Describe your ideal day - not in terms of achievements, but in how you'd feel.", category: "growth", canRevisit: false },
+        { text: "Describe your ideal day, not in terms of achievements, but in how you'd feel.", category: "growth", canRevisit: false },
         { text: "What old story about yourself are you ready to rewrite? Start writing the new version.", category: "growth", canRevisit: false }
     ];
 }
@@ -383,6 +384,18 @@ function loadState() {
         const { apiKey, ...stateData } = parsed;
         Object.assign(state, stateData);
         
+        // Initialize entryDates if it doesn't exist (for older saved states)
+        if (!state.entryDates) {
+            state.entryDates = [];
+            // If we have a lastEntryDate, add it to entryDates
+            if (state.lastEntryDate) {
+                state.entryDates.push(state.lastEntryDate);
+            }
+        }
+        
+        // Recalculate streak based on entry dates
+        recalculateStreak();
+        
         // Update milestones with saved data
         if (state.milestones && state.milestones.length > 0) {
             state.milestones.forEach((savedMilestone, idx) => {
@@ -394,6 +407,58 @@ function loadState() {
     }
 }
 
+// Recalculate streak based on entry dates
+function recalculateStreak() {
+    if (!state.entryDates || state.entryDates.length === 0) {
+        state.currentStreak = 0;
+        return;
+    }
+    
+    // Sort dates and get unique dates only
+    const uniqueDates = [...new Set(state.entryDates)].sort();
+    
+    // Calculate consecutive days from today backwards
+    let streak = 0;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
+    // Check if today has an entry
+    const todayStr = today.toDateString();
+    if (uniqueDates.includes(todayStr)) {
+        streak = 1;
+    } else {
+        // Check yesterday
+        const yesterday = new Date(today);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = yesterday.toDateString();
+        if (uniqueDates.includes(yesterdayStr)) {
+            streak = 1;
+        } else {
+            state.currentStreak = 0;
+            return;
+        }
+    }
+    
+    // Count consecutive days going backwards
+    let checkDate = new Date(today);
+    if (!uniqueDates.includes(todayStr)) {
+        checkDate.setDate(checkDate.getDate() - 1);
+    }
+    
+    while (true) {
+        const dateStr = checkDate.toDateString();
+        if (uniqueDates.includes(dateStr)) {
+            streak++;
+            checkDate.setDate(checkDate.getDate() - 1);
+        } else {
+            break;
+        }
+    }
+    
+    state.currentStreak = streak;
+    console.log('Recalculated streak:', streak, 'from', uniqueDates.length, 'entries');
+}
+
 // Save state to localStorage
 function saveState() {
     localStorage.setItem('journalState', JSON.stringify({
@@ -402,7 +467,8 @@ function saveState() {
         totalEntries: state.totalEntries,
         usedPrompts: state.usedPrompts,
         milestones: MILESTONES.map(m => ({ id: m.id, achieved: m.achieved })),
-        previousPhotoHashes: state.previousPhotoHashes
+        previousPhotoHashes: state.previousPhotoHashes,
+        entryDates: state.entryDates || []
     }));
 }
 
@@ -812,7 +878,7 @@ async function completeEntry() {
     if (aiFeedbackEnabled) {
         try {
             // Process and wait for feedback to be displayed
-            await processAIFeedback();
+        await processAIFeedback();
             
             // Get the reflection text for the success modal
             const feedbackDiv = document.getElementById('ai-feedback-result');
@@ -832,17 +898,25 @@ async function completeEntry() {
         document.querySelector('.ai-feedback-section').style.display = 'none';
     }
     
-    // Update streak
-    const today = new Date().toDateString();
-    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    // Update streak with better logic
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const todayStr = today.toDateString();
     
-    if (state.lastEntryDate === yesterday) {
-        state.currentStreak++;
-    } else if (state.lastEntryDate !== today) {
-        state.currentStreak = 1;
+    // Initialize entryDates if needed
+    if (!state.entryDates) {
+        state.entryDates = [];
     }
     
-    state.lastEntryDate = today;
+    // Add today's entry date if not already there
+    if (!state.entryDates.includes(todayStr)) {
+        state.entryDates.push(todayStr);
+    }
+    
+    // Recalculate streak based on all entry dates
+    recalculateStreak();
+    
+    state.lastEntryDate = todayStr;
     state.totalEntries++;
     state.previousPhotoHashes.push(state.currentPhotoHash);
     
