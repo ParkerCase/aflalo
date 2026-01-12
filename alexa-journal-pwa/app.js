@@ -410,8 +410,25 @@ function loadState() {
 // Recalculate streak based on entry dates
 function recalculateStreak() {
     if (!state.entryDates || state.entryDates.length === 0) {
-        state.currentStreak = 0;
-        return;
+        // If we have a lastEntryDate but no entryDates array, try to reconstruct
+        if (state.lastEntryDate && state.totalEntries > 0) {
+            console.log('Reconstructing entry dates from lastEntryDate and totalEntries');
+            // If there are multiple entries, assume they were on consecutive days
+            state.entryDates = [];
+            const lastDate = new Date(state.lastEntryDate);
+            lastDate.setHours(0, 0, 0, 0);
+            
+            // Add entries for the last N days where N = totalEntries (up to 7 days back)
+            for (let i = 0; i < Math.min(state.totalEntries, 7); i++) {
+                const entryDate = new Date(lastDate);
+                entryDate.setDate(entryDate.getDate() - i);
+                state.entryDates.push(entryDate.toDateString());
+            }
+            console.log('Reconstructed entry dates:', state.entryDates);
+        } else {
+            state.currentStreak = 0;
+            return;
+        }
     }
     
     // Sort dates and get unique dates only
@@ -421,42 +438,39 @@ function recalculateStreak() {
     let streak = 0;
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    
-    // Check if today has an entry
     const todayStr = today.toDateString();
-    if (uniqueDates.includes(todayStr)) {
-        streak = 1;
+    
+    // Find the most recent entry date
+    const sortedDates = uniqueDates.map(d => new Date(d)).sort((a, b) => b - a);
+    const mostRecentEntry = sortedDates[0];
+    const mostRecentStr = mostRecentEntry.toDateString();
+    
+    // If the most recent entry is today or yesterday, we have an active streak
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1);
+    const yesterdayStr = yesterday.toDateString();
+    
+    if (mostRecentStr === todayStr || mostRecentStr === yesterdayStr) {
+        // Count consecutive days going backwards from most recent entry
+        let checkDate = new Date(mostRecentEntry);
+        checkDate.setHours(0, 0, 0, 0);
+        
+        while (true) {
+            const dateStr = checkDate.toDateString();
+            if (uniqueDates.includes(dateStr)) {
+                streak++;
+                checkDate.setDate(checkDate.getDate() - 1);
+            } else {
+                break;
+            }
+        }
     } else {
-        // Check yesterday
-        const yesterday = new Date(today);
-        yesterday.setDate(yesterday.getDate() - 1);
-        const yesterdayStr = yesterday.toDateString();
-        if (uniqueDates.includes(yesterdayStr)) {
-            streak = 1;
-        } else {
-            state.currentStreak = 0;
-            return;
-        }
-    }
-    
-    // Count consecutive days going backwards
-    let checkDate = new Date(today);
-    if (!uniqueDates.includes(todayStr)) {
-        checkDate.setDate(checkDate.getDate() - 1);
-    }
-    
-    while (true) {
-        const dateStr = checkDate.toDateString();
-        if (uniqueDates.includes(dateStr)) {
-            streak++;
-            checkDate.setDate(checkDate.getDate() - 1);
-        } else {
-            break;
-        }
+        // Most recent entry is older than yesterday, streak is broken
+        streak = 0;
     }
     
     state.currentStreak = streak;
-    console.log('Recalculated streak:', streak, 'from', uniqueDates.length, 'entries');
+    console.log('Recalculated streak:', streak, 'from', uniqueDates.length, 'entries. Most recent:', mostRecentStr);
 }
 
 // Save state to localStorage
