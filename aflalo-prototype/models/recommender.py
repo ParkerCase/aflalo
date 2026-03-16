@@ -894,9 +894,9 @@ Only these two words, nothing else. Example: leopard,silk"""
             parts.append("pant")
         return " ".join(parts[:3]) if parts else "this piece"
 
-    def _build_upload_similarity_reason(self, base_features, candidate_features, candidate_product=None):
+    def _build_upload_similarity_reason(self, base_features, candidate_features, candidate_product=None, upload_color_name=None):
         """Build a reason for SIMILARITY (substitutes) in My Closet: unique per candidate using color, material, silhouette (descriptor)."""
-        reasons = []
+        your_piece = f"your {upload_color_name} piece" if (upload_color_name and upload_color_name != "your piece") else "your piece"
 
         color_distance = np.linalg.norm(base_features["mean_rgb"] - candidate_features["mean_rgb"])
         if color_distance < 0.22:
@@ -925,19 +925,19 @@ Only these two words, nothing else. Example: leopard,silk"""
         color = str(candidate_product.get("color", "")).strip()
         descriptor = self._candidate_similarity_descriptor(candidate_product)
         if texture_gap < 0.025:
-            texture_line = f"the {descriptor} has a similar hand and texture to your piece"
+            texture_line = f"the {descriptor} has a similar hand and texture to {your_piece}"
         elif texture_gap < 0.08:
             texture_line = f"the {descriptor} offers comparable texture—same level of dressiness"
         else:
             texture_line = f"the {descriptor} is a different texture but same slot—an alternative in another mood"
         if color_distance < 0.22:
-            color_line = "similar color tone to your piece"
+            color_line = f"similar color tone to {your_piece}"
         elif min(base_features["saturation"], candidate_features["saturation"]) < 0.18:
             color_line = f"this {color or 'neutral'} fills the same neutral role in a wardrobe"
         else:
             color_line = f"{color or 'this'} sits in a similar color family so it reads as a comparable option"
         body = f"{color_line}; {texture_line}; {light_line}."
-        lead = f"This {color} {name} is similar to your piece: " if color else f"This {name} is similar to your piece: "
+        lead = f"This {color} {name} is similar to {your_piece}: " if color else f"This {name} is similar to {your_piece}: "
         return lead + body[0].lower() + body[1:]
 
     def _get_color_family(self, color_text):
@@ -957,6 +957,37 @@ Only these two words, nothing else. Example: leopard,silk"""
             return "navy"
         else:
             return "neutral"
+
+    def _infer_upload_color_from_features(self, features):
+        """Infer a color name from upload CV features (mean_lab) for copy and filtering. Returns a string like 'white', 'cream', 'black'."""
+        if not features:
+            return "your piece"
+        lab = features.get("mean_lab")
+        if lab is None and features.get("mean_rgb") is not None:
+            lab = self._rgb_to_lab(features["mean_rgb"])
+        if lab is None:
+            return "your piece"
+        lab = np.asarray(lab).ravel()
+        L = float(lab[0]) if len(lab) >= 1 else 50.0
+        a = float(lab[1]) if len(lab) >= 2 else 0.0
+        b = float(lab[2]) if len(lab) >= 3 else 0.0
+        if L >= 88:
+            return "white"
+        if L >= 78:
+            return "cream"
+        if L >= 68 and abs(a) < 8 and abs(b) < 12:
+            return "light neutral"
+        if L <= 22:
+            return "black"
+        if L <= 38 and abs(a) < 10 and abs(b) < 10:
+            return "charcoal"
+        if L <= 55 and abs(a) < 6 and abs(b) < 6:
+            return "grey"
+        if b > 12 and a > -5:
+            return "warm neutral"
+        if a < -8:
+            return "cool neutral"
+        return "neutral"
 
     def _build_pattern_reasoning(self, product, upload_pattern=None):
         """Detect patterns and provide guidance. If upload_pattern is set (from Gemini on upload), include it."""
@@ -1159,14 +1190,22 @@ Only these two words, nothing else. Example: leopard,silk"""
                 category_bonus=0.0,
                 candidate_product=None,
             )
+            score = analysis["score"]
+            # Don't recommend black as "closest match" to a white/cream upload (or vice versa)
+            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
+            upload_family = self._get_color_family(upload_color_name)
+            cand_family = self._get_color_family(str(candidate.get("color", "")))
+            if (upload_family == "ivory" and cand_family == "black") or (upload_family == "black" and cand_family == "ivory"):
+                score = score * 0.35
             # Similar items: explain WHY they are similar (substitutes), not how they pair.
             reason = self._build_upload_similarity_reason(
-                uploaded_features, candidate_features, candidate_product=cand_dict
+                uploaded_features, candidate_features, candidate_product=cand_dict,
+                upload_color_name=upload_color_name,
             )
             scores.append(
                 {
                     "id": candidate["id"],
-                    "compatibility_score": round(analysis["score"] * 100, 1),
+                    "compatibility_score": round(score * 100, 1),
                     "style_reason": reason,
                 }
             )
@@ -1230,7 +1269,8 @@ Only these two words, nothing else. Example: leopard,silk"""
             if (uploaded_features.get("material_text") or "").strip():
                 upload_desc = f"uploaded {uploaded_features['material_text'].strip()} item"
             pattern_reason = self._build_pattern_reasoning(cand, upload_pattern=upload_pattern)
-            color_reason = self._build_color_reasoning("auto-detected", cand.get("color", ""))
+            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
+            color_reason = self._build_color_reasoning(upload_color_name, cand.get("color", ""))
             material_reason = self._build_material_reasoning(upload_desc, cand.get("description", ""))
             item_reason = self._build_item_logic(
                 uploaded_category_normalized,

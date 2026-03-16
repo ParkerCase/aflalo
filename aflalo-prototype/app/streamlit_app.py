@@ -182,9 +182,8 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
             #tryon-root-{component_key} .snapshot-wrap img {{
               display: none;
               max-width: 100%;
-              width: auto;
+              width: 100%;
               height: auto;
-              max-height: 70vh;
               object-fit: contain;
               border-radius: 16px;
               border: 1px solid rgba(255,255,255,0.08);
@@ -283,6 +282,9 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               const rect = canvas.getBoundingClientRect();
               canvas.width = Math.max(720, Math.round(rect.width * 1.4));
               canvas.height = Math.round(canvas.width * 4 / 3);
+              if (video.videoWidth && video.videoHeight && video.videoHeight > video.videoWidth) {{
+                canvas.height = Math.round(canvas.width * (video.videoHeight / video.videoWidth));
+              }}
             }}
 
             function clamp(value, min, max) {{
@@ -320,10 +322,19 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               resizeCanvas();
               ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-              if (video.readyState >= 2) {{
+              if (video.readyState >= 2 && video.videoWidth && video.videoHeight) {{
+                const vw = video.videoWidth;
+                const vh = video.videoHeight;
+                const scale = Math.min(canvas.width / vw, canvas.height / vh);
+                const dw = Math.round(vw * scale);
+                const dh = Math.round(vh * scale);
+                const dx = (canvas.width - dw) / 2;
+                const dy = (canvas.height - dh) / 2;
                 ctx.save();
+                ctx.translate(canvas.width, 0);
                 ctx.scale(-1, 1);
-                ctx.drawImage(video, -canvas.width, 0, canvas.width, canvas.height);
+                ctx.translate(-canvas.width, 0);
+                ctx.drawImage(video, dx, dy, dw, dh);
                 ctx.restore();
               }} else {{
                 ctx.fillStyle = "#171A20";
@@ -352,7 +363,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                   stopCamera();
                 }}
                 stream = await navigator.mediaDevices.getUserMedia({{
-                  video: {{ facingMode: "user", width: {{ ideal: 1280 }}, height: {{ ideal: 960 }} }},
+                  video: {{ facingMode: "user", width: {{ ideal: 720 }}, height: {{ ideal: 1280 }} }},
                   audio: false
                 }});
                 video.srcObject = stream;
@@ -495,7 +506,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
           }})();
         </script>
         """,
-        height=1600,
+        height=2200,
     )
 
 
