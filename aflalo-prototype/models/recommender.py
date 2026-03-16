@@ -974,18 +974,21 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
             return "neutral"
 
     def _upload_is_light_for_penalty(self, features):
-        """True if upload is clearly light (white/cream/light neutrals). Dynamic: uses image brightness and LAB L."""
+        """True if upload is clearly light (white/cream/light neutrals). Uses Gemini color when available, else brightness/LAB L."""
         if not features:
             return False
+        gemini_color = (features.get("gemini_color") or "").strip().lower()
+        if gemini_color in ("white", "cream", "ivory", "light neutral"):
+            return True
         brightness = features.get("brightness")
-        if brightness is not None and float(brightness) > 0.58:
+        if brightness is not None and float(brightness) > 0.48:
             return True
         lab = features.get("mean_lab")
         if lab is None and features.get("mean_rgb") is not None:
             lab = self._rgb_to_lab(features["mean_rgb"])
         if lab is not None:
             L = float(np.asarray(lab).ravel()[0]) if len(np.asarray(lab).ravel()) >= 1 else 50.0
-            if L > 58:
+            if L > 50:
                 return True
         return False
 

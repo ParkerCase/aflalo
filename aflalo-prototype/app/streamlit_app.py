@@ -574,7 +574,7 @@ def build_recommender():
 
 
 # Bump this after recommender logic changes (e.g. upload color filter) so Cloud builds a fresh recommender
-CACHE_VERSION = "cv-v20-no-black-for-light"
+CACHE_VERSION = "cv-v21-light-gemini-plus-cv"
 
 @st.cache_resource
 def load_recommender(cache_version="cv-v19-closet-reason"):
