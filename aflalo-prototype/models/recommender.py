@@ -469,6 +469,8 @@ class FashionRecommender:
         if features is not None and desc:
             features["pattern_text"] = desc.get("pattern", "")
             features["material_text"] = desc.get("material", "")
+            if desc.get("color") and str(desc.get("color")).strip().lower() not in ("other", ""):
+                features["gemini_color"] = str(desc.get("color")).strip().lower()
         return features
 
     def _classify_uploaded_garment_with_gemini(self, uploaded_image):
@@ -716,8 +718,8 @@ Outerwear
 
     def _describe_uploaded_garment_with_gemini(self, uploaded_image):
         """
-        Ask Gemini for pattern and material of the uploaded garment (vision). Used so uploads get
-        pattern/material in reasoning like catalog items. Returns {"pattern": "...", "material": "..."} or None.
+        Ask Gemini for pattern, material, and color of the uploaded garment (vision). Used so uploads get
+        pattern/material/color in reasoning and filtering. Returns {"pattern", "material", "color"} or None.
         """
         try:
             import google.generativeai as genai
@@ -729,17 +731,20 @@ Outerwear
             focal, _ = self._extract_focal_image(uploaded_image)
             if focal is None:
                 focal = uploaded_image.convert("RGB")
-            prompt = """Look at this garment image. Reply with exactly two comma-separated words.
+            prompt = """Look at this garment image. Reply with exactly three comma-separated words.
 First word: pattern (one of: solid, striped, plaid, leopard, floral, animal print, other).
 Second word: material (one of: cotton, silk, denim, leather, wool, knit, polyester, linen, other).
-Only these two words, nothing else. Example: leopard,silk"""
+Third word: color (one word only: white, cream, ivory, black, grey, navy, brown, camel, beige, olive, red, blue, green, pink, other).
+Describe the garment's main/dominant color as it appears in the image. Only these three words, nothing else. Example: solid,silk,cream"""
             response = model.generate_content([prompt, focal])
             text = (response.text or "").strip().lower()
             parts = [p.strip() for p in text.split(",")]
+            if len(parts) >= 3:
+                return {"pattern": parts[0] or "other", "material": parts[1] or "other", "color": parts[2] or "other"}
             if len(parts) >= 2:
-                return {"pattern": parts[0] or "other", "material": parts[1] or "other"}
+                return {"pattern": parts[0] or "other", "material": parts[1] or "other", "color": "other"}
             if len(parts) == 1:
-                return {"pattern": parts[0] or "other", "material": "other"}
+                return {"pattern": parts[0] or "other", "material": "other", "color": "other"}
             return None
         except Exception as e:
             print(f"Gemini describe (pattern/material) failed: {e}")
@@ -959,9 +964,12 @@ Only these two words, nothing else. Example: leopard,silk"""
             return "neutral"
 
     def _infer_upload_color_from_features(self, features):
-        """Infer a color name from upload CV features (mean_lab) for copy and filtering. Returns a string like 'white', 'cream', 'black'."""
+        """Infer a color name from upload: prefer Gemini vision (gemini_color), else CV mean_lab. For copy and filtering."""
         if not features:
             return "your piece"
+        gemini_color = (features.get("gemini_color") or "").strip().lower()
+        if gemini_color and gemini_color not in ("other", ""):
+            return gemini_color
         lab = features.get("mean_lab")
         if lab is None and features.get("mean_rgb") is not None:
             lab = self._rgb_to_lab(features["mean_rgb"])
@@ -1263,13 +1271,19 @@ Only these two words, nothing else. Example: leopard,silk"""
             if not candidate_features:
                 continue
             analysis = self._score_feature_pair(uploaded_features, candidate_features, category_bonus=1.0)
+            score = analysis["score"]
+            # Down-rank black when upload is light (white/cream/ivory) so we don't suggest black as "style with" a cream dress
+            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
+            upload_family = self._get_color_family(upload_color_name)
+            cand_family = self._get_color_family(str(candidate.get("color", "")))
+            if (upload_family == "ivory" and cand_family == "black") or (upload_family == "black" and cand_family == "ivory"):
+                score = score * 0.4
             cand = candidate.to_dict() if hasattr(candidate, "to_dict") else dict(candidate)
             upload_pattern = (uploaded_features.get("pattern_text") or "").strip() or None
             upload_desc = "uploaded item"
             if (uploaded_features.get("material_text") or "").strip():
                 upload_desc = f"uploaded {uploaded_features['material_text'].strip()} item"
             pattern_reason = self._build_pattern_reasoning(cand, upload_pattern=upload_pattern)
-            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
             color_reason = self._build_color_reasoning(upload_color_name, cand.get("color", ""))
             material_reason = self._build_material_reasoning(upload_desc, cand.get("description", ""))
             item_reason = self._build_item_logic(
@@ -1286,7 +1300,7 @@ Only these two words, nothing else. Example: leopard,silk"""
             scores.append(
                 {
                     "id": candidate["id"],
-                    "compatibility_score": round(analysis["score"] * 100, 1),
+                    "compatibility_score": round(score * 100, 1),
                     "style_reason": full_reasoning,
                 }
             )
