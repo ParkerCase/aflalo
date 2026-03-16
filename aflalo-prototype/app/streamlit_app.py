@@ -573,12 +573,15 @@ def build_recommender():
     return rec
 
 
+# Bump this after recommender logic changes (e.g. upload color filter) so Cloud builds a fresh recommender
+CACHE_VERSION = "cv-v20-no-black-for-light"
+
 @st.cache_resource
 def load_recommender(cache_version="cv-v19-closet-reason"):
     return build_recommender()
 
 
-rec = load_recommender()
+rec = load_recommender(CACHE_VERSION)
 if not hasattr(rec, "analyze_pairing") or not hasattr(rec, "style_uploaded_item") or not hasattr(rec, "find_uploaded_similar_items"):
     rec = build_recommender()
 
@@ -588,6 +591,7 @@ st.markdown("**Live catalog from [aflalonyc.com](https://aflalonyc.com)** · Sim
 
 # Sidebar
 st.sidebar.header("Demo Controls")
+st.sidebar.caption(f"Recommender: {CACHE_VERSION}")
 demo_mode = st.sidebar.selectbox(
     "Select Demo:",
     ["Similar Items", "Complete the Look", "My Closet", "Live Try-On", "Size Prediction"],
