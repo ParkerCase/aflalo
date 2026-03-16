@@ -177,10 +177,15 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
             }}
             #tryon-root-{component_key} .snapshot-wrap {{
               margin-top: 16px;
+              min-height: 200px;
             }}
             #tryon-root-{component_key} .snapshot-wrap img {{
-              width: 100%;
               display: none;
+              max-width: 100%;
+              width: auto;
+              height: auto;
+              max-height: 70vh;
+              object-fit: contain;
               border-radius: 16px;
               border: 1px solid rgba(255,255,255,0.08);
             }}
@@ -396,6 +401,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               downloadLink.href = dataUrl;
               downloadLink.style.display = "inline-flex";
               statusEl.textContent = "Snapshot captured. Download it or adjust the overlay and capture again.";
+              snapshotImg.scrollIntoView({{ behavior: "smooth", block: "center" }});
             }}
 
             function startTimer() {{
@@ -489,7 +495,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
           }})();
         </script>
         """,
-        height=1180,
+        height=1600,
     )
 
 
