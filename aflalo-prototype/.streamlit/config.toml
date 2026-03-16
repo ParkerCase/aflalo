@@ -1,0 +1,10 @@
+# Streamlit config (used in Cloud and locally)
+# https://docs.streamlit.io/develop/api-reference/configuration
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
