@@ -904,21 +904,7 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
         your_piece = f"your {upload_color_name} piece" if (upload_color_name and upload_color_name != "your piece") else "your piece"
 
         color_distance = np.linalg.norm(base_features["mean_rgb"] - candidate_features["mean_rgb"])
-        if color_distance < 0.22:
-            reasons.append("similar color tone to your piece")
-        elif min(base_features["saturation"], candidate_features["saturation"]) < 0.18:
-            reasons.append("both read as neutrals, so they fill the same role in a wardrobe")
-        else:
-            reasons.append("color is in a similar family so it reads as a comparable option")
-
         texture_gap = abs(base_features["texture"] - candidate_features["texture"])
-        if texture_gap < 0.025:
-            reasons.append("similar texture and hand")
-        elif texture_gap < 0.08:
-            reasons.append("comparable level of texture—neither much dressier nor more casual")
-        else:
-            reasons.append("different texture but same category, so it’s an alternative in a different mood")
-
         brightness_gap = abs(base_features["brightness"] - candidate_features["brightness"])
         if brightness_gap < 0.12:
             light_line = "similar lightness so it reads as the same kind of piece"
