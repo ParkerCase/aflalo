@@ -1013,7 +1013,7 @@ with st.sidebar.expander("Data Flow"):
     **AI Layer** → Recommendations, predictions
     """)
 with st.sidebar.expander("Current Integrations"):
-    st.write("✅ Shopify API (products from aflalonyc.com)")
+    st.write("⏳ Shopify API (products from aflalonyc.com)")
     st.write("✅ Product images & descriptions")
     st.write("✅ Synthetic purchase data")
     st.write("⏳ NetSuite (next: return data)")
