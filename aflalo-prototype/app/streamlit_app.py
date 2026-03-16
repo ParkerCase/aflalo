@@ -121,7 +121,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               left: 0;
               width: 100%;
               height: 100%;
-              object-fit: contain;
+              object-fit: cover;
               transform: scaleX(-1);
               z-index: 0;
             }}
@@ -295,11 +295,9 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
 
             function resizeCanvas() {{
               const rect = canvas.getBoundingClientRect();
-              canvas.width = Math.max(720, Math.round(rect.width * 1.4));
-              canvas.height = Math.round(canvas.width * 4 / 3);
-              if (video.videoWidth && video.videoHeight && video.videoHeight > video.videoWidth) {{
-                canvas.height = Math.round(canvas.width * (video.videoHeight / video.videoWidth));
-              }}
+              if (rect.width <= 0 || rect.height <= 0) return;
+              canvas.width = Math.max(320, Math.round(rect.width));
+              canvas.height = Math.max(240, Math.round(rect.height));
             }}
 
             function clamp(value, min, max) {{
@@ -344,7 +342,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                 }}
                 const vw = video.videoWidth;
                 const vh = video.videoHeight;
-                const scale = Math.min(canvas.width / vw, canvas.height / vh);
+                const scale = Math.max(canvas.width / vw, canvas.height / vh);
                 const dw = Math.round(vw * scale);
                 const dh = Math.round(vh * scale);
                 const dx = (canvas.width - dw) / 2;
