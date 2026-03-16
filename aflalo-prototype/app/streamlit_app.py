@@ -115,10 +115,24 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               overflow: hidden;
               border: 1px solid rgba(255,255,255,0.06);
             }}
-            #tryon-root-{component_key} canvas {{
+            #tryon-root-{component_key} .tryon-stage video {{
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              transform: scaleX(-1);
+              z-index: 0;
+            }}
+            #tryon-root-{component_key} .tryon-stage canvas {{
+              position: absolute;
+              top: 0;
+              left: 0;
               width: 100%;
               height: 100%;
               display: block;
+              z-index: 1;
             }}
             #tryon-root-{component_key} .countdown {{
               position: absolute;
@@ -191,7 +205,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
           </style>
           <div class="tryon-shell">
             <div class="tryon-stage">
-              <video id="video-{component_key}" autoplay playsinline muted style="position:absolute;left:-9999px;width:640px;height:480px;"></video>
+              <video id="video-{component_key}" autoplay playsinline muted></video>
               <canvas id="canvas-{component_key}"></canvas>
               <div id="countdown-{component_key}" class="countdown">5</div>
             </div>
