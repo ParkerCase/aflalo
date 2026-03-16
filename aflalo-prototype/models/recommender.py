@@ -974,18 +974,18 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
             return "neutral"
 
     def _upload_is_light_for_penalty(self, features):
-        """True if upload is clearly light (white/cream/light neutrals). Dynamic: uses image brightness and LAB L, not just color name."""
+        """True if upload is clearly light (white/cream/light neutrals). Dynamic: uses image brightness and LAB L."""
         if not features:
             return False
         brightness = features.get("brightness")
-        if brightness is not None and float(brightness) > 0.72:
+        if brightness is not None and float(brightness) > 0.58:
             return True
         lab = features.get("mean_lab")
         if lab is None and features.get("mean_rgb") is not None:
             lab = self._rgb_to_lab(features["mean_rgb"])
         if lab is not None:
             L = float(np.asarray(lab).ravel()[0]) if len(np.asarray(lab).ravel()) >= 1 else 50.0
-            if L > 72:
+            if L > 58:
                 return True
         return False
 
@@ -1232,8 +1232,18 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
             if candidates.empty:
                 candidates = self.products.copy()
 
+        upload_light = self._upload_is_light_for_penalty(uploaded_features)
+        upload_dark = self._upload_is_dark_for_penalty(uploaded_features)
+        upload_color_name = self._infer_upload_color_from_features(uploaded_features)
+
         scores = []
         for _, row in candidates.iterrows():
+            cand_family = self._get_color_family(str(row.get("color", "")))
+            if upload_light and cand_family == "black":
+                continue
+            if upload_dark and cand_family == "ivory":
+                continue
+
             c_feats = self._extract_image_features(row.get("image_url"))
             if not c_feats:
                 continue
@@ -1245,14 +1255,8 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
                 candidate_product=None,
             )
             score = analysis["score"]
-            cand_family = self._get_color_family(str(row.get("color", "")))
-            upload_light = self._upload_is_light_for_penalty(uploaded_features)
-            upload_dark = self._upload_is_dark_for_penalty(uploaded_features)
-            if (upload_light and cand_family == "black") or (upload_dark and cand_family == "ivory"):
-                score = score * 0.35
-            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
             reason = self._build_upload_similarity_reason(
-                uploaded_features, c_feats, candidate_product=c_dict, upload_color_name=upload_color_name
+                uploaded_features, c_feats, candidate_product=c_dict, upload_color_name=upload_color_name,
             )
             scores.append(
                 {"id": row["id"], "compatibility_score": round(score * 100, 1), "style_reason": reason}
