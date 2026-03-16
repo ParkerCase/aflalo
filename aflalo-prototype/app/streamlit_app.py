@@ -191,7 +191,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
           </style>
           <div class="tryon-shell">
             <div class="tryon-stage">
-              <video id="video-{component_key}" autoplay playsinline muted style="position:absolute;left:-9999px;width:2px;height:2px;opacity:0.01;"></video>
+              <video id="video-{component_key}" autoplay playsinline muted style="position:absolute;left:-9999px;width:640px;height:480px;"></video>
               <canvas id="canvas-{component_key}"></canvas>
               <div id="countdown-{component_key}" class="countdown">5</div>
             </div>
@@ -257,6 +257,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
             let countdownTimer = null;
             let overlayRect = null;
             let dragState = null;
+            let hasShownLiveStatus = false;
 
             const state = {{
               scale: parseFloat(scaleInput.value),
@@ -323,6 +324,10 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               ctx.clearRect(0, 0, canvas.width, canvas.height);
 
               if (video.readyState >= 2 && video.videoWidth && video.videoHeight) {{
+                if (!hasShownLiveStatus) {{
+                  hasShownLiveStatus = true;
+                  statusEl.textContent = "Camera is live. Drag the overlay on the preview or use the sliders to fine-tune placement.";
+                }}
                 const vw = video.videoWidth;
                 const vh = video.videoHeight;
                 const scale = Math.min(canvas.width / vw, canvas.height / vh);
@@ -377,28 +382,22 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                   getStream,
                   timeoutPromise(15000, "getUserMedia timed out")
                 ]);
-                statusEl.textContent = "Starting video…";
+                statusEl.textContent = "Starting preview…";
                 video.muted = true;
                 video.playsInline = true;
                 video.setAttribute("playsinline", "");
                 video.srcObject = stream;
-                var playPromise = video.play();
-                await Promise.race([
-                  playPromise,
-                  timeoutPromise(5000, "video.play timed out")
-                ]);
-                video.onloadeddata = function() {{
-                  statusEl.textContent = "Camera is live. Drag the overlay on the preview or use the sliders to fine-tune placement.";
-                }};
-                setTimeout(function() {{
-                  if (stream && video.readyState < 2) {{
-                    statusEl.textContent = "If you don't see yourself, try Stop Camera then Launch Camera again, or refresh the page.";
-                  }}
-                }}, 3000);
+                video.play().catch(function() {{ /* don't block on play(); draw loop will show frames when ready */ }});
                 if (animationFrame) {{
                   cancelAnimationFrame(animationFrame);
                 }}
                 drawFrame();
+                statusEl.textContent = "Starting preview… (if it stays blank, try Stop Camera then Launch Camera again)";
+                setTimeout(function() {{
+                  if (stream && video.readyState < 2) {{
+                    statusEl.textContent = "Preview not receiving frames. Try Stop Camera, then Launch Camera again, or open the app in a new tab.";
+                  }}
+                }}, 4000);
               }} catch (error) {{
                 if (stream) {{
                   stream.getTracks().forEach(function(track) {{ track.stop(); }});
@@ -418,6 +417,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
             }}
 
             function stopCamera() {{
+              hasShownLiveStatus = false;
               if (countdownTimer) {{
                 clearInterval(countdownTimer);
                 countdownTimer = null;
