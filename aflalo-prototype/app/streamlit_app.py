@@ -122,7 +122,6 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               width: 100%;
               height: 100%;
               object-fit: cover;
-              transform: scaleX(-1);
               z-index: 0;
             }}
             #tryon-root-{component_key} .tryon-stage canvas {{
@@ -347,12 +346,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                 const dh = Math.round(vh * scale);
                 const dx = (canvas.width - dw) / 2;
                 const dy = (canvas.height - dh) / 2;
-                ctx.save();
-                ctx.translate(canvas.width, 0);
-                ctx.scale(-1, 1);
-                ctx.translate(-canvas.width, 0);
-                ctx.drawImage(video, dx, dy, dw, dh);
-                ctx.restore();
+                ctx.drawImage(video, vw, 0, -vw, vh, dx, dy, dw, dh);
               }} else {{
                 ctx.fillStyle = "#171A20";
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
