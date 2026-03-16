@@ -901,35 +901,45 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
 
     def _build_upload_similarity_reason(self, base_features, candidate_features, candidate_product=None, upload_color_name=None):
         """Build a reason for SIMILARITY (substitutes) in My Closet: unique per candidate using color, material, silhouette (descriptor)."""
-        your_piece = f"your {upload_color_name} piece" if (upload_color_name and upload_color_name != "your piece") else "your piece"
-
-        color_distance = np.linalg.norm(base_features["mean_rgb"] - candidate_features["mean_rgb"])
-        texture_gap = abs(base_features["texture"] - candidate_features["texture"])
-        brightness_gap = abs(base_features["brightness"] - candidate_features["brightness"])
-        if brightness_gap < 0.12:
-            light_line = "similar lightness so it reads as the same kind of piece"
-        else:
-            light_line = "same bottom role with a different light/dark balance"
-
-        candidate_product = candidate_product or {}
-        name = str(candidate_product.get("name", "")).strip() or "this piece"
-        color = str(candidate_product.get("color", "")).strip()
-        descriptor = self._candidate_similarity_descriptor(candidate_product)
-        if texture_gap < 0.025:
-            texture_line = f"the {descriptor} has a similar hand and texture to {your_piece}"
-        elif texture_gap < 0.08:
-            texture_line = f"the {descriptor} offers comparable texture—same level of dressiness"
-        else:
-            texture_line = f"the {descriptor} is a different texture but same slot—an alternative in another mood"
-        if color_distance < 0.22:
-            color_line = f"similar color tone to {your_piece}"
-        elif min(base_features["saturation"], candidate_features["saturation"]) < 0.18:
-            color_line = f"this {color or 'neutral'} fills the same neutral role in a wardrobe"
-        else:
-            color_line = f"{color or 'this'} sits in a similar color family so it reads as a comparable option"
-        body = f"{color_line}; {texture_line}; {light_line}."
-        lead = f"This {color} {name} is similar to {your_piece}: " if color else f"This {name} is similar to {your_piece}: "
-        return lead + body[0].lower() + body[1:]
+        try:
+            your_piece = f"your {upload_color_name} piece" if (upload_color_name and upload_color_name != "your piece") else "your piece"
+            base_rgb = base_features.get("mean_rgb")
+            cand_rgb = candidate_features.get("mean_rgb")
+            if base_rgb is None or cand_rgb is None:
+                return "Similar style and category to your piece."
+            color_distance = float(np.linalg.norm(np.asarray(base_rgb) - np.asarray(cand_rgb)))
+            texture_gap = abs(float(base_features.get("texture", 0)) - float(candidate_features.get("texture", 0)))
+            brightness_gap = abs(float(base_features.get("brightness", 0.5)) - float(candidate_features.get("brightness", 0.5)))
+            if brightness_gap < 0.12:
+                light_line = "similar lightness so it reads as the same kind of piece"
+            else:
+                light_line = "same bottom role with a different light/dark balance"
+            candidate_product = candidate_product or {}
+            name = str(candidate_product.get("name", "")).strip() or "this piece"
+            color = str(candidate_product.get("color", "")).strip()
+            descriptor = self._candidate_similarity_descriptor(candidate_product)
+            if texture_gap < 0.025:
+                texture_line = f"the {descriptor} has a similar hand and texture to {your_piece}"
+            elif texture_gap < 0.08:
+                texture_line = f"the {descriptor} offers comparable texture—same level of dressiness"
+            else:
+                texture_line = f"the {descriptor} is a different texture but same slot—an alternative in another mood"
+            if color_distance < 0.22:
+                color_line = f"similar color tone to {your_piece}"
+            elif min(base_features.get("saturation", 0.5), candidate_features.get("saturation", 0.5)) < 0.18:
+                color_line = f"this {color or 'neutral'} fills the same neutral role in a wardrobe"
+            else:
+                color_line = f"{color or 'this'} sits in a similar color family so it reads as a comparable option"
+            body = f"{color_line}; {texture_line}; {light_line}."
+            lead = f"This {color} {name} is similar to {your_piece}: " if color else f"This {name} is similar to {your_piece}: "
+            return lead + body[0].lower() + body[1:]
+        except Exception:
+            cand = candidate_product or {}
+            color = str(cand.get("color", "")).strip()
+            name = str(cand.get("name", "")).strip() or "this item"
+            if color:
+                return f"This {color} {name} is a close visual match to your piece."
+            return f"This {name} is a close visual match to your piece."
 
     def _get_color_family(self, color_text):
         """Map color to family for reasoning."""
@@ -1224,11 +1234,15 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
             if (upload_light and cand_family == "black") or (upload_dark and cand_family == "ivory"):
                 score = score * 0.35
             upload_color_name = self._infer_upload_color_from_features(uploaded_features)
-            # Similar items: explain WHY they are similar (substitutes), not how they pair.
-            reason = self._build_upload_similarity_reason(
-                uploaded_features, candidate_features, candidate_product=cand_dict,
-                upload_color_name=upload_color_name,
-            )
+            try:
+                reason = self._build_upload_similarity_reason(
+                    uploaded_features, candidate_features, candidate_product=cand_dict,
+                    upload_color_name=upload_color_name,
+                )
+            except Exception:
+                cand_name = str(cand_dict.get("name", "")).strip() or "this item"
+                cand_color = str(cand_dict.get("color", "")).strip()
+                reason = f"This {cand_color} {cand_name} is a close match to your piece." if cand_color else f"This {cand_name} is a close match to your piece."
             scores.append(
                 {
                     "id": candidate["id"],
