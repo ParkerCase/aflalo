@@ -963,6 +963,38 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
         else:
             return "neutral"
 
+    def _upload_is_light_for_penalty(self, features):
+        """True if upload is clearly light (white/cream/light neutrals). Dynamic: uses image brightness and LAB L, not just color name."""
+        if not features:
+            return False
+        brightness = features.get("brightness")
+        if brightness is not None and float(brightness) > 0.72:
+            return True
+        lab = features.get("mean_lab")
+        if lab is None and features.get("mean_rgb") is not None:
+            lab = self._rgb_to_lab(features["mean_rgb"])
+        if lab is not None:
+            L = float(np.asarray(lab).ravel()[0]) if len(np.asarray(lab).ravel()) >= 1 else 50.0
+            if L > 72:
+                return True
+        return False
+
+    def _upload_is_dark_for_penalty(self, features):
+        """True if upload is clearly dark (black/dark neutrals). Dynamic: uses image brightness and LAB L."""
+        if not features:
+            return False
+        brightness = features.get("brightness")
+        if brightness is not None and float(brightness) < 0.28:
+            return True
+        lab = features.get("mean_lab")
+        if lab is None and features.get("mean_rgb") is not None:
+            lab = self._rgb_to_lab(features["mean_rgb"])
+        if lab is not None:
+            L = float(np.asarray(lab).ravel()[0]) if len(np.asarray(lab).ravel()) >= 1 else 50.0
+            if L < 30:
+                return True
+        return False
+
     def _infer_upload_color_from_features(self, features):
         """Infer a color name from upload: prefer Gemini vision (gemini_color), else CV mean_lab. For copy and filtering."""
         if not features:
@@ -1199,12 +1231,13 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
                 candidate_product=None,
             )
             score = analysis["score"]
-            # Don't recommend black as "closest match" to a white/cream upload (or vice versa)
-            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
-            upload_family = self._get_color_family(upload_color_name)
+            # Dynamic: down-rank opposite end of light/dark (any light upload vs black, any dark upload vs white/cream)
             cand_family = self._get_color_family(str(candidate.get("color", "")))
-            if (upload_family == "ivory" and cand_family == "black") or (upload_family == "black" and cand_family == "ivory"):
+            upload_light = self._upload_is_light_for_penalty(uploaded_features)
+            upload_dark = self._upload_is_dark_for_penalty(uploaded_features)
+            if (upload_light and cand_family == "black") or (upload_dark and cand_family == "ivory"):
                 score = score * 0.35
+            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
             # Similar items: explain WHY they are similar (substitutes), not how they pair.
             reason = self._build_upload_similarity_reason(
                 uploaded_features, candidate_features, candidate_product=cand_dict,
@@ -1272,12 +1305,13 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
                 continue
             analysis = self._score_feature_pair(uploaded_features, candidate_features, category_bonus=1.0)
             score = analysis["score"]
-            # Down-rank black when upload is light (white/cream/ivory) so we don't suggest black as "style with" a cream dress
-            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
-            upload_family = self._get_color_family(upload_color_name)
+            # Dynamic: down-rank opposite light/dark (any light upload vs black, any dark upload vs white/cream)
             cand_family = self._get_color_family(str(candidate.get("color", "")))
-            if (upload_family == "ivory" and cand_family == "black") or (upload_family == "black" and cand_family == "ivory"):
+            upload_light = self._upload_is_light_for_penalty(uploaded_features)
+            upload_dark = self._upload_is_dark_for_penalty(uploaded_features)
+            if (upload_light and cand_family == "black") or (upload_dark and cand_family == "ivory"):
                 score = score * 0.4
+            upload_color_name = self._infer_upload_color_from_features(uploaded_features)
             cand = candidate.to_dict() if hasattr(candidate, "to_dict") else dict(candidate)
             upload_pattern = (uploaded_features.get("pattern_text") or "").strip() or None
             upload_desc = "uploaded item"

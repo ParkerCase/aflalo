@@ -574,7 +574,7 @@ def build_recommender():
 
 
 @st.cache_resource
-def load_recommender(cache_version="cv-v17-fresh"):
+def load_recommender(cache_version="cv-v18-upload-color"):
     return build_recommender()
 
 
@@ -592,7 +592,7 @@ demo_mode = st.sidebar.selectbox(
     "Select Demo:",
     ["Similar Items", "Complete the Look", "My Closet", "Live Try-On", "Size Prediction"],
 )
-if st.sidebar.button("Reload recommender & catalog", help="Use after re-scraping or code changes so the app picks up latest data and logic."):
+if st.sidebar.button("Reload recommender & catalog", help="Use after re-scraping or code changes so the app picks up latest data and logic. Click this if upload recommendations don’t reflect recent fixes (e.g. color)."):
     load_recommender.clear()
     st.rerun()
 
