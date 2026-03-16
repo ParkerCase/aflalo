@@ -191,7 +191,7 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
           </style>
           <div class="tryon-shell">
             <div class="tryon-stage">
-              <video id="video-{component_key}" autoplay playsinline muted style="display:none;"></video>
+              <video id="video-{component_key}" autoplay playsinline muted style="position:absolute;left:-9999px;width:2px;height:2px;opacity:0.01;"></video>
               <canvas id="canvas-{component_key}"></canvas>
               <div id="countdown-{component_key}" class="countdown">5</div>
             </div>
@@ -362,13 +362,31 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                 if (stream) {{
                   stopCamera();
                 }}
+                statusEl.textContent = "Starting camera…";
                 stream = await navigator.mediaDevices.getUserMedia({{
                   video: {{ facingMode: "user", width: {{ ideal: 720 }}, height: {{ ideal: 1280 }} }},
                   audio: false
                 }});
+                video.muted = true;
+                video.playsInline = true;
+                video.setAttribute("playsinline", "");
                 video.srcObject = stream;
-                await video.play();
-                statusEl.textContent = "Camera is live. Drag the overlay on the preview or use the sliders to fine-tune placement.";
+                try {{
+                  await video.play();
+                }} catch (playErr) {{
+                  stream.getTracks().forEach(track => track.stop());
+                  stream = null;
+                  statusEl.textContent = "Preview could not start. Allow autoplay for this site and try Launch Camera again.";
+                  return;
+                }}
+                video.onloadeddata = function() {{
+                  statusEl.textContent = "Camera is live. Drag the overlay on the preview or use the sliders to fine-tune placement.";
+                }};
+                setTimeout(function() {{
+                  if (stream && video.readyState < 2) {{
+                    statusEl.textContent = "If you don't see yourself, try Stop Camera then Launch Camera again, or refresh the page.";
+                  }}
+                }}, 3000);
                 if (animationFrame) {{
                   cancelAnimationFrame(animationFrame);
                 }}
