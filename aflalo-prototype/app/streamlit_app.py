@@ -574,7 +574,7 @@ def build_recommender():
 
 
 @st.cache_resource
-def load_recommender(cache_version="cv-v18-upload-color"):
+def load_recommender(cache_version="cv-v19-closet-reason"):
     return build_recommender()
 
 

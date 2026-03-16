@@ -900,20 +900,27 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
         return " ".join(parts[:3]) if parts else "this piece"
 
     def _build_upload_similarity_reason(self, base_features, candidate_features, candidate_product=None, upload_color_name=None):
-        """Build a reason for SIMILARITY (substitutes) in My Closet: unique per candidate using color, material, silhouette (descriptor). All variables defined in order; no fallbacks."""
+        """Build a reason for SIMILARITY (substitutes) in My Closet. Uses only locals bf/cf to avoid any NameError from parameter scope."""
+        bf = base_features if base_features is not None else {}
+        cf = candidate_features if candidate_features is not None else {}
         cand = candidate_product if candidate_product is not None else {}
+        if not isinstance(bf, dict):
+            bf = {}
+        if not isinstance(cf, dict):
+            cf = {}
+
         your_piece = "your piece"
         if upload_color_name and str(upload_color_name).strip() and str(upload_color_name).strip().lower() != "your piece":
             your_piece = f"your {str(upload_color_name).strip()} piece"
 
-        base_rgb = base_features.get("mean_rgb") if isinstance(base_features, dict) else None
-        cand_rgb = candidate_features.get("mean_rgb") if isinstance(candidate_features, dict) else None
-        base_tex = float(base_features.get("texture", 0.0)) if isinstance(base_features, dict) else 0.0
-        cand_tex = float(candidate_features.get("texture", 0.0)) if isinstance(candidate_features, dict) else 0.0
-        base_bri = float(base_features.get("brightness", 0.5)) if isinstance(base_features, dict) else 0.5
-        cand_bri = float(candidate_features.get("brightness", 0.5)) if isinstance(candidate_features, dict) else 0.5
-        base_sat = float(base_features.get("saturation", 0.5)) if isinstance(base_features, dict) else 0.5
-        cand_sat = float(candidate_features.get("saturation", 0.5)) if isinstance(candidate_features, dict) else 0.5
+        base_rgb = bf.get("mean_rgb")
+        cand_rgb = cf.get("mean_rgb")
+        base_tex = float(bf.get("texture", 0.0))
+        cand_tex = float(cf.get("texture", 0.0))
+        base_bri = float(bf.get("brightness", 0.5))
+        cand_bri = float(cf.get("brightness", 0.5))
+        base_sat = float(bf.get("saturation", 0.5))
+        cand_sat = float(cf.get("saturation", 0.5))
 
         color_distance = 0.5
         if base_rgb is not None and cand_rgb is not None:
@@ -1226,35 +1233,29 @@ Describe the garment's main/dominant color as it appears in the image. Only thes
                 candidates = self.products.copy()
 
         scores = []
-        for _, candidate in candidates.iterrows():
-            candidate_features = self._extract_image_features(candidate.get("image_url"))
-            if not candidate_features:
+        for _, row in candidates.iterrows():
+            c_feats = self._extract_image_features(row.get("image_url"))
+            if not c_feats:
                 continue
-            cand_dict = candidate.to_dict() if hasattr(candidate, "to_dict") else dict(candidate)
+            c_dict = row.to_dict() if hasattr(row, "to_dict") else dict(row)
             analysis = self._score_feature_pair(
                 uploaded_features,
-                candidate_features,
+                c_feats,
                 category_bonus=0.0,
                 candidate_product=None,
             )
             score = analysis["score"]
-            # Dynamic: down-rank opposite end of light/dark (any light upload vs black, any dark upload vs white/cream)
-            cand_family = self._get_color_family(str(candidate.get("color", "")))
+            cand_family = self._get_color_family(str(row.get("color", "")))
             upload_light = self._upload_is_light_for_penalty(uploaded_features)
             upload_dark = self._upload_is_dark_for_penalty(uploaded_features)
             if (upload_light and cand_family == "black") or (upload_dark and cand_family == "ivory"):
                 score = score * 0.35
             upload_color_name = self._infer_upload_color_from_features(uploaded_features)
             reason = self._build_upload_similarity_reason(
-                uploaded_features, candidate_features, candidate_product=cand_dict,
-                upload_color_name=upload_color_name,
+                uploaded_features, c_feats, candidate_product=c_dict, upload_color_name=upload_color_name
             )
             scores.append(
-                {
-                    "id": candidate["id"],
-                    "compatibility_score": round(score * 100, 1),
-                    "style_reason": reason,
-                }
+                {"id": row["id"], "compatibility_score": round(score * 100, 1), "style_reason": reason}
             )
 
         if not scores:
