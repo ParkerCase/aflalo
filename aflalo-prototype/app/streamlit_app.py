@@ -357,28 +357,36 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
               animationFrame = requestAnimationFrame(drawFrame);
             }}
 
+            function timeoutPromise(ms, msg) {{
+              return new Promise(function(_, reject) {{
+                setTimeout(function() {{ reject(new Error(msg)); }}, ms);
+              }});
+            }}
+
             async function startCamera() {{
               try {{
                 if (stream) {{
                   stopCamera();
                 }}
-                statusEl.textContent = "Starting camera…";
-                stream = await navigator.mediaDevices.getUserMedia({{
-                  video: {{ facingMode: "user", width: {{ ideal: 720 }}, height: {{ ideal: 1280 }} }},
+                statusEl.textContent = "Requesting camera permission…";
+                var getStream = navigator.mediaDevices.getUserMedia({{
+                  video: {{ facingMode: "user" }},
                   audio: false
                 }});
+                stream = await Promise.race([
+                  getStream,
+                  timeoutPromise(15000, "getUserMedia timed out")
+                ]);
+                statusEl.textContent = "Starting video…";
                 video.muted = true;
                 video.playsInline = true;
                 video.setAttribute("playsinline", "");
                 video.srcObject = stream;
-                try {{
-                  await video.play();
-                }} catch (playErr) {{
-                  stream.getTracks().forEach(track => track.stop());
-                  stream = null;
-                  statusEl.textContent = "Preview could not start. Allow autoplay for this site and try Launch Camera again.";
-                  return;
-                }}
+                var playPromise = video.play();
+                await Promise.race([
+                  playPromise,
+                  timeoutPromise(5000, "video.play timed out")
+                ]);
                 video.onloadeddata = function() {{
                   statusEl.textContent = "Camera is live. Drag the overlay on the preview or use the sliders to fine-tune placement.";
                 }};
@@ -392,7 +400,20 @@ def render_live_try_on_component(overlay_data_url, defaults, component_key):
                 }}
                 drawFrame();
               }} catch (error) {{
-                statusEl.textContent = "Camera access failed. Please allow webcam permissions in your browser.";
+                if (stream) {{
+                  stream.getTracks().forEach(function(track) {{ track.stop(); }});
+                  stream = null;
+                }}
+                var msg = error.message || String(error);
+                if (msg.indexOf("timed out") !== -1) {{
+                  statusEl.textContent = "Camera timed out. If no permission prompt appeared, try opening the app in a new tab or allow camera in site settings, then try again.";
+                }} else if (msg.indexOf("Permission") !== -1 || msg.indexOf("NotAllowed") !== -1) {{
+                  statusEl.textContent = "Camera access denied. Allow the camera for this site in your browser and click Launch Camera again.";
+                }} else if (msg.indexOf("NotFound") !== -1) {{
+                  statusEl.textContent = "No camera found. Connect a webcam and refresh the page.";
+                }} else {{
+                  statusEl.textContent = "Camera failed: " + msg;
+                }}
               }}
             }}
 
